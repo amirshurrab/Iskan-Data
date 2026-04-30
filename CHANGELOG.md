@@ -12,6 +12,36 @@ Format: date-based versions. Each entry lists new data added, corrections, and d
 
 ---
 
+## 2026-04-30 — Patch: corrected January 2026 bulletin timeseries
+
+### Corrections
+- **`rega/bulletins/rega_bulletin_timeseries.csv`** — fixed mis-labeled
+  rows for January 2026 introduced in v2026-04-28. REGA reordered
+  pages between the January and February 2026 issues; the v1 parser
+  assumed a fixed page → section mapping, so January's rental,
+  residential-breakdown counts, and residential-breakdown averages
+  were silently rotated by one section. 30 of 38 January 2026 rows
+  had the correct value but the wrong label, plus 6
+  `avg_txn_value` rows were missing.
+- After this release, all 113 rows in the CSV carry the correct label
+  and value pulled from the matching section of the source PDF.
+- Sales rows (all months) and February/March 2026 rows were correct
+  in v2026-04-28 and are unchanged.
+- Source PDFs unchanged — the bug was in the parsing step, not the
+  inputs.
+
+### Verification
+Plausibility checks pass: `avg_area` for `apartment` is 163 m² in all
+three months; residential rental `transaction_value` lands in the
+multi-billion-SAR range; residential rental `contract_count` is
+180K–280K per month. See `docs/release-notes-v2026-04-30.md` for
+detail.
+
+### Row count
+107 → 113 (+6, all in January 2026 `avg_txn_value`).
+
+---
+
 ## 2026-04-28 — REGA Monthly Bulletins (5 PDFs + parsed timeseries)
 
 ### Data
