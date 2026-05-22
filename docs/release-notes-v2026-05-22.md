@@ -8,7 +8,7 @@
 ## Summary
 
 First release of the consolidated **Saudi Building Permits Dataset**.
-Combines building permit issuance records from 14 Saudi municipal
+Combines building permit issuance records from Saudi municipal
 publishers (Amanas) on the Saudi Open Data Portal, KAPSARC's 33-year
 historical series (1987–2019), Riyadh municipality news, and headline
 metrics extracted from REGA's Annual Reports (2018–2024).
@@ -16,7 +16,15 @@ metrics extracted from REGA's Annual Reports (2018–2024).
 This is the supply-side counterpart to the existing transaction data
 in `rega/` (sales/rental indicators) — permits lead transactions by
 6–24 months, making this useful as a forward indicator for market
-activity.
+activity **in the regions with strong coverage**.
+
+> **Coverage is uneven.** Of 14 amanas in our collection pipeline,
+> only **7 produce substantial modern data**: Medina, Tabuk, Eastern
+> Province (2025 only), Al-Bahah, Qassim, Al-Jouf, Al-Ahsa. **Riyadh
+> has essentially no modern coverage** — 1,022 KAPSARC rows ending
+> 2019, plus 2 alriyadh-news 2024 aggregates. See the "Coverage by
+> region" section below and `data/permits/README.md` for the full
+> region-by-region breakdown.
 
 ## What's new
 
@@ -49,39 +57,76 @@ Source PDFs for the 24 entries in `rega_annual_metrics.csv.gz`:
 Bundling source PDFs alongside the parsed metrics lets consumers
 verify values without re-downloading from `rega.gov.sa`.
 
+## Coverage by region
+
+Modern per-permit coverage (`permits_raw`, 191,063 rows, 2014–2026) is
+**concentrated in 7 amanas**:
+
+| Region | `permits_raw` rows | Date span | Notes |
+|---|---:|---|---|
+| Medina | 67,644 | 1991–2025 | 35% of all raw — dominant publisher |
+| Tabuk | 39,040 | 1983–2026 | Long history |
+| Eastern Province | 29,398 | **2025 only** | Recently onboarded |
+| Al-Bahah | 21,399 | 1977–2026 | Long history |
+| Qassim | 13,094 | 1977–2025 | Long history |
+| Al-Jouf | 11,585 | 1971–2026 | Includes 2 `year=2064` errors |
+| Al-Ahsa | 8,903 | 2003–2026 | Sub-unit of Eastern Province |
+
+**Symbolic in `permits_aggregate`:** Jeddah (4 rows, 2021–2024), Asir
+(2 rows, 2025).
+
+**Modern coverage absent or minimal:** Riyadh, Makkah (city/region),
+Hail, Northern Borders, Jazan, Najran, Sakaka.
+
+**KAPSARC historical (`permits_historical`)** is the only universal
+source: all 13 administrative regions at ~1,008–1,026 rows each,
+1987–2019. This is the **only Riyadh data** in the dataset (1,022
+historical rows ending 2019, plus 2 alriyadh-news 2024 aggregates).
+
 ## Sources
 
-- **Saudi Open Data Portal** (`open.data.gov.sa`) — 14 amana publishers
-  + KAPSARC.
-- **KAPSARC** — 33-year (1987-2019) cross-region historical permit series.
+- **Saudi Open Data Portal** (`open.data.gov.sa`) — pipeline configured
+  for 14 amana publishers + KAPSARC. **As of this release, 7 of 14
+  amanas produce substantial data.** The other 7 are either silent
+  publishers, publish outside our permit-keyword filter, or have very
+  few cataloged datasets. See `known_permit_resources.csv.gz`.
+- **KAPSARC** — 33-year (1987-2019) cross-region historical permit series. Only universal-coverage source.
 - **alriyadh.gov.sa** — Riyadh municipality 2024 weekly permit
-  summaries.
+  summaries. Currently contributes 2 rows in `permits_historical`.
 - **REGA Annual Reports** — 7 PDFs cached in `data/permits/pdfs/`.
 
-## Use cases
+## Use cases (matched to coverage reality)
 
-- Supply-side housing/commerce signals (permits per quarter by region)
-- Regional comparison across the 14 amanas
-- Year-over-year trends — 39-year residential series via KAPSARC +
-  recent collectors
-- Residential vs commercial mix over time
-- Subdivision pipeline as a 12–24 month leading indicator
-- Cross-reference with `rega/` sales data: do permit surges precede
-  sales activity? Join on `region_ar` + `year`/`quarter`
-- Off-plan supply forecasting via `rega_annual_metrics`
-  (Wafi off-plan units licensed: 37,244 in 2023 → 104,747 in 2024)
+**Where this release is strong:**
+
+- Supply-side housing/commerce signals for Medina, Tabuk, Al-Bahah,
+  Qassim, Al-Jouf, Al-Ahsa, and Eastern Province (2025+).
+- Long-horizon (1987–2019) kingdom-wide residential vs commercial
+  trends via `permits_historical`.
+- Subdivision pipeline as a 12–24 month leading indicator.
+- Off-plan supply forecasting via `rega_annual_metrics` (Wafi off-plan
+  units licensed: 37,244 in 2023 → 104,747 in 2024).
+
+**Where this release is weak or silent:**
+
+- **Riyadh modern (2020+) — essentially no data** (2 alriyadh-news rows
+  is the entirety of post-2019 Riyadh coverage in this release).
+- Makkah, Jeddah, Asir, Hail, Northern Borders, Jazan, Najran, Sakaka
+  modern coverage.
 
 ## Schema
 
 See [`data/permits/README.md`](../data/permits/README.md) for full
-column-by-column schema documentation across all six tables.
+column-by-column schema documentation across all six tables, plus a
+detailed Coverage table.
 
 ## Known limitations
 
 - **48,605 `permits_raw` rows have NULL `issued_date`** — upstream
   sources publish month-bucket aggregates without point-in-time dates.
-- **Riyadh 2020–2023 coverage gap** — Saudi Open Data Portal doesn't
-  publish Riyadh per-permit records for that period.
+- **Riyadh has no useful modern coverage** — see Coverage section above.
+- **Eastern Province modern coverage starts in 2025** — no deep
+  backfill yet.
 - **2 rows show `year=2064`** — Hijri/Gregorian transcription errors
   in upstream. Filter for time-series work.
 - **`permits_aggregate` and `permits_raw` can double-count if joined

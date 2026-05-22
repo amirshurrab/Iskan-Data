@@ -34,14 +34,15 @@ The two are bundled because both answer the broader question *"how much real-est
 
 This dataset was assembled to support questions like:
 
-- **Supply-side housing/commerce signals.** How many permits are issued per quarter in Riyadh / Jeddah / Eastern Province? Is residential construction accelerating or slowing?
-- **Regional comparison.** Which amanas are issuing the most permits relative to their population? Where is the gap between permit issuance and actual completed projects?
-- **Year-over-year trends.** With KAPSARC's 1987-2019 historical series + recent collectors, the residential permit series now spans 39 years — enough for long-horizon trend analysis.
-- **Residential vs commercial mix.** `permits_raw.building_use` + `permits_historical.building_type` let you separate housing supply from commercial supply over time.
+- **Supply-side housing/commerce signals (where coverage is strong).** Permit issuance trajectories for Medina, Tabuk, Al-Bahah, Qassim, Al-Jouf, Al-Ahsa, and Eastern Province (2025 onward). These 7 amanas have publisher-grade coverage with quarterly/annual cadence. See the Coverage table below for spans.
+- **Long-horizon historical analysis (kingdom-wide).** KAPSARC's 1987–2019 series in `permits_historical` is the only cross-region source covering all 13 administrative regions — the right table for 33-year residential vs commercial trends, regional rankings over time, and pre-2020 baselines.
+- **Residential vs commercial mix.** `permits_raw.building_use` + `permits_historical.building_type` let you separate housing supply from commercial supply over time (for the regions where modern data exists).
 - **Subdivision pipeline indicator.** `subdivisions_aggregate` tracks raw-land subdivision approvals — a leading indicator that precedes building permits by 12-24 months.
-- **Cross-source coverage gaps.** `known_permit_resources` documents which sources we polled — useful for auditing what's missing (e.g., several smaller amanas publish irregularly or not at all; Riyadh has a notable 2020-2023 gap).
-- **Cross-reference with [`../../rega/`](../../rega/) sales transactions.** When permits surge in a region 6-12 months before sales activity picks up, that's a measurable supply-led market signal. Joining these on `region_ar` + `year`/`quarter` lets you test it.
-- **Off-plan supply forecasting.** `rega_annual_metrics` captures Wafi off-plan project licenses + units — a forward indicator of housing units that will hit the market 2-4 years out.
+- **Cross-source coverage audit.** `known_permit_resources` documents which sources we polled across 12 amanas — useful for understanding what's published vs what's silent.
+- **Cross-reference with [`../../rega/`](../../rega/) sales transactions** for the covered regions. When permits surge in (e.g.) Medina 6-12 months before sales activity picks up there, that's a measurable supply-led market signal.
+- **Off-plan supply forecasting (kingdom-wide).** `rega_annual_metrics` captures Wafi off-plan project licenses + units — a forward indicator of housing units that will hit the market 2-4 years out.
+
+**Not well-supported by this release:** Riyadh modern (2020+) — only 2 alriyadh-news rows + KAPSARC's pre-2020 history. Makkah, Jeddah, Asir, Hail, Northern Borders, Jazan, Najran, Sakaka — zero-or-symbolic modern coverage. If your question depends on Riyadh recent activity, this release will not answer it.
 
 ---
 
@@ -140,11 +141,37 @@ Hand-extracted metrics from REGA Annual Reports — only metrics where the value
 
 ---
 
+## Coverage by region — what's actually in here
+
+Modern per-permit coverage (`permits_raw`, 191,063 rows) is **uneven across the kingdom**. Seven amanas contribute substantial data; the rest are minimally represented or absent. For historical context (1987–2019), KAPSARC's `permits_historical` is the only source with universal 13-region coverage.
+
+**`permits_raw` (modern per-permit, ~2014–2026):**
+
+| Region | Rows | Date span | Notes |
+|---|---:|---|---|
+| Medina (المدينة المنورة) | 67,644 | 1991–2025 | 35% of all raw — dominant publisher |
+| Tabuk (تبوك) | 39,040 | 1983–2026 | Long history |
+| Eastern Province (المنطقة الشرقية) | 29,398 | **2025 only** | Recently onboarded; deep backfill not yet published |
+| Al-Bahah (الباحة) | 21,399 | 1977–2026 | Long history |
+| Qassim (القصيم) | 13,094 | 1977–2025 | Long history |
+| Al-Jouf (الجوف) | 11,585 | 1971–2026 | Long history (incl. 2 `year=2064` transcription errors) |
+| Al-Ahsa (الأحساء) | 8,903 | 2003–2026 | Sub-unit of Eastern Province |
+
+**`permits_aggregate` adds only token coverage for two more regions** (Jeddah: 4 rows, 2021–2024; Asir: 2 rows, 2025).
+
+**Not in modern coverage:** Riyadh, Makkah (Mecca city/region beyond Jeddah's 4 rows), Hail, Northern Borders, Jazan, Najran, Sakaka. Sources for several of these are configured in our collection pipeline (see `known_permit_resources.csv.gz`) but the upstream publishers have not yet released substantial datasets, or what they publish doesn't pass our permit-keyword filter.
+
+**`permits_historical` (KAPSARC, 1987–2019, 14,274 rows + 2 alriyadh-news 2024 rows):**
+
+All 13 administrative regions are represented at ~1,008–1,026 rows each (one row per year × building-type × indicator). This is currently the **only source of long-horizon Riyadh data** in the dataset — 1,022 rows for Riyadh, all pre-2020.
+
+---
+
 ## Sources
 
-- **Saudi Open Data Portal** (`open.data.gov.sa`) — 14 amana publishers (Riyadh, Eastern Province, Madinah, Makkah, Qassim, Asir, Tabuk, Hail, Northern Borders, Jazan, Najran, Al Bahah, Al Jouf, Sakaka) + KAPSARC.
-- **KAPSARC** — 33-year (1987-2019) cross-region historical permit series.
-- **alriyadh.gov.sa** (الرياض) — Riyadh municipality 2024 weekly permit summaries, scraped from news archive.
+- **Saudi Open Data Portal** (`open.data.gov.sa`) — pipeline configured for 14 amana publishers (Riyadh, Eastern Province, Madinah, Makkah, Qassim, Asir, Tabuk, Hail, Northern Borders, Jazan, Najran, Al Bahah, Al Jouf, Sakaka) + KAPSARC. **As of this release, only 7 of those amanas have produced substantial data** — see the Coverage table above. The other 7 are either silent publishers, publish only outside our permit-keyword filter, or have very small dataset counts. `known_permit_resources.csv.gz` documents the full audit.
+- **KAPSARC** — 33-year (1987-2019) cross-region historical permit series. Only universal-coverage source in the dataset.
+- **alriyadh.gov.sa** (الرياض) — Riyadh municipality 2024 weekly permit summaries, scraped from news archive. Currently contributes **2 rows** in `permits_historical` (2024 year-end aggregates). Modern Riyadh coverage in this dataset is essentially limited to these 2 rows.
 - **REGA Annual Reports** — `rega.gov.sa/about-us/board-decisions-and-reports` — 7 PDFs (2018-2024) cached in [`pdfs/`](pdfs/).
 
 ---
@@ -153,7 +180,9 @@ Hand-extracted metrics from REGA Annual Reports — only metrics where the value
 
 - **48,605 `permits_raw` rows have NULL `issued_date`.** Some upstream sources publish month-bucket aggregates as individual rows without a single issued date. Treat these as month/quarter-bucket records, not point-in-time events.
 - **2 rows show `2064` as the year** — almost certainly Hijri/Gregorian transcription errors in the upstream. Filter these for time-series work.
-- **Riyadh has a 2020-2023 coverage gap.** The Saudi Open Data portal doesn't publish Riyadh per-permit records for that period; we partially filled it via the alriyadh-news 2024 scraper but the gap remains visible.
+- **Riyadh has NO meaningful modern coverage in this release.** The Saudi Open Data Portal does not publish Riyadh per-permit datasets, and Riyadh's municipal authority (Riyadh City RCRC) publishes 0 permit datasets via the portal we monitor. The only Riyadh entries in this dataset are: (a) 1,022 KAPSARC historical rows ending in 2019, and (b) 2 year-end aggregate rows from `alriyadh.gov.sa` news for 2024. **There is no monthly/quarterly/per-permit Riyadh data for 2020–2026 in this release.**
+- **Eastern Province coverage starts in 2025.** The Eastern Province amana was added to our pipeline late; deep historical backfill is not yet available.
+- **Makkah, Jeddah, Asir, Hail, Northern Borders, Jazan, Najran, Sakaka:** zero-or-symbolic coverage. See Coverage table for specifics.
 - **Permit action vocabulary varies by source.** No global cleanup pass yet. `permit_action` in `permits_raw` reflects the upstream label.
 - **REGA Annual metrics are hand-verified only.** We extracted ~3-4 metrics per year that could be visually confirmed against the report's headline cards. The reports contain many more numbers; full extraction is deferred until the consumer use-case justifies the manual cost.
 - **`permits_aggregate` and `permits_raw` can double-count if joined naively.** Aggregates were published independently of per-permit records; many regions appear in BOTH. Pick one for any given (region, period) query — usually `permits_raw` if available, else `permits_aggregate`.

@@ -38,22 +38,39 @@ Format: date-based versions. Each entry lists new data added, corrections, and d
   total) cached as sources for `rega_annual_metrics`.
 
 ### Sources
-- Saudi Open Data Portal — 14 amana publishers (Riyadh, Eastern
-  Province, Madinah, Makkah, Qassim, Asir, Tabuk, Hail, Northern
-  Borders, Jazan, Najran, Al Bahah, Al Jouf, Sakaka) + KAPSARC.
-- KAPSARC 1987–2019 historical series.
-- alriyadh.gov.sa Riyadh municipality 2024 weekly permit summaries.
+- Saudi Open Data Portal — pipeline configured for 14 amana publishers
+  (Riyadh, Eastern Province, Madinah, Makkah, Qassim, Asir, Tabuk,
+  Hail, Northern Borders, Jazan, Najran, Al Bahah, Al Jouf, Sakaka)
+  + KAPSARC. **7 of 14 produce substantial data in this release**
+  (Medina, Tabuk, Eastern Province, Al-Bahah, Qassim, Al-Jouf, Al-Ahsa).
+- KAPSARC 1987–2019 historical series — universal 13-region coverage.
+- alriyadh.gov.sa Riyadh municipality 2024 weekly permit summaries
+  (2 rows in this release).
 - REGA Annual Reports 2018–2024 (`rega.gov.sa`).
+
+### Coverage realities
+- **Strong modern coverage:** Medina (67K), Tabuk (39K), Eastern
+  Province (29K, 2025 only), Al-Bahah (21K), Qassim (13K), Al-Jouf
+  (12K), Al-Ahsa (9K).
+- **Weak/absent modern coverage:** Riyadh (1,022 KAPSARC rows + 2
+  alriyadh-news rows, no 2020–2026 per-permit data), Makkah, Jeddah
+  (4 rows), Asir (2 rows), Hail, Northern Borders, Jazan, Najran,
+  Sakaka.
+- **Long-horizon historical (1987–2019):** all 13 admin regions
+  covered via KAPSARC.
 
 ### Documentation
 - New `data/permits/README.md` with full schema, sources, use cases,
-  and limitations across all six tables.
+  region-by-region Coverage table, and limitations across all six
+  tables.
 - New `docs/release-notes-v2026-05-22.md`.
 
 ### Known limitations
 - 48,605 `permits_raw` rows have NULL `issued_date` (month-bucket
   aggregates from upstream).
-- Riyadh has a 2020–2023 coverage gap on the Saudi Open Data portal.
+- **Riyadh has no useful modern coverage in this release** — only
+  KAPSARC pre-2020 + 2 alriyadh-news 2024 aggregates.
+- Eastern Province modern coverage starts in 2025; no deep backfill.
 - 2 rows show `year=2064` (Hijri/Gregorian transcription errors).
 - `permits_aggregate` and `permits_raw` can double-count if joined
   naively — pick one per (region, period) query.
