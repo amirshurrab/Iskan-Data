@@ -329,6 +329,10 @@ EXCLUDED_FILES = {
     "data/registry_samples.csv",
     "data/registry_field_aliases.csv",
     "data/region_mapping.csv",
+    # GeoJSON-bearing lookup — each cell is a multi-MB polygon string,
+    # which trips csv.field_size_limit. Documented separately; not a
+    # candidate for column-level cataloging.
+    "data/region_boundaries.csv",
 }
 
 EXCLUDED_DIRS = {
