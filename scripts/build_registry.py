@@ -322,9 +322,6 @@ def get_date_column_idx(headers: list[str]) -> int | None:
 
 
 EXCLUDED_FILES = {
-    # 1.7 GB GeoJSON-bloated export — also in .gitignore, not part of the
-    # public release. Scanning it tanks registry build time for no benefit.
-    "kapsarc/KAPSARC-Building-Permits.csv",
     # Derived exports from the registry itself — would be circular.
     "data/registry_files.csv",
     "data/registry_fields.csv",

@@ -104,8 +104,30 @@ class Report:
         return bool(self.errors)
 
 
+def is_gitignored(path: Path) -> bool:
+    """True if the given path is excluded by .gitignore.
+
+    Uses `git check-ignore` for authoritative behavior. Files not in a git
+    repo, or untracked-but-not-gitignored, return False.
+    """
+    try:
+        result = subprocess.run(
+            ["git", "check-ignore", "-q", str(path)],
+            cwd=str(BASE_DIR),
+            capture_output=True,
+        )
+        # exit 0 = ignored, 1 = not ignored, 128 = error
+        return result.returncode == 0
+    except FileNotFoundError:
+        return False
+
+
 def check_file_formats(report: Report):
-    """Walk data dirs; flag unaccepted formats."""
+    """Walk data dirs; flag unaccepted formats.
+
+    Gitignored files are skipped — they don't ship to consumers, so their
+    format is a local-tooling concern, not a publishing one.
+    """
     flagged_count = 0
     for top in DATA_DIRS:
         top_dir = BASE_DIR / top
@@ -122,6 +144,9 @@ def check_file_formats(report: Report):
                 # Handle .csv.gz as accepted
                 if f.lower().endswith(".csv.gz"):
                     continue
+                # Skip gitignored files — not part of the publishing surface
+                if is_gitignored(path):
+                    continue
                 if ext in FLAGGED_EXTS:
                     report.warn(f"{rel} — {FLAGGED_EXTS[ext]}")
                     flagged_count += 1
@@ -135,7 +160,11 @@ def check_file_formats(report: Report):
 
 
 def check_large_uncompressed_csvs(report: Report):
-    """Flag plain .csv files larger than the threshold — should be .csv.gz."""
+    """Flag plain .csv files larger than the threshold — should be .csv.gz.
+
+    Gitignored files are skipped — they aren't shipped, so their size is a
+    local-tooling concern, not a publishing one.
+    """
     large_count = 0
     for top in DATA_DIRS:
         top_dir = BASE_DIR / top
@@ -147,6 +176,8 @@ def check_large_uncompressed_csvs(report: Report):
                 if not f.lower().endswith(".csv"):
                     continue
                 path = Path(root) / f
+                if is_gitignored(path):
+                    continue
                 size = path.stat().st_size
                 if size > LARGE_CSV_THRESHOLD_BYTES:
                     rel = path.relative_to(BASE_DIR)
