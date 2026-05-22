@@ -218,7 +218,8 @@ This repo includes extensive research and audit documentation. Here's what each 
 
 | Tool | Purpose |
 |------|---------|
-| [**scripts/build_registry.py**](scripts/build_registry.py) | Scans all CSVs and builds `registry.db` — a SQLite catalog with schema, field types, enum values, and sample rows for every file. Maps Arabic headers to 41 canonical English field names. Exported as CSV in [`data/registry_*.csv`](docs/DATA_DICTIONARY.md#csv-exports) |
+| [**scripts/build_registry.py**](scripts/build_registry.py) | Scans every `.csv` + `.csv.gz` in the repo and builds the data registry: 5 CSV files + 2 JSON files + a (gitignored) SQLite DB. Consumer-facing docs in [`data/REGISTRY.md`](data/REGISTRY.md). Format details + decompression instructions for `.csv.gz` there too. |
+| [**scripts/validate_release.py**](scripts/validate_release.py) | Audits the release state — flags unaccepted file formats, large uncompressed CSVs, missing READMEs in `/data/`, and stale registry CSVs. Run before publishing or rely on the CI gate ([`.github/workflows/registry-check.yml`](.github/workflows/registry-check.yml)). |
 | [**scripts/download_new_data.py**](scripts/download_new_data.py) | Automated downloader for new MOJ datasets. `--check-updates` detects when the portal silently replaces files with corrected versions. `--redownload-changed` fetches corrected files |
 | [**monitor/re_data_monitor.py**](monitor/re_data_monitor.py) | Daily automated monitor: 21 API endpoints (NHC, REGA, KAPSARC, SAMA, Etimad, Baladiya, MOJ, NHC news), 7 page-change detectors, weekly CDN file-size checks, and opportunistic data capture when new CSV/XLSX files appear |
 

@@ -1,0 +1,60 @@
+canonical_name,name_ar,source,file_count
+area,المساحة,MOJ,24
+area_m2,المساحة M2,REGA,31
+average,المتوسط,REGA,11
+avg_price_per_m2,متوسط سعر المتر,REGA,31
+city,المدينة,MOJ,282
+city,المدينة,REGA,42
+city,city_ar,REGA,3
+city_district,المدينة / الحي,MOJ,23
+created_date,Created Date,REGA,1
+date_gregorian,التاريخ ميلادي,MOJ,231
+date_gregorian,تاريخ الصفقة ميلادي,MOJ,23
+date_hijri,التاريخ هجري,MOJ,85
+date_hijri,تاريخ الصفقة هجري,MOJ,23
+decision_date_gregorian,تاريخ القرار ميلادي,MOJ,16
+decision_date_hijri,تاريخ القرارهجري,MOJ,4
+deed_count,عدد الصكوك,REGA,31
+deed_count,deed_counts,REGA,1
+district,الحي,REGA,31
+district,district_ar,REGA,1
+district,الحي,MOJ,1
+female_owner_count,عدد الملاك النساء,MOJ,7
+female_ownership_rate,نسبة تملك النساء,MOJ,7
+gender,Gender,REGA,1
+main_document_type,نوع السند الرئيسي,MOJ,16
+max_price_per_m2,الحد الأعلى لسعر المتر,REGA,31
+min_price_per_m2,الحد الأدنى لسعر المتر,REGA,31
+month,الشهر,MOJ,1
+operation_count,عدد العمليات,MOJ,50
+operation_type,نوع العملية,MOJ,50
+price,السعر,MOJ,23
+property_classification,تصنيف العقار,MOJ,25
+property_classification,تصنيف العقار,REGA,15
+property_classification,typecategoryar,REGA,1
+property_count,عدد العقارات,MOJ,24
+property_type,نوع العقار,REGA,42
+property_type,نوع العقار,MOJ,3
+quarter,الربع,REGA,42
+quarter,ربع السنة,MOJ,11
+quarter_id,quarterid,REGA,1
+quarter_name_ar,quarternamear,REGA,1
+quarter_number,quarternumber,REGA,1
+reference_number,الرقم المرجعي,MOJ,113
+region,المنطقة,MOJ,282
+region,المنطقة,REGA,42
+region,region_ar,REGA,3
+region,region_ar,UNKNOWN,3
+region,المنطقة,GASTAT,3
+registered_count,RENs,REGA,1
+sector_type,نوع القطاع,MOJ,231
+service_type,نوع الخدمة,MOJ,231
+total_price,RealEstatePrice_SUM,REGA,1
+total_transactions,مجموع الصفقات,REGA,11
+transaction_ref,الرقم المرجعي للصفقة,MOJ,23
+transaction_value,قيمة الصفقات,REGA,15
+weighted_avg_price_per_m2,Meter_Price_W_Avg_IQR,REGA,1
+year,السنة,REGA,42
+year,السنة,MOJ,11
+year,السنة,GASTAT,8
+year,yearnumber,REGA,1

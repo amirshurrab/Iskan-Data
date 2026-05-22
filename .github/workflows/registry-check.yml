@@ -1,0 +1,38 @@
+name: registry-check
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'gastat/**'
+      - 'kapsarc/**'
+      - 'moj/**'
+      - 'rega/**'
+      - 'sama/**'
+      - 'data/**'
+      - 'scripts/build_registry.py'
+      - 'scripts/validate_release.py'
+      - '.github/workflows/registry-check.yml'
+  pull_request:
+    branches: [main]
+
+jobs:
+  registry:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Validate release state
+        run: |
+          # Validator runs build_registry.py internally and diffs against
+          # the committed data/registry_*.csv + .json files. Fails on:
+          #  • registry artifacts missing or stale
+          #  • unaccepted file formats in data dirs (.xlsx, .xls, .db)
+          #  • CSV files > 10 MB that aren't .gz compressed
+          #  • /data/ subdirectories missing README.md
+          python3 scripts/validate_release.py

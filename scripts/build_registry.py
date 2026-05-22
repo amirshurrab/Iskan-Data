@@ -11,11 +11,13 @@ No external dependencies — stdlib only.
 from __future__ import annotations
 
 import csv
+import gzip
 import json
 import os
 import re
 import sqlite3
 from collections import Counter
+from contextlib import contextmanager
 from pathlib import Path
 
 BASE_DIR = Path(__file__).parent.parent.resolve()  # repo root
@@ -180,9 +182,17 @@ def classify_file(filename: str) -> tuple[str, str]:
 
 
 def detect_encoding(filepath: Path) -> tuple[str, bool]:
-    """Check for UTF-8 BOM. Returns (encoding, has_bom)."""
-    with open(filepath, "rb") as f:
-        head = f.read(3)
+    """Check for UTF-8 BOM. Returns (encoding, has_bom).
+
+    Handles both `.csv` and `.csv.gz`. Gzip-compressed files are read
+    transparently — the BOM check happens on the decompressed stream.
+    """
+    if filepath.suffix == ".gz":
+        with gzip.open(filepath, "rb") as f:
+            head = f.read(3)
+    else:
+        with open(filepath, "rb") as f:
+            head = f.read(3)
     if head == b"\xef\xbb\xbf":
         return "utf-8-sig", True
     return "utf-8", False
@@ -319,6 +329,8 @@ EXCLUDED_FILES = {
     "data/registry_files.csv",
     "data/registry_fields.csv",
     "data/registry_enums.csv",
+    "data/registry_samples.csv",
+    "data/registry_field_aliases.csv",
     "data/region_mapping.csv",
 }
 
@@ -333,12 +345,18 @@ EXCLUDED_DIRS = {
 
 
 def discover_csvs() -> list[Path]:
-    """Find all CSV files under BASE_DIR (excluding gitignored + derived)."""
+    """Find all CSV files (plain + gzip-compressed) under BASE_DIR.
+
+    Returns Path objects for both `*.csv` and `*.csv.gz` files. Callers
+    that read the file should use `open_csv(path)` to transparently
+    handle the gzip case.
+    """
     csvs = []
     for root, dirs, files in os.walk(BASE_DIR):
         dirs[:] = [d for d in dirs if not d.startswith(".") and d not in EXCLUDED_DIRS]
         for f in files:
-            if not f.lower().endswith(".csv"):
+            lf = f.lower()
+            if not (lf.endswith(".csv") or lf.endswith(".csv.gz")):
                 continue
             path = Path(root) / f
             rel = str(path.relative_to(BASE_DIR))
@@ -347,6 +365,20 @@ def discover_csvs() -> list[Path]:
             csvs.append(path)
     csvs.sort(key=lambda p: p.name)
     return csvs
+
+
+@contextmanager
+def open_csv(path: Path, encoding: str = "utf-8"):
+    """Open a `.csv` or `.csv.gz` file as a text stream.
+
+    Use as: `with open_csv(p) as f: ...`. Gzip is detected by suffix.
+    """
+    if path.suffix == ".gz":
+        with gzip.open(path, "rt", encoding=encoding, newline="") as fh:
+            yield fh
+    else:
+        with open(path, "r", encoding=encoding, newline="") as fh:
+            yield fh
 
 
 def create_schema(conn: sqlite3.Connection):
@@ -422,7 +454,7 @@ def process_file(filepath: Path, conn: sqlite3.Connection):
     print(f"  {rel_path} [{source}/{category}]", end="", flush=True)
 
     # Read all raw lines for sampling
-    with open(filepath, "r", encoding=encoding, newline="") as f:
+    with open_csv(filepath, encoding=encoding) as f:
         raw_lines = f.readlines()
 
     if not raw_lines:
@@ -430,7 +462,7 @@ def process_file(filepath: Path, conn: sqlite3.Connection):
         return
 
     # Parse CSV
-    with open(filepath, "r", encoding=encoding, newline="") as f:
+    with open_csv(filepath, encoding=encoding) as f:
         reader = csv.reader(f)
         try:
             raw_headers = next(reader)
@@ -802,7 +834,150 @@ def main():
     conn.commit()
 
     print_summary(conn)
+
+    # Export public-consumption artifacts: 5 CSV tables + 2 JSON files.
+    # These are the consumer-facing registry — `registry.db` is gitignored.
+    print("\nExporting public artifacts...")
+    export_public_artifacts(conn)
+
     conn.close()
+
+
+# ── Public export ───────────────────────────────────────────────────
+
+EXPORT_DIR = BASE_DIR / "data"
+
+# (table, csv_filename, ordered column list for stable output)
+EXPORT_TABLES = [
+    (
+        "files",
+        "registry_files.csv",
+        [
+            "id",
+            "source",
+            "category",
+            "filename",
+            "path",
+            "file_size",
+            "row_count",
+            "col_count",
+            "encoding",
+            "has_bom",
+            "date_range_start",
+            "date_range_end",
+            "region_coverage",
+            "notes",
+        ],
+    ),
+    (
+        "fields",
+        "registry_fields.csv",
+        [
+            "id",
+            "file_id",
+            "ordinal",
+            "name_ar",
+            "name_en",
+            "canonical_name",
+            "data_type",
+            "nullable",
+            "null_count",
+            "distinct_count",
+            "min_value",
+            "max_value",
+            "sample_values",
+            "formatting_notes",
+        ],
+    ),
+    (
+        "enum_values",
+        "registry_enums.csv",
+        [
+            "id",
+            "field_id",
+            "value",
+            "count",
+            "percentage",
+        ],
+    ),
+    (
+        "samples",
+        "registry_samples.csv",
+        [
+            "id",
+            "file_id",
+            "row_number",
+            "raw_line",
+            "parsed_json",
+        ],
+    ),
+    (
+        "field_aliases",
+        "registry_field_aliases.csv",
+        [
+            "canonical_name",
+            "name_ar",
+            "source",
+            "file_count",
+        ],
+    ),
+]
+
+
+def export_public_artifacts(conn: sqlite3.Connection) -> None:
+    """Write the 5 CSV tables + registry.json + schema.json into data/.
+
+    Deterministic ordering (ORDER BY id where present) keeps git diffs
+    minimal across rebuilds. Run as the last step of main() so all
+    indexes + aliases are in place.
+    """
+    EXPORT_DIR.mkdir(parents=True, exist_ok=True)
+
+    for table, fname, cols in EXPORT_TABLES:
+        out = EXPORT_DIR / fname
+        order_clause = "ORDER BY id" if "id" in cols else ""
+        rows = conn.execute(
+            f"SELECT {', '.join(cols)} FROM {table} {order_clause}"
+        ).fetchall()
+        with open(out, "w", newline="", encoding="utf-8") as fh:
+            w = csv.writer(fh)
+            w.writerow(cols)
+            for row in rows:
+                w.writerow(["" if v is None else v for v in row])
+        print(f"  wrote {out.relative_to(BASE_DIR)} ({len(rows)} rows)")
+
+    # registry.json — full nested view for programmatic consumers
+    registry_json = {
+        "version": _registry_version(),
+        "files": _query_dicts(conn, "files", EXPORT_TABLES[0][2]),
+        "field_aliases": _query_dicts(conn, "field_aliases", EXPORT_TABLES[4][2]),
+    }
+    with open(EXPORT_DIR / "registry.json", "w", encoding="utf-8") as fh:
+        json.dump(registry_json, fh, ensure_ascii=False, indent=2, sort_keys=False)
+    print(f"  wrote data/registry.json ({len(registry_json['files'])} files)")
+
+    # schema.json — column-by-column schema across all files
+    schema_json = {
+        "version": _registry_version(),
+        "tables": {table: {"columns": cols} for (table, _, cols) in EXPORT_TABLES},
+    }
+    with open(EXPORT_DIR / "schema.json", "w", encoding="utf-8") as fh:
+        json.dump(schema_json, fh, ensure_ascii=False, indent=2)
+    print(f"  wrote data/schema.json ({len(EXPORT_TABLES)} tables)")
+
+
+def _query_dicts(conn: sqlite3.Connection, table: str, cols: list[str]) -> list[dict]:
+    order = "ORDER BY id" if "id" in cols else ""
+    rows = conn.execute(f"SELECT {', '.join(cols)} FROM {table} {order}").fetchall()
+    return [dict(zip(cols, row)) for row in rows]
+
+
+def _registry_version() -> str:
+    """Read MAJOR.MINOR.SERIAL from .versioning/ if present, else 'unversioned'."""
+    vfile = BASE_DIR / ".versioning" / "current"
+    if vfile.exists():
+        return vfile.read_text().strip()
+    return "unversioned"
 
 
 if __name__ == "__main__":
