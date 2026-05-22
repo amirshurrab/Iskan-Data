@@ -52,6 +52,38 @@
     {
       "id": 4,
       "source": "GASTAT",
+      "category": "cpi_divisions",
+      "filename": "GASTAT-CPI-Annual-Average-Divisions.csv",
+      "path": "gastat/GASTAT-CPI-Annual-Average-Divisions.csv",
+      "file_size": 14756,
+      "row_count": 170,
+      "col_count": 6,
+      "encoding": "utf-8-sig",
+      "has_bom": 1,
+      "date_range_start": null,
+      "date_range_end": null,
+      "region_coverage": null,
+      "notes": null
+    },
+    {
+      "id": 5,
+      "source": "GASTAT",
+      "category": "cost_of_living",
+      "filename": "GASTAT-Cost-Of-Living-Index-Cities.csv",
+      "path": "gastat/GASTAT-Cost-Of-Living-Index-Cities.csv",
+      "file_size": 2371,
+      "row_count": 18,
+      "col_count": 17,
+      "encoding": "utf-8-sig",
+      "has_bom": 1,
+      "date_range_start": null,
+      "date_range_end": null,
+      "region_coverage": null,
+      "notes": null
+    },
+    {
+      "id": 6,
+      "source": "GASTAT",
       "category": "housing_utilities",
       "filename": "GASTAT-Housing-Electricity-Connection.csv",
       "path": "gastat/GASTAT-Housing-Electricity-Connection.csv",
@@ -66,12 +98,12 @@
       "notes": null
     },
     {
-      "id": 5,
+      "id": 7,
       "source": "GASTAT",
       "category": "remittance_costs",
       "filename": "GASTAT-Remittance-Costs.csv",
       "path": "gastat/GASTAT-Remittance-Costs.csv",
-      "file_size": 2308,
+      "file_size": 2317,
       "row_count": 8,
       "col_count": 6,
       "encoding": "utf-8-sig",
@@ -82,7 +114,7 @@
       "notes": null
     },
     {
-      "id": 6,
+      "id": 8,
       "source": "KAPSARC",
       "category": "construction_cost_index",
       "filename": "KAPSARC-Construction-Cost-Index.csv",
@@ -98,7 +130,7 @@
       "notes": null
     },
     {
-      "id": 7,
+      "id": 9,
       "source": "KAPSARC",
       "category": "re_index_regions",
       "filename": "KAPSARC-RE-Index-Regions-2014base.csv",
@@ -114,7 +146,7 @@
       "notes": null
     },
     {
-      "id": 8,
+      "id": 10,
       "source": "KAPSARC",
       "category": "re_index_regions",
       "filename": "KAPSARC-RE-Index-Regions-2023base.csv",
@@ -130,7 +162,7 @@
       "notes": null
     },
     {
-      "id": 9,
+      "id": 11,
       "source": "KAPSARC",
       "category": "re_price_index",
       "filename": "KAPSARC-RE-Price-Index-2014base.csv",
@@ -146,7 +178,7 @@
       "notes": null
     },
     {
-      "id": 10,
+      "id": 12,
       "source": "KAPSARC",
       "category": "re_price_index",
       "filename": "KAPSARC-RE-Price-Index-2023base.csv",
@@ -162,12 +194,12 @@
       "notes": null
     },
     {
-      "id": 11,
+      "id": 13,
       "source": "MOJ",
       "category": "compensation",
       "filename": "MOJ-Compensation-2025-Q1.csv",
       "path": "moj/real-estate/MOJ-Compensation-2025-Q1.csv",
-      "file_size": 8392,
+      "file_size": 8104,
       "row_count": 72,
       "col_count": 6,
       "encoding": "utf-8-sig",
@@ -178,7 +210,7 @@
       "notes": null
     },
     {
-      "id": 12,
+      "id": 14,
       "source": "MOJ",
       "category": "compensation",
       "filename": "MOJ-Compensation-2025-Q2.csv",
@@ -194,7 +226,7 @@
       "notes": null
     },
     {
-      "id": 13,
+      "id": 15,
       "source": "MOJ",
       "category": "compensation",
       "filename": "MOJ-Compensation-2025-Q3.csv",
@@ -210,7 +242,7 @@
       "notes": null
     },
     {
-      "id": 14,
+      "id": 16,
       "source": "MOJ",
       "category": "compensation",
       "filename": "MOJ-Compensation-2025-Q4.csv",
@@ -226,7 +258,7 @@
       "notes": null
     },
     {
-      "id": 15,
+      "id": 17,
       "source": "MOJ",
       "category": "compensation_ruins",
       "filename": "MOJ-Compensation-Ruins-2025-Q1.csv",
@@ -242,7 +274,7 @@
       "notes": null
     },
     {
-      "id": 16,
+      "id": 18,
       "source": "MOJ",
       "category": "compensation_ruins",
       "filename": "MOJ-Compensation-Ruins-2025-Q2.csv",
@@ -258,12 +290,12 @@
       "notes": null
     },
     {
-      "id": 17,
+      "id": 19,
       "source": "MOJ",
       "category": "compensation_ruins",
       "filename": "MOJ-Compensation-Ruins-2025-Q3.csv",
       "path": "moj/real-estate/MOJ-Compensation-Ruins-2025-Q3.csv",
-      "file_size": 369651,
+      "file_size": 355903,
       "row_count": 3437,
       "col_count": 6,
       "encoding": "utf-8-sig",
@@ -274,7 +306,7 @@
       "notes": null
     },
     {
-      "id": 18,
+      "id": 20,
       "source": "MOJ",
       "category": "compensation_ruins",
       "filename": "MOJ-Compensation-Ruins-2025-Q4.csv",
@@ -290,7 +322,7 @@
       "notes": null
     },
     {
-      "id": 19,
+      "id": 21,
       "source": "MOJ",
       "category": "deed_define_divide",
       "filename": "MOJ-Deed-Define-Divide-2025-Q1.csv",
@@ -306,12 +338,12 @@
       "notes": null
     },
     {
-      "id": 20,
+      "id": 22,
       "source": "MOJ",
       "category": "deed_define_divide",
       "filename": "MOJ-Deed-Define-Divide-2025-Q2.csv",
       "path": "moj/real-estate/MOJ-Deed-Define-Divide-2025-Q2.csv",
-      "file_size": 785291,
+      "file_size": 757816,
       "row_count": 6867,
       "col_count": 6,
       "encoding": "utf-8-sig",
@@ -322,7 +354,7 @@
       "notes": null
     },
     {
-      "id": 21,
+      "id": 23,
       "source": "MOJ",
       "category": "deed_define_divide",
       "filename": "MOJ-Deed-Define-Divide-2025-Q3.csv",
@@ -338,7 +370,7 @@
       "notes": null
     },
     {
-      "id": 22,
+      "id": 24,
       "source": "MOJ",
       "category": "deed_define_divide",
       "filename": "MOJ-Deed-Define-Divide-2025-Q4.csv",
@@ -354,7 +386,7 @@
       "notes": null
     },
     {
-      "id": 23,
+      "id": 25,
       "source": "MOJ",
       "category": "division",
       "filename": "MOJ-Divide-2025-Q1.csv",
@@ -370,7 +402,7 @@
       "notes": null
     },
     {
-      "id": 24,
+      "id": 26,
       "source": "MOJ",
       "category": "division",
       "filename": "MOJ-Divide-2025-Q2.csv",
@@ -386,12 +418,12 @@
       "notes": null
     },
     {
-      "id": 25,
+      "id": 27,
       "source": "MOJ",
       "category": "division",
       "filename": "MOJ-Divide-2025-Q3.csv",
       "path": "moj/real-estate/MOJ-Divide-2025-Q3.csv",
-      "file_size": 3500032,
+      "file_size": 3377637,
       "row_count": 30597,
       "col_count": 6,
       "encoding": "utf-8-sig",
@@ -402,7 +434,7 @@
       "notes": null
     },
     {
-      "id": 26,
+      "id": 28,
       "source": "MOJ",
       "category": "division",
       "filename": "MOJ-Divide-2025-Q4.csv",
@@ -418,7 +450,7 @@
       "notes": null
     },
     {
-      "id": 27,
+      "id": 29,
       "source": "MOJ",
       "category": "enforcement_auction",
       "filename": "MOJ-Enforcement-Auction-Sale-2025-Q1.csv",
@@ -434,7 +466,7 @@
       "notes": null
     },
     {
-      "id": 28,
+      "id": 30,
       "source": "MOJ",
       "category": "enforcement_auction",
       "filename": "MOJ-Enforcement-Auction-Sale-2025-Q2.csv",
@@ -450,7 +482,7 @@
       "notes": null
     },
     {
-      "id": 29,
+      "id": 31,
       "source": "MOJ",
       "category": "enforcement_auction",
       "filename": "MOJ-Enforcement-Auction-Sale-2025-Q3.csv",
@@ -466,7 +498,7 @@
       "notes": null
     },
     {
-      "id": 30,
+      "id": 32,
       "source": "MOJ",
       "category": "enforcement_auction",
       "filename": "MOJ-Enforcement-Auction-Sale-2025-Q4.csv",
@@ -482,7 +514,7 @@
       "notes": null
     },
     {
-      "id": 31,
+      "id": 33,
       "source": "MOJ",
       "category": "enforcement_award",
       "filename": "MOJ-Enforcement-Award-Buyer-2025-Q1.csv",
@@ -498,7 +530,7 @@
       "notes": null
     },
     {
-      "id": 32,
+      "id": 34,
       "source": "MOJ",
       "category": "enforcement_award",
       "filename": "MOJ-Enforcement-Award-Buyer-2025-Q2.csv",
@@ -514,7 +546,7 @@
       "notes": null
     },
     {
-      "id": 33,
+      "id": 35,
       "source": "MOJ",
       "category": "enforcement_award",
       "filename": "MOJ-Enforcement-Award-Buyer-2025-Q3.csv",
@@ -530,7 +562,7 @@
       "notes": null
     },
     {
-      "id": 34,
+      "id": 36,
       "source": "MOJ",
       "category": "enforcement_award",
       "filename": "MOJ-Enforcement-Award-Buyer-2025-Q4.csv",
@@ -546,7 +578,7 @@
       "notes": null
     },
     {
-      "id": 35,
+      "id": 37,
       "source": "MOJ",
       "category": "enforcement",
       "filename": "MOJ-Enforcement-Sale-2025-Q1.csv",
@@ -562,7 +594,7 @@
       "notes": null
     },
     {
-      "id": 36,
+      "id": 38,
       "source": "MOJ",
       "category": "enforcement",
       "filename": "MOJ-Enforcement-Sale-2025-Q2.csv",
@@ -578,7 +610,7 @@
       "notes": null
     },
     {
-      "id": 37,
+      "id": 39,
       "source": "MOJ",
       "category": "enforcement",
       "filename": "MOJ-Enforcement-Sale-2025-Q3.csv",
@@ -594,7 +626,7 @@
       "notes": null
     },
     {
-      "id": 38,
+      "id": 40,
       "source": "MOJ",
       "category": "enforcement",
       "filename": "MOJ-Enforcement-Sale-2025-Q4.csv",
@@ -610,7 +642,7 @@
       "notes": null
     },
     {
-      "id": 39,
+      "id": 41,
       "source": "MOJ",
       "category": "enforcement_sell_property",
       "filename": "MOJ-Enforcement-Sell-Property-2025-Q1.csv",
@@ -626,7 +658,7 @@
       "notes": null
     },
     {
-      "id": 40,
+      "id": 42,
       "source": "MOJ",
       "category": "enforcement_sell_property",
       "filename": "MOJ-Enforcement-Sell-Property-2025-Q2.csv",
@@ -642,7 +674,7 @@
       "notes": null
     },
     {
-      "id": 41,
+      "id": 43,
       "source": "MOJ",
       "category": "enforcement_sell_property",
       "filename": "MOJ-Enforcement-Sell-Property-2025-Q3.csv",
@@ -658,7 +690,7 @@
       "notes": null
     },
     {
-      "id": 42,
+      "id": 44,
       "source": "MOJ",
       "category": "enforcement_sell_property",
       "filename": "MOJ-Enforcement-Sell-Property-2025-Q4.csv",
@@ -674,7 +706,7 @@
       "notes": null
     },
     {
-      "id": 43,
+      "id": 45,
       "source": "MOJ",
       "category": "grant",
       "filename": "MOJ-Grant-2025-Q1.csv",
@@ -690,7 +722,7 @@
       "notes": null
     },
     {
-      "id": 44,
+      "id": 46,
       "source": "MOJ",
       "category": "grant",
       "filename": "MOJ-Grant-2025-Q2.csv",
@@ -706,7 +738,7 @@
       "notes": null
     },
     {
-      "id": 45,
+      "id": 47,
       "source": "MOJ",
       "category": "grant",
       "filename": "MOJ-Grant-2025-Q3.csv",
@@ -722,7 +754,7 @@
       "notes": null
     },
     {
-      "id": 46,
+      "id": 48,
       "source": "MOJ",
       "category": "grant",
       "filename": "MOJ-Grant-2025-Q4.csv",
@@ -738,7 +770,7 @@
       "notes": null
     },
     {
-      "id": 47,
+      "id": 49,
       "source": "MOJ",
       "category": "grant_alternative",
       "filename": "MOJ-Grant-Alternative-2025-Q1.csv",
@@ -754,7 +786,7 @@
       "notes": null
     },
     {
-      "id": 48,
+      "id": 50,
       "source": "MOJ",
       "category": "grant_alternative",
       "filename": "MOJ-Grant-Alternative-2025-Q2.csv",
@@ -770,7 +802,7 @@
       "notes": null
     },
     {
-      "id": 49,
+      "id": 51,
       "source": "MOJ",
       "category": "grant_alternative",
       "filename": "MOJ-Grant-Alternative-2025-Q3.csv",
@@ -786,12 +818,12 @@
       "notes": null
     },
     {
-      "id": 50,
+      "id": 52,
       "source": "MOJ",
       "category": "grant_alternative",
       "filename": "MOJ-Grant-Alternative-2025-Q4.csv",
       "path": "moj/real-estate/MOJ-Grant-Alternative-2025-Q4.csv",
-      "file_size": 34598,
+      "file_size": 33422,
       "row_count": 294,
       "col_count": 6,
       "encoding": "utf-8-sig",
@@ -802,7 +834,7 @@
       "notes": null
     },
     {
-      "id": 51,
+      "id": 53,
       "source": "MOJ",
       "category": "merge_deed",
       "filename": "MOJ-Merge-Deed-2025-Q1.csv",
@@ -818,12 +850,12 @@
       "notes": null
     },
     {
-      "id": 52,
+      "id": 54,
       "source": "MOJ",
       "category": "merge_deed",
       "filename": "MOJ-Merge-Deed-2025-Q2.csv",
       "path": "moj/real-estate/MOJ-Merge-Deed-2025-Q2.csv",
-      "file_size": 1694,
+      "file_size": 1642,
       "row_count": 13,
       "col_count": 6,
       "encoding": "utf-8-sig",
@@ -834,12 +866,12 @@
       "notes": null
     },
     {
-      "id": 53,
+      "id": 55,
       "source": "MOJ",
       "category": "merge_deed",
       "filename": "MOJ-Merge-Deed-2025-Q3.csv",
       "path": "moj/real-estate/MOJ-Merge-Deed-2025-Q3.csv",
-      "file_size": 2056,
+      "file_size": 1985,
       "row_count": 16,
       "col_count": 6,
       "encoding": "utf-8-sig",
@@ -850,12 +882,12 @@
       "notes": null
     },
     {
-      "id": 54,
+      "id": 56,
       "source": "MOJ",
       "category": "merge_deed",
       "filename": "MOJ-Merge-Deed-2025-Q4.csv",
       "path": "moj/real-estate/MOJ-Merge-Deed-2025-Q4.csv",
-      "file_size": 3365,
+      "file_size": 3257,
       "row_count": 27,
       "col_count": 6,
       "encoding": "utf-8-sig",
@@ -866,7 +898,7 @@
       "notes": null
     },
     {
-      "id": 55,
+      "id": 57,
       "source": "MOJ",
       "category": "merge_re",
       "filename": "MOJ-Merge-RE-2025-Q1.csv",
@@ -882,7 +914,7 @@
       "notes": null
     },
     {
-      "id": 56,
+      "id": 58,
       "source": "MOJ",
       "category": "merge_re",
       "filename": "MOJ-Merge-RE-2025-Q2.csv",
@@ -898,7 +930,7 @@
       "notes": null
     },
     {
-      "id": 57,
+      "id": 59,
       "source": "MOJ",
       "category": "merge_re",
       "filename": "MOJ-Merge-RE-2025-Q3.csv",
@@ -914,7 +946,7 @@
       "notes": null
     },
     {
-      "id": 58,
+      "id": 60,
       "source": "MOJ",
       "category": "merge_re",
       "filename": "MOJ-Merge-RE-2025-Q4.csv",
@@ -930,7 +962,7 @@
       "notes": null
     },
     {
-      "id": 59,
+      "id": 61,
       "source": "MOJ",
       "category": "monthly_operations",
       "filename": "MOJ-Monthly-Operations-2024-01.csv",
@@ -946,7 +978,7 @@
       "notes": null
     },
     {
-      "id": 60,
+      "id": 62,
       "source": "MOJ",
       "category": "monthly_operations",
       "filename": "MOJ-Monthly-Operations-2024-02.csv",
@@ -962,7 +994,7 @@
       "notes": null
     },
     {
-      "id": 61,
+      "id": 63,
       "source": "MOJ",
       "category": "monthly_operations",
       "filename": "MOJ-Monthly-Operations-2024-03.csv",
@@ -978,7 +1010,7 @@
       "notes": null
     },
     {
-      "id": 62,
+      "id": 64,
       "source": "MOJ",
       "category": "monthly_operations",
       "filename": "MOJ-Monthly-Operations-2024-04.csv",
@@ -994,12 +1026,12 @@
       "notes": null
     },
     {
-      "id": 63,
+      "id": 65,
       "source": "MOJ",
       "category": "monthly_operations",
       "filename": "MOJ-Monthly-Operations-2024-05.csv",
       "path": "moj/monthly/MOJ-Monthly-Operations-2024-05.csv",
-      "file_size": 747175,
+      "file_size": 746866,
       "row_count": 4614,
       "col_count": 8,
       "encoding": "utf-8-sig",
@@ -1010,7 +1042,7 @@
       "notes": null
     },
     {
-      "id": 64,
+      "id": 66,
       "source": "MOJ",
       "category": "monthly_operations",
       "filename": "MOJ-Monthly-Operations-2024-06.csv",
@@ -1026,7 +1058,7 @@
       "notes": null
     },
     {
-      "id": 65,
+      "id": 67,
       "source": "MOJ",
       "category": "monthly_operations",
       "filename": "MOJ-Monthly-Operations-2024-07.csv",
@@ -1042,7 +1074,7 @@
       "notes": null
     },
     {
-      "id": 66,
+      "id": 68,
       "source": "MOJ",
       "category": "monthly_operations",
       "filename": "MOJ-Monthly-Operations-2024-08.csv",
@@ -1058,7 +1090,7 @@
       "notes": null
     },
     {
-      "id": 67,
+      "id": 69,
       "source": "MOJ",
       "category": "monthly_operations",
       "filename": "MOJ-Monthly-Operations-2024-09.csv",
@@ -1074,7 +1106,7 @@
       "notes": null
     },
     {
-      "id": 68,
+      "id": 70,
       "source": "MOJ",
       "category": "monthly_operations",
       "filename": "MOJ-Monthly-Operations-2024-10.csv",
@@ -1090,12 +1122,12 @@
       "notes": null
     },
     {
-      "id": 69,
+      "id": 71,
       "source": "MOJ",
       "category": "monthly_operations",
       "filename": "MOJ-Monthly-Operations-2024-11.csv",
       "path": "moj/monthly/MOJ-Monthly-Operations-2024-11.csv",
-      "file_size": 558145,
+      "file_size": 557908,
       "row_count": 3440,
       "col_count": 8,
       "encoding": "utf-8-sig",
@@ -1106,7 +1138,7 @@
       "notes": null
     },
     {
-      "id": 70,
+      "id": 72,
       "source": "MOJ",
       "category": "monthly_operations",
       "filename": "MOJ-Monthly-Operations-2024-12.csv",
@@ -1122,7 +1154,7 @@
       "notes": null
     },
     {
-      "id": 71,
+      "id": 73,
       "source": "MOJ",
       "category": "monthly_operations",
       "filename": "MOJ-Monthly-Operations-2025-01.csv",
@@ -1138,7 +1170,7 @@
       "notes": null
     },
     {
-      "id": 72,
+      "id": 74,
       "source": "MOJ",
       "category": "monthly_operations",
       "filename": "MOJ-Monthly-Operations-2025-02.csv",
@@ -1154,7 +1186,7 @@
       "notes": null
     },
     {
-      "id": 73,
+      "id": 75,
       "source": "MOJ",
       "category": "monthly_operations",
       "filename": "MOJ-Monthly-Operations-2025-03.csv",
@@ -1170,7 +1202,7 @@
       "notes": null
     },
     {
-      "id": 74,
+      "id": 76,
       "source": "MOJ",
       "category": "monthly_operations",
       "filename": "MOJ-Monthly-Operations-2025-04.csv",
@@ -1186,7 +1218,7 @@
       "notes": null
     },
     {
-      "id": 75,
+      "id": 77,
       "source": "MOJ",
       "category": "monthly_operations",
       "filename": "MOJ-Monthly-Operations-2025-05.csv",
@@ -1202,12 +1234,12 @@
       "notes": null
     },
     {
-      "id": 76,
+      "id": 78,
       "source": "MOJ",
       "category": "monthly_operations",
       "filename": "MOJ-Monthly-Operations-2025-06.csv",
       "path": "moj/monthly/MOJ-Monthly-Operations-2025-06.csv",
-      "file_size": 386964,
+      "file_size": 386760,
       "row_count": 2381,
       "col_count": 8,
       "encoding": "utf-8-sig",
@@ -1218,12 +1250,12 @@
       "notes": null
     },
     {
-      "id": 77,
+      "id": 79,
       "source": "MOJ",
       "category": "monthly_operations",
       "filename": "MOJ-Monthly-Operations-2025-07.csv",
       "path": "moj/monthly/MOJ-Monthly-Operations-2025-07.csv",
-      "file_size": 539154,
+      "file_size": 538845,
       "row_count": 3323,
       "col_count": 8,
       "encoding": "utf-8-sig",
@@ -1234,7 +1266,7 @@
       "notes": null
     },
     {
-      "id": 78,
+      "id": 80,
       "source": "MOJ",
       "category": "monthly_operations",
       "filename": "MOJ-Monthly-Operations-2025-08.csv",
@@ -1250,12 +1282,12 @@
       "notes": null
     },
     {
-      "id": 79,
+      "id": 81,
       "source": "MOJ",
       "category": "monthly_operations",
       "filename": "MOJ-Monthly-Operations-2025-09.csv",
       "path": "moj/monthly/MOJ-Monthly-Operations-2025-09.csv",
-      "file_size": 508802,
+      "file_size": 508523,
       "row_count": 3121,
       "col_count": 8,
       "encoding": "utf-8-sig",
@@ -1266,12 +1298,12 @@
       "notes": null
     },
     {
-      "id": 80,
+      "id": 82,
       "source": "MOJ",
       "category": "monthly_operations",
       "filename": "MOJ-Monthly-Operations-2025-10.csv",
       "path": "moj/monthly/MOJ-Monthly-Operations-2025-10.csv",
-      "file_size": 533667,
+      "file_size": 533373,
       "row_count": 3269,
       "col_count": 8,
       "encoding": "utf-8-sig",
@@ -1282,12 +1314,12 @@
       "notes": null
     },
     {
-      "id": 81,
+      "id": 83,
       "source": "MOJ",
       "category": "monthly_operations",
       "filename": "MOJ-Monthly-Operations-2025-11.csv",
       "path": "moj/monthly/MOJ-Monthly-Operations-2025-11.csv",
-      "file_size": 477165,
+      "file_size": 476910,
       "row_count": 2923,
       "col_count": 8,
       "encoding": "utf-8-sig",
@@ -1298,7 +1330,7 @@
       "notes": null
     },
     {
-      "id": 82,
+      "id": 84,
       "source": "MOJ",
       "category": "monthly_operations",
       "filename": "MOJ-Monthly-Operations-2025-12.csv",
@@ -1314,12 +1346,12 @@
       "notes": null
     },
     {
-      "id": 83,
+      "id": 85,
       "source": "MOJ",
       "category": "monthly_operations",
       "filename": "MOJ-Monthly-Operations-2026-01.csv",
       "path": "moj/monthly/MOJ-Monthly-Operations-2026-01.csv",
-      "file_size": 450352,
+      "file_size": 450004,
       "row_count": 2741,
       "col_count": 8,
       "encoding": "utf-8-sig",
@@ -1330,7 +1362,7 @@
       "notes": null
     },
     {
-      "id": 84,
+      "id": 86,
       "source": "MOJ",
       "category": "monthly_operations",
       "filename": "MOJ-Monthly-Operations-2026-02.csv",
@@ -1346,7 +1378,7 @@
       "notes": null
     },
     {
-      "id": 85,
+      "id": 87,
       "source": "MOJ",
       "category": "mortgage",
       "filename": "MOJ-Mortgage-2025-Q1.csv",
@@ -1362,7 +1394,7 @@
       "notes": null
     },
     {
-      "id": 86,
+      "id": 88,
       "source": "MOJ",
       "category": "mortgage",
       "filename": "MOJ-Mortgage-2025-Q2.csv",
@@ -1378,7 +1410,7 @@
       "notes": null
     },
     {
-      "id": 87,
+      "id": 89,
       "source": "MOJ",
       "category": "mortgage",
       "filename": "MOJ-Mortgage-2025-Q3.csv",
@@ -1394,7 +1426,7 @@
       "notes": null
     },
     {
-      "id": 88,
+      "id": 90,
       "source": "MOJ",
       "category": "mortgage",
       "filename": "MOJ-Mortgage-2025-Q4.csv",
@@ -1410,7 +1442,7 @@
       "notes": null
     },
     {
-      "id": 89,
+      "id": 91,
       "source": "MOJ",
       "category": "mortgage_release",
       "filename": "MOJ-Mortgage-Release-2025-Q1.csv",
@@ -1426,12 +1458,12 @@
       "notes": null
     },
     {
-      "id": 90,
+      "id": 92,
       "source": "MOJ",
       "category": "mortgage_release",
       "filename": "MOJ-Mortgage-Release-2025-Q2.csv",
       "path": "moj/real-estate/MOJ-Mortgage-Release-2025-Q2.csv",
-      "file_size": 1494769,
+      "file_size": 1442606,
       "row_count": 13039,
       "col_count": 6,
       "encoding": "utf-8-sig",
@@ -1442,7 +1474,7 @@
       "notes": null
     },
     {
-      "id": 91,
+      "id": 93,
       "source": "MOJ",
       "category": "mortgage_release",
       "filename": "MOJ-Mortgage-Release-2025-Q3.csv",
@@ -1458,7 +1490,7 @@
       "notes": null
     },
     {
-      "id": 92,
+      "id": 94,
       "source": "MOJ",
       "category": "mortgage_release",
       "filename": "MOJ-Mortgage-Release-2025-Q4.csv",
@@ -1474,7 +1506,7 @@
       "notes": null
     },
     {
-      "id": 93,
+      "id": 95,
       "source": "MOJ",
       "category": "ownership",
       "filename": "MOJ-Ownership-2025-Q1.csv",
@@ -1490,23 +1522,23 @@
       "notes": null
     },
     {
-      "id": 94,
+      "id": 96,
       "source": "MOJ",
       "category": "ownership",
       "filename": "MOJ-Ownership-2025-Q2.csv",
       "path": "moj/real-estate/MOJ-Ownership-2025-Q2.csv",
-      "file_size": 184264,
+      "file_size": 179811,
       "row_count": 1633,
       "col_count": 6,
       "encoding": "utf-8-sig",
       "has_bom": 1,
-      "date_range_start": "4/1/2025",
-      "date_range_end": "6/30/2025",
+      "date_range_start": "2025/04/01",
+      "date_range_end": "2025/06/30",
       "region_coverage": "[\"الخدمات الرقمية\", \"الرياض\"]",
       "notes": null
     },
     {
-      "id": 95,
+      "id": 97,
       "source": "MOJ",
       "category": "ownership",
       "filename": "MOJ-Ownership-2025-Q3.csv",
@@ -1522,7 +1554,7 @@
       "notes": null
     },
     {
-      "id": 96,
+      "id": 98,
       "source": "MOJ",
       "category": "ownership",
       "filename": "MOJ-Ownership-2025-Q4.csv",
@@ -1538,7 +1570,7 @@
       "notes": null
     },
     {
-      "id": 97,
+      "id": 99,
       "source": "MOJ",
       "category": "ownership_men",
       "filename": "MOJ-Ownership-Men-2025-Q1.csv",
@@ -1554,7 +1586,7 @@
       "notes": null
     },
     {
-      "id": 98,
+      "id": 100,
       "source": "MOJ",
       "category": "ownership_men",
       "filename": "MOJ-Ownership-Men-2025-Q2.csv",
@@ -1570,7 +1602,7 @@
       "notes": null
     },
     {
-      "id": 99,
+      "id": 101,
       "source": "MOJ",
       "category": "ownership_men",
       "filename": "MOJ-Ownership-Men-2025-Q3.csv",
@@ -1586,7 +1618,7 @@
       "notes": null
     },
     {
-      "id": 100,
+      "id": 102,
       "source": "MOJ",
       "category": "ownership_rate_men",
       "filename": "MOJ-Ownership-Rate-Men-2025-Q1.csv",
@@ -1602,7 +1634,7 @@
       "notes": null
     },
     {
-      "id": 101,
+      "id": 103,
       "source": "MOJ",
       "category": "ownership_rate_men",
       "filename": "MOJ-Ownership-Rate-Men-2025-Q2.csv",
@@ -1618,7 +1650,7 @@
       "notes": null
     },
     {
-      "id": 102,
+      "id": 104,
       "source": "MOJ",
       "category": "ownership_rate_men",
       "filename": "MOJ-Ownership-Rate-Men-2025-Q3.csv",
@@ -1634,7 +1666,7 @@
       "notes": null
     },
     {
-      "id": 103,
+      "id": 105,
       "source": "MOJ",
       "category": "ownership_rate_men",
       "filename": "MOJ-Ownership-Rate-Men-2025-Q4.csv",
@@ -1650,7 +1682,7 @@
       "notes": null
     },
     {
-      "id": 104,
+      "id": 106,
       "source": "MOJ",
       "category": "ownership_rate_women",
       "filename": "MOJ-Ownership-Rate-Women-2025-Q1.csv",
@@ -1666,7 +1698,7 @@
       "notes": null
     },
     {
-      "id": 105,
+      "id": 107,
       "source": "MOJ",
       "category": "ownership_rate_women",
       "filename": "MOJ-Ownership-Rate-Women-2025-Q2.csv",
@@ -1682,7 +1714,7 @@
       "notes": null
     },
     {
-      "id": 106,
+      "id": 108,
       "source": "MOJ",
       "category": "ownership_rate_women",
       "filename": "MOJ-Ownership-Rate-Women-2025-Q3.csv",
@@ -1698,7 +1730,7 @@
       "notes": null
     },
     {
-      "id": 107,
+      "id": 109,
       "source": "MOJ",
       "category": "ownership_rate_women",
       "filename": "MOJ-Ownership-Rate-Women-2025-Q4.csv",
@@ -1714,12 +1746,12 @@
       "notes": null
     },
     {
-      "id": 108,
+      "id": 110,
       "source": "MOJ",
       "category": "poa_other",
       "filename": "MOJ-POA-Agricultural-Dev-Fund-2025-Q4.csv",
       "path": "moj/poa-other/MOJ-POA-Agricultural-Dev-Fund-2025-Q4.csv",
-      "file_size": 69265,
+      "file_size": 66854,
       "row_count": 601,
       "col_count": 6,
       "encoding": "utf-8-sig",
@@ -1730,12 +1762,12 @@
       "notes": null
     },
     {
-      "id": 109,
+      "id": 111,
       "source": "MOJ",
       "category": "poa_other",
       "filename": "MOJ-POA-Agricultural-Grants-2025-Q4.csv",
       "path": "moj/poa-other/MOJ-POA-Agricultural-Grants-2025-Q4.csv",
-      "file_size": 520471,
+      "file_size": 502355,
       "row_count": 4529,
       "col_count": 6,
       "encoding": "utf-8-sig",
@@ -1746,7 +1778,7 @@
       "notes": null
     },
     {
-      "id": 110,
+      "id": 112,
       "source": "MOJ",
       "category": "poa_annulled",
       "filename": "MOJ-POA-Annulled-2024-02.csv",
@@ -1762,12 +1794,12 @@
       "notes": null
     },
     {
-      "id": 111,
+      "id": 113,
       "source": "MOJ",
       "category": "poa_annulled",
       "filename": "MOJ-POA-Annulled-2025-01.csv",
       "path": "moj/monthly/MOJ-POA-Annulled-2025-01.csv",
-      "file_size": 11616544,
+      "file_size": 11314012,
       "row_count": 77479,
       "col_count": 8,
       "encoding": "utf-8-sig",
@@ -1778,12 +1810,12 @@
       "notes": null
     },
     {
-      "id": 112,
+      "id": 114,
       "source": "MOJ",
       "category": "poa_annulled",
       "filename": "MOJ-POA-Annulled-2025-02.csv",
       "path": "moj/monthly/MOJ-POA-Annulled-2025-02.csv",
-      "file_size": 11435308,
+      "file_size": 11137617,
       "row_count": 76278,
       "col_count": 8,
       "encoding": "utf-8-sig",
@@ -1794,12 +1826,12 @@
       "notes": null
     },
     {
-      "id": 113,
+      "id": 115,
       "source": "MOJ",
       "category": "poa_annulled",
       "filename": "MOJ-POA-Annulled-2025-11.csv",
       "path": "moj/monthly/MOJ-POA-Annulled-2025-11.csv",
-      "file_size": 10622763,
+      "file_size": 10347259,
       "row_count": 70846,
       "col_count": 8,
       "encoding": "utf-8-sig",
@@ -1810,12 +1842,12 @@
       "notes": null
     },
     {
-      "id": 114,
+      "id": 116,
       "source": "MOJ",
       "category": "poa_annulled",
       "filename": "MOJ-POA-Annulled-2026-02.csv",
       "path": "moj/monthly/MOJ-POA-Annulled-2026-02.csv",
-      "file_size": 9516089,
+      "file_size": 9268973,
       "row_count": 63467,
       "col_count": 8,
       "encoding": "utf-8-sig",
@@ -1826,12 +1858,12 @@
       "notes": null
     },
     {
-      "id": 115,
+      "id": 117,
       "source": "MOJ",
       "category": "poa_other",
       "filename": "MOJ-POA-Banks-2025-Q2.csv",
       "path": "moj/poa-other/MOJ-POA-Banks-2025-Q2.csv",
-      "file_size": 15422049,
+      "file_size": 14889290,
       "row_count": 133188,
       "col_count": 6,
       "encoding": "utf-8-sig",
@@ -1842,12 +1874,12 @@
       "notes": null
     },
     {
-      "id": 116,
+      "id": 118,
       "source": "MOJ",
       "category": "poa_other",
       "filename": "MOJ-POA-Banks-2025-Q3.csv",
       "path": "moj/poa-other/MOJ-POA-Banks-2025-Q3.csv",
-      "file_size": 15958568,
+      "file_size": 15408717,
       "row_count": 137461,
       "col_count": 6,
       "encoding": "utf-8-sig",
@@ -1858,12 +1890,12 @@
       "notes": null
     },
     {
-      "id": 117,
+      "id": 119,
       "source": "MOJ",
       "category": "poa_other",
       "filename": "MOJ-POA-Boat-Fishing-Licenses-2025-Q4.csv",
       "path": "moj/poa-other/MOJ-POA-Boat-Fishing-Licenses-2025-Q4.csv",
-      "file_size": 45279,
+      "file_size": 43707,
       "row_count": 393,
       "col_count": 6,
       "encoding": "utf-8-sig",
@@ -1874,12 +1906,12 @@
       "notes": null
     },
     {
-      "id": 118,
+      "id": 120,
       "source": "MOJ",
       "category": "poa_other",
       "filename": "MOJ-POA-Civil-Affairs-2025-Q2.csv",
       "path": "moj/poa-other/MOJ-POA-Civil-Affairs-2025-Q2.csv",
-      "file_size": 2290700,
+      "file_size": 2210932,
       "row_count": 19942,
       "col_count": 6,
       "encoding": "utf-8-sig",
@@ -1890,12 +1922,12 @@
       "notes": null
     },
     {
-      "id": 119,
+      "id": 121,
       "source": "MOJ",
       "category": "poa_other",
       "filename": "MOJ-POA-Claims-Courts-2025-Q2.csv",
       "path": "moj/poa-other/MOJ-POA-Claims-Courts-2025-Q2.csv",
-      "file_size": 16423643,
+      "file_size": 15862332,
       "row_count": 140326,
       "col_count": 6,
       "encoding": "utf-8-sig",
@@ -1906,12 +1938,12 @@
       "notes": null
     },
     {
-      "id": 120,
+      "id": 122,
       "source": "MOJ",
       "category": "poa_other",
       "filename": "MOJ-POA-Claims-Courts-2025-Q4.csv",
       "path": "moj/poa-other/MOJ-POA-Claims-Courts-2025-Q4.csv",
-      "file_size": 22752204,
+      "file_size": 21974820,
       "row_count": 194346,
       "col_count": 6,
       "encoding": "utf-8-sig",
@@ -1922,12 +1954,12 @@
       "notes": null
     },
     {
-      "id": 121,
+      "id": 123,
       "source": "MOJ",
       "category": "poa_other",
       "filename": "MOJ-POA-Commercial-Records-2025-Q2.csv",
       "path": "moj/poa-other/MOJ-POA-Commercial-Records-2025-Q2.csv",
-      "file_size": 5390211,
+      "file_size": 5204216,
       "row_count": 46497,
       "col_count": 6,
       "encoding": "utf-8-sig",
@@ -1938,12 +1970,12 @@
       "notes": null
     },
     {
-      "id": 122,
+      "id": 124,
       "source": "MOJ",
       "category": "poa_other",
       "filename": "MOJ-POA-Commercial-Records-2025-Q3.csv",
       "path": "moj/poa-other/MOJ-POA-Commercial-Records-2025-Q3.csv",
-      "file_size": 6617129,
+      "file_size": 6389722,
       "row_count": 56850,
       "col_count": 6,
       "encoding": "utf-8-sig",
@@ -1954,12 +1986,12 @@
       "notes": null
     },
     {
-      "id": 123,
+      "id": 125,
       "source": "MOJ",
       "category": "poa_other",
       "filename": "MOJ-POA-Companies-2025-Q2.csv",
       "path": "moj/poa-other/MOJ-POA-Companies-2025-Q2.csv",
-      "file_size": 1128266,
+      "file_size": 1090502,
       "row_count": 9441,
       "col_count": 6,
       "encoding": "utf-8-sig",
@@ -1970,12 +2002,12 @@
       "notes": null
     },
     {
-      "id": 124,
+      "id": 126,
       "source": "MOJ",
       "category": "poa_other",
       "filename": "MOJ-POA-Companies-2025-Q3.csv",
       "path": "moj/poa-other/MOJ-POA-Companies-2025-Q3.csv",
-      "file_size": 1533662,
+      "file_size": 1482498,
       "row_count": 12791,
       "col_count": 6,
       "encoding": "utf-8-sig",
@@ -1986,12 +2018,12 @@
       "notes": null
     },
     {
-      "id": 125,
+      "id": 127,
       "source": "MOJ",
       "category": "poa_other",
       "filename": "MOJ-POA-Compensation-Aid-2025-Q2.csv",
       "path": "moj/poa-other/MOJ-POA-Compensation-Aid-2025-Q2.csv",
-      "file_size": 504593,
+      "file_size": 486942,
       "row_count": 4411,
       "col_count": 6,
       "encoding": "utf-8-sig",
@@ -2002,12 +2034,12 @@
       "notes": null
     },
     {
-      "id": 126,
+      "id": 128,
       "source": "MOJ",
       "category": "poa_other",
       "filename": "MOJ-POA-Court-Completions-2025-Q1.csv",
       "path": "moj/poa-other/MOJ-POA-Court-Completions-2025-Q1.csv",
-      "file_size": 124881,
+      "file_size": 120657,
       "row_count": 1056,
       "col_count": 6,
       "encoding": "utf-8-sig",
@@ -2018,7 +2050,7 @@
       "notes": null
     },
     {
-      "id": 127,
+      "id": 129,
       "source": "MOJ",
       "category": "poa_ejar",
       "filename": "MOJ-POA-Ejar-2025-Q1.csv",
@@ -2034,12 +2066,12 @@
       "notes": null
     },
     {
-      "id": 128,
+      "id": 130,
       "source": "MOJ",
       "category": "poa_ejar",
       "filename": "MOJ-POA-Ejar-2025-Q2.csv",
       "path": "moj/real-estate/MOJ-POA-Ejar-2025-Q2.csv",
-      "file_size": 1492562,
+      "file_size": 1443638,
       "row_count": 12231,
       "col_count": 6,
       "encoding": "utf-8-sig",
@@ -2050,12 +2082,12 @@
       "notes": null
     },
     {
-      "id": 129,
+      "id": 131,
       "source": "MOJ",
       "category": "poa_ejar",
       "filename": "MOJ-POA-Ejar-2025-Q3.csv",
       "path": "moj/real-estate/MOJ-POA-Ejar-2025-Q3.csv",
-      "file_size": 1326674,
+      "file_size": 1283167,
       "row_count": 10875,
       "col_count": 6,
       "encoding": "utf-8-sig",
@@ -2066,7 +2098,7 @@
       "notes": null
     },
     {
-      "id": 130,
+      "id": 132,
       "source": "MOJ",
       "category": "poa_ejar",
       "filename": "MOJ-POA-Ejar-2025-Q4.csv",
@@ -2082,12 +2114,12 @@
       "notes": null
     },
     {
-      "id": 131,
+      "id": 133,
       "source": "MOJ",
       "category": "poa_other",
       "filename": "MOJ-POA-Foreign-POA-Attest-2025-Q2.csv",
       "path": "moj/poa-other/MOJ-POA-Foreign-POA-Attest-2025-Q2.csv",
-      "file_size": 799447,
+      "file_size": 774243,
       "row_count": 6301,
       "col_count": 6,
       "encoding": "utf-8-sig",
@@ -2098,12 +2130,12 @@
       "notes": null
     },
     {
-      "id": 132,
+      "id": 134,
       "source": "MOJ",
       "category": "poa_other",
       "filename": "MOJ-POA-Foreign-POA-Attest-2025-Q3.csv",
       "path": "moj/poa-other/MOJ-POA-Foreign-POA-Attest-2025-Q3.csv",
-      "file_size": 1080273,
+      "file_size": 1046373,
       "row_count": 8475,
       "col_count": 6,
       "encoding": "utf-8-sig",
@@ -2114,12 +2146,12 @@
       "notes": null
     },
     {
-      "id": 133,
+      "id": 135,
       "source": "MOJ",
       "category": "poa_other",
       "filename": "MOJ-POA-Gov-Authorities-2025-Q1.csv",
       "path": "moj/poa-other/MOJ-POA-Gov-Authorities-2025-Q1.csv",
-      "file_size": 945151,
+      "file_size": 912663,
       "row_count": 8122,
       "col_count": 6,
       "encoding": "utf-8-sig",
@@ -2130,28 +2162,28 @@
       "notes": null
     },
     {
-      "id": 134,
+      "id": 136,
       "source": "MOJ",
       "category": "poa_other",
       "filename": "MOJ-POA-Gov-Authorities-2025-Q2.csv",
       "path": "moj/poa-other/MOJ-POA-Gov-Authorities-2025-Q2.csv",
-      "file_size": 1003686,
+      "file_size": 979429,
       "row_count": 8700,
       "col_count": 6,
       "encoding": "utf-8-sig",
       "has_bom": 1,
-      "date_range_start": "4/1/2025",
-      "date_range_end": "6/30/2025",
+      "date_range_start": "2025/04/01",
+      "date_range_end": "2025/06/30",
       "region_coverage": "[\"الخدمات الرقمية\", \"منطقة الجوف\", \"منطقة الرياض\", \"منطقة الشرقية\", \"منطقة القصيم\", \"منطقة المدينة المنوره\", \"منطقة تبوك\", \"منطقة عسير\", \"منطقة مكة المكرمه\", \"منطقة نجران\"]",
       "notes": null
     },
     {
-      "id": 135,
+      "id": 137,
       "source": "MOJ",
       "category": "poa_other",
       "filename": "MOJ-POA-Gov-Institutions-2025-Q2.csv",
       "path": "moj/poa-other/MOJ-POA-Gov-Institutions-2025-Q2.csv",
-      "file_size": 593636,
+      "file_size": 573420,
       "row_count": 5054,
       "col_count": 6,
       "encoding": "utf-8-sig",
@@ -2162,12 +2194,12 @@
       "notes": null
     },
     {
-      "id": 136,
+      "id": 138,
       "source": "MOJ",
       "category": "poa_other",
       "filename": "MOJ-POA-Gov-Institutions-2025-Q4.csv",
       "path": "moj/poa-other/MOJ-POA-Gov-Institutions-2025-Q4.csv",
-      "file_size": 626260,
+      "file_size": 605085,
       "row_count": 5292,
       "col_count": 6,
       "encoding": "utf-8-sig",
@@ -2178,12 +2210,12 @@
       "notes": null
     },
     {
-      "id": 137,
+      "id": 139,
       "source": "MOJ",
       "category": "poa_other",
       "filename": "MOJ-POA-Housing-Grants-2025-Q1.csv",
       "path": "moj/poa-other/MOJ-POA-Housing-Grants-2025-Q1.csv",
-      "file_size": 360950,
+      "file_size": 348407,
       "row_count": 3134,
       "col_count": 6,
       "encoding": "utf-8-sig",
@@ -2194,12 +2226,12 @@
       "notes": null
     },
     {
-      "id": 138,
+      "id": 140,
       "source": "MOJ",
       "category": "poa_other",
       "filename": "MOJ-POA-Housing-Grants-2025-Q3.csv",
       "path": "moj/poa-other/MOJ-POA-Housing-Grants-2025-Q3.csv",
-      "file_size": 418431,
+      "file_size": 403875,
       "row_count": 3639,
       "col_count": 6,
       "encoding": "utf-8-sig",
@@ -2210,7 +2242,7 @@
       "notes": null
     },
     {
-      "id": 139,
+      "id": 141,
       "source": "MOJ",
       "category": "poa_issued",
       "filename": "MOJ-POA-Issued-2023-04.csv",
@@ -2226,7 +2258,7 @@
       "notes": null
     },
     {
-      "id": 140,
+      "id": 142,
       "source": "MOJ",
       "category": "poa_issued",
       "filename": "MOJ-POA-Issued-2023-10.csv",
@@ -2242,7 +2274,7 @@
       "notes": null
     },
     {
-      "id": 141,
+      "id": 143,
       "source": "MOJ",
       "category": "poa_issued",
       "filename": "MOJ-POA-Issued-2023-11.csv",
@@ -2258,7 +2290,7 @@
       "notes": null
     },
     {
-      "id": 142,
+      "id": 144,
       "source": "MOJ",
       "category": "poa_issued",
       "filename": "MOJ-POA-Issued-2023-12.csv",
@@ -2274,7 +2306,7 @@
       "notes": null
     },
     {
-      "id": 143,
+      "id": 145,
       "source": "MOJ",
       "category": "poa_issued",
       "filename": "MOJ-POA-Issued-2024-01.csv",
@@ -2290,7 +2322,7 @@
       "notes": null
     },
     {
-      "id": 144,
+      "id": 146,
       "source": "MOJ",
       "category": "poa_issued",
       "filename": "MOJ-POA-Issued-2024-02.csv",
@@ -2306,7 +2338,7 @@
       "notes": null
     },
     {
-      "id": 145,
+      "id": 147,
       "source": "MOJ",
       "category": "poa_issued",
       "filename": "MOJ-POA-Issued-2024-03.csv",
@@ -2322,7 +2354,7 @@
       "notes": null
     },
     {
-      "id": 146,
+      "id": 148,
       "source": "MOJ",
       "category": "poa_issued",
       "filename": "MOJ-POA-Issued-2024-04.csv",
@@ -2338,7 +2370,7 @@
       "notes": null
     },
     {
-      "id": 147,
+      "id": 149,
       "source": "MOJ",
       "category": "poa_issued",
       "filename": "MOJ-POA-Issued-2024-05.csv",
@@ -2354,7 +2386,7 @@
       "notes": null
     },
     {
-      "id": 148,
+      "id": 150,
       "source": "MOJ",
       "category": "poa_issued",
       "filename": "MOJ-POA-Issued-2024-06.csv",
@@ -2370,7 +2402,7 @@
       "notes": null
     },
     {
-      "id": 149,
+      "id": 151,
       "source": "MOJ",
       "category": "poa_issued",
       "filename": "MOJ-POA-Issued-2024-07.csv",
@@ -2386,7 +2418,7 @@
       "notes": null
     },
     {
-      "id": 150,
+      "id": 152,
       "source": "MOJ",
       "category": "poa_issued",
       "filename": "MOJ-POA-Issued-2024-08.csv",
@@ -2402,12 +2434,12 @@
       "notes": null
     },
     {
-      "id": 151,
+      "id": 153,
       "source": "MOJ",
       "category": "poa_issued",
       "filename": "MOJ-POA-Issued-2024-09.csv",
       "path": "moj/monthly/MOJ-POA-Issued-2024-09.csv",
-      "file_size": 972432,
+      "file_size": 972069,
       "row_count": 5830,
       "col_count": 8,
       "encoding": "utf-8-sig",
@@ -2418,7 +2450,7 @@
       "notes": null
     },
     {
-      "id": 152,
+      "id": 154,
       "source": "MOJ",
       "category": "poa_issued",
       "filename": "MOJ-POA-Issued-2024-10.csv",
@@ -2434,7 +2466,7 @@
       "notes": null
     },
     {
-      "id": 153,
+      "id": 155,
       "source": "MOJ",
       "category": "poa_issued",
       "filename": "MOJ-POA-Issued-2024-11.csv",
@@ -2450,7 +2482,7 @@
       "notes": null
     },
     {
-      "id": 154,
+      "id": 156,
       "source": "MOJ",
       "category": "poa_issued",
       "filename": "MOJ-POA-Issued-2024-12.csv",
@@ -2466,7 +2498,7 @@
       "notes": null
     },
     {
-      "id": 155,
+      "id": 157,
       "source": "MOJ",
       "category": "poa_issued",
       "filename": "MOJ-POA-Issued-2025-01.csv",
@@ -2482,7 +2514,7 @@
       "notes": null
     },
     {
-      "id": 156,
+      "id": 158,
       "source": "MOJ",
       "category": "poa_issued",
       "filename": "MOJ-POA-Issued-2025-02.csv",
@@ -2498,7 +2530,7 @@
       "notes": null
     },
     {
-      "id": 157,
+      "id": 159,
       "source": "MOJ",
       "category": "poa_issued",
       "filename": "MOJ-POA-Issued-2025-03.csv",
@@ -2514,7 +2546,7 @@
       "notes": null
     },
     {
-      "id": 158,
+      "id": 160,
       "source": "MOJ",
       "category": "poa_issued",
       "filename": "MOJ-POA-Issued-2025-04.csv",
@@ -2530,12 +2562,12 @@
       "notes": null
     },
     {
-      "id": 159,
+      "id": 161,
       "source": "MOJ",
       "category": "poa_issued",
       "filename": "MOJ-POA-Issued-2025-05.csv",
       "path": "moj/monthly/MOJ-POA-Issued-2025-05.csv",
-      "file_size": 1156345,
+      "file_size": 1155967,
       "row_count": 7104,
       "col_count": 8,
       "encoding": "utf-8-sig",
@@ -2546,7 +2578,7 @@
       "notes": null
     },
     {
-      "id": 160,
+      "id": 162,
       "source": "MOJ",
       "category": "poa_issued",
       "filename": "MOJ-POA-Issued-2025-06.csv",
@@ -2562,7 +2594,7 @@
       "notes": null
     },
     {
-      "id": 161,
+      "id": 163,
       "source": "MOJ",
       "category": "poa_issued",
       "filename": "MOJ-POA-Issued-2025-07.csv",
@@ -2578,7 +2610,7 @@
       "notes": null
     },
     {
-      "id": 162,
+      "id": 164,
       "source": "MOJ",
       "category": "poa_issued",
       "filename": "MOJ-POA-Issued-2025-08.csv",
@@ -2594,7 +2626,7 @@
       "notes": null
     },
     {
-      "id": 163,
+      "id": 165,
       "source": "MOJ",
       "category": "poa_issued",
       "filename": "MOJ-POA-Issued-2025-09.csv",
@@ -2610,12 +2642,12 @@
       "notes": null
     },
     {
-      "id": 164,
+      "id": 166,
       "source": "MOJ",
       "category": "poa_issued",
       "filename": "MOJ-POA-Issued-2025-10.csv",
       "path": "moj/monthly/MOJ-POA-Issued-2025-10.csv",
-      "file_size": 1239344,
+      "file_size": 1238963,
       "row_count": 7601,
       "col_count": 8,
       "encoding": "utf-8-sig",
@@ -2626,7 +2658,7 @@
       "notes": null
     },
     {
-      "id": 165,
+      "id": 167,
       "source": "MOJ",
       "category": "poa_issued",
       "filename": "MOJ-POA-Issued-2025-11.csv",
@@ -2642,7 +2674,7 @@
       "notes": null
     },
     {
-      "id": 166,
+      "id": 168,
       "source": "MOJ",
       "category": "poa_issued",
       "filename": "MOJ-POA-Issued-2025-12.csv",
@@ -2658,7 +2690,7 @@
       "notes": null
     },
     {
-      "id": 167,
+      "id": 169,
       "source": "MOJ",
       "category": "poa_issued",
       "filename": "MOJ-POA-Issued-2026-01.csv",
@@ -2674,12 +2706,12 @@
       "notes": null
     },
     {
-      "id": 168,
+      "id": 170,
       "source": "MOJ",
       "category": "poa_issued",
       "filename": "MOJ-POA-Issued-2026-02.csv",
       "path": "moj/monthly/MOJ-POA-Issued-2026-02.csv",
-      "file_size": 979190,
+      "file_size": 978854,
       "row_count": 6019,
       "col_count": 8,
       "encoding": "utf-8-sig",
@@ -2690,12 +2722,12 @@
       "notes": null
     },
     {
-      "id": 169,
+      "id": 171,
       "source": "MOJ",
       "category": "poa_other",
       "filename": "MOJ-POA-Labor-Recruitment-2025-Q1.csv",
       "path": "moj/poa-other/MOJ-POA-Labor-Recruitment-2025-Q1.csv",
-      "file_size": 303918,
+      "file_size": 293326,
       "row_count": 2648,
       "col_count": 6,
       "encoding": "utf-8-sig",
@@ -2706,12 +2738,12 @@
       "notes": null
     },
     {
-      "id": 170,
+      "id": 172,
       "source": "MOJ",
       "category": "poa_other",
       "filename": "MOJ-POA-Municipalities-2025-Q1.csv",
       "path": "moj/poa-other/MOJ-POA-Municipalities-2025-Q1.csv",
-      "file_size": 2216083,
+      "file_size": 2139387,
       "row_count": 19174,
       "col_count": 6,
       "encoding": "utf-8-sig",
@@ -2722,12 +2754,12 @@
       "notes": null
     },
     {
-      "id": 171,
+      "id": 173,
       "source": "MOJ",
       "category": "poa_other",
       "filename": "MOJ-POA-Post-2025-Q2.csv",
       "path": "moj/poa-other/MOJ-POA-Post-2025-Q2.csv",
-      "file_size": 45407,
+      "file_size": 43816,
       "row_count": 396,
       "col_count": 6,
       "encoding": "utf-8-sig",
@@ -2738,12 +2770,12 @@
       "notes": null
     },
     {
-      "id": 172,
+      "id": 174,
       "source": "MOJ",
       "category": "poa_other",
       "filename": "MOJ-POA-Post-2025-Q3.csv",
       "path": "moj/poa-other/MOJ-POA-Post-2025-Q3.csv",
-      "file_size": 53928,
+      "file_size": 52053,
       "row_count": 467,
       "col_count": 6,
       "encoding": "utf-8-sig",
@@ -2754,7 +2786,7 @@
       "notes": null
     },
     {
-      "id": 173,
+      "id": 175,
       "source": "MOJ",
       "category": "poa_fund",
       "filename": "MOJ-POA-RE-Fund-2025-Q1.csv",
@@ -2770,7 +2802,7 @@
       "notes": null
     },
     {
-      "id": 174,
+      "id": 176,
       "source": "MOJ",
       "category": "poa_fund",
       "filename": "MOJ-POA-RE-Fund-2025-Q2.csv",
@@ -2786,7 +2818,7 @@
       "notes": null
     },
     {
-      "id": 175,
+      "id": 177,
       "source": "MOJ",
       "category": "poa_fund",
       "filename": "MOJ-POA-RE-Fund-2025-Q3.csv",
@@ -2802,12 +2834,12 @@
       "notes": null
     },
     {
-      "id": 176,
+      "id": 178,
       "source": "MOJ",
       "category": "poa_fund",
       "filename": "MOJ-POA-RE-Fund-2025-Q4.csv",
       "path": "moj/real-estate/MOJ-POA-RE-Fund-2025-Q4.csv",
-      "file_size": 424040,
+      "file_size": 409276,
       "row_count": 3691,
       "col_count": 6,
       "encoding": "utf-8-sig",
@@ -2818,7 +2850,7 @@
       "notes": null
     },
     {
-      "id": 177,
+      "id": 179,
       "source": "MOJ",
       "category": "poa",
       "filename": "MOJ-POA-RealEstate-2025-Q1.csv",
@@ -2834,7 +2866,7 @@
       "notes": null
     },
     {
-      "id": 178,
+      "id": 180,
       "source": "MOJ",
       "category": "poa",
       "filename": "MOJ-POA-RealEstate-2025-Q2.csv",
@@ -2850,7 +2882,7 @@
       "notes": null
     },
     {
-      "id": 179,
+      "id": 181,
       "source": "MOJ",
       "category": "poa",
       "filename": "MOJ-POA-RealEstate-2025-Q3.csv",
@@ -2866,7 +2898,7 @@
       "notes": null
     },
     {
-      "id": 180,
+      "id": 182,
       "source": "MOJ",
       "category": "poa",
       "filename": "MOJ-POA-RealEstate-2025-Q4-Part1.csv",
@@ -2882,7 +2914,7 @@
       "notes": null
     },
     {
-      "id": 181,
+      "id": 183,
       "source": "MOJ",
       "category": "poa",
       "filename": "MOJ-POA-RealEstate-2025-Q4-Part2.csv",
@@ -2898,12 +2930,12 @@
       "notes": null
     },
     {
-      "id": 182,
+      "id": 184,
       "source": "MOJ",
       "category": "poa_other",
       "filename": "MOJ-POA-Recruitment-Office-2025-Q2.csv",
       "path": "moj/poa-other/MOJ-POA-Recruitment-Office-2025-Q2.csv",
-      "file_size": 594137,
+      "file_size": 573362,
       "row_count": 5192,
       "col_count": 6,
       "encoding": "utf-8-sig",
@@ -2914,12 +2946,12 @@
       "notes": null
     },
     {
-      "id": 183,
+      "id": 185,
       "source": "MOJ",
       "category": "poa_other",
       "filename": "MOJ-POA-Salaries-Dues-2025-Q3.csv",
       "path": "moj/poa-other/MOJ-POA-Salaries-Dues-2025-Q3.csv",
-      "file_size": 1787543,
+      "file_size": 1725800,
       "row_count": 15434,
       "col_count": 6,
       "encoding": "utf-8-sig",
@@ -2930,12 +2962,12 @@
       "notes": null
     },
     {
-      "id": 184,
+      "id": 186,
       "source": "MOJ",
       "category": "poa_other",
       "filename": "MOJ-POA-Service-Requests-2025-Q3.csv",
       "path": "moj/poa-other/MOJ-POA-Service-Requests-2025-Q3.csv",
-      "file_size": 1765037,
+      "file_size": 1703110,
       "row_count": 15480,
       "col_count": 6,
       "encoding": "utf-8-sig",
@@ -2946,28 +2978,28 @@
       "notes": null
     },
     {
-      "id": 185,
+      "id": 187,
       "source": "MOJ",
       "category": "poa_other",
       "filename": "MOJ-POA-Social-Dev-Bank-2025-Q2.csv",
       "path": "moj/poa-other/MOJ-POA-Social-Dev-Bank-2025-Q2.csv",
-      "file_size": 158829,
+      "file_size": 154945,
       "row_count": 1400,
       "col_count": 6,
       "encoding": "utf-8-sig",
       "has_bom": 1,
-      "date_range_start": "4/1/2025",
-      "date_range_end": "6/30/2025",
+      "date_range_start": "2025/04/01",
+      "date_range_end": "2025/06/30",
       "region_coverage": "[\"الخدمات الرقمية\", \"منطقة الرياض\"]",
       "notes": null
     },
     {
-      "id": 186,
+      "id": 188,
       "source": "MOJ",
       "category": "poa_other",
       "filename": "MOJ-POA-Social-Dev-Bank-2025-Q4.csv",
       "path": "moj/poa-other/MOJ-POA-Social-Dev-Bank-2025-Q4.csv",
-      "file_size": 179592,
+      "file_size": 173372,
       "row_count": 1555,
       "col_count": 6,
       "encoding": "utf-8-sig",
@@ -2978,12 +3010,12 @@
       "notes": null
     },
     {
-      "id": 187,
+      "id": 189,
       "source": "MOJ",
       "category": "poa_other",
       "filename": "MOJ-POA-Social-Security-2025-Q1.csv",
       "path": "moj/poa-other/MOJ-POA-Social-Security-2025-Q1.csv",
-      "file_size": 97271,
+      "file_size": 93863,
       "row_count": 852,
       "col_count": 6,
       "encoding": "utf-8-sig",
@@ -2994,12 +3026,12 @@
       "notes": null
     },
     {
-      "id": 188,
+      "id": 190,
       "source": "MOJ",
       "category": "poa_other",
       "filename": "MOJ-POA-Telecom-Companies-2025-Q4.csv",
       "path": "moj/poa-other/MOJ-POA-Telecom-Companies-2025-Q4.csv",
-      "file_size": 1950715,
+      "file_size": 1882723,
       "row_count": 16998,
       "col_count": 6,
       "encoding": "utf-8-sig",
@@ -3010,28 +3042,28 @@
       "notes": null
     },
     {
-      "id": 189,
+      "id": 191,
       "source": "MOJ",
       "category": "poa_other",
       "filename": "MOJ-POA-Traffic-2025-Q1.csv",
       "path": "moj/poa-other/MOJ-POA-Traffic-2025-Q1.csv",
-      "file_size": 4194003,
+      "file_size": 4094388,
       "row_count": 37145,
       "col_count": 6,
       "encoding": "utf-8-sig",
       "has_bom": 1,
-      "date_range_start": "1/1/2025",
-      "date_range_end": "3/31/2025",
+      "date_range_start": "2025/01/01",
+      "date_range_end": "2025/03/31",
       "region_coverage": "[\"الخدمات الرقمية\", \"منطقة الرياض\", \"منطقة الشرقية\", \"منطقة القصيم\", \"منطقة المدينة المنوره\", \"منطقة عسير\", \"منطقة مكة المكرمه\"]",
       "notes": null
     },
     {
-      "id": 190,
+      "id": 192,
       "source": "MOJ",
       "category": "poa_other",
       "filename": "MOJ-POA-Traffic-2025-Q3.csv",
       "path": "moj/poa-other/MOJ-POA-Traffic-2025-Q3.csv",
-      "file_size": 4865639,
+      "file_size": 4695367,
       "row_count": 42568,
       "col_count": 6,
       "encoding": "utf-8-sig",
@@ -3042,12 +3074,12 @@
       "notes": null
     },
     {
-      "id": 191,
+      "id": 193,
       "source": "MOJ",
       "category": "poa_other",
       "filename": "MOJ-POA-Traffic-2025-Q4.csv",
       "path": "moj/poa-other/MOJ-POA-Traffic-2025-Q4.csv",
-      "file_size": 4446117,
+      "file_size": 4290493,
       "row_count": 38906,
       "col_count": 6,
       "encoding": "utf-8-sig",
@@ -3058,12 +3090,12 @@
       "notes": null
     },
     {
-      "id": 192,
+      "id": 194,
       "source": "MOJ",
       "category": "poa_other",
       "filename": "MOJ-POA-University-Rewards-2025-Q3.csv",
       "path": "moj/poa-other/MOJ-POA-University-Rewards-2025-Q3.csv",
-      "file_size": 46655,
+      "file_size": 45023,
       "row_count": 408,
       "col_count": 6,
       "encoding": "utf-8-sig",
@@ -3074,23 +3106,23 @@
       "notes": null
     },
     {
-      "id": 193,
+      "id": 195,
       "source": "MOJ",
       "category": "poa_other",
       "filename": "MOJ-POA-Vehicles-2025-Q1.csv",
       "path": "moj/poa-other/MOJ-POA-Vehicles-2025-Q1.csv",
-      "file_size": 13307949,
+      "file_size": 12991285,
       "row_count": 117528,
       "col_count": 6,
       "encoding": "utf-8-sig",
       "has_bom": 1,
-      "date_range_start": "1/1/2025",
-      "date_range_end": "3/31/2025",
+      "date_range_start": "2025/01/01",
+      "date_range_end": "2025/03/31",
       "region_coverage": "[\"الخدمات الرقمية\", \"منطقة الباحة\", \"منطقة الجوف\", \"منطقة الحدود الشمالية\", \"منطقة الرياض\", \"منطقة الشرقية\", \"منطقة القصيم\", \"منطقة المدينة المنوره\", \"منطقة تبوك\", \"منطقة جازان\", \"منطقة حائل\", \"منطقة عسير\", \"منطقة مكة المكرمه\", \"منطقة نجران\"]",
       "notes": null
     },
     {
-      "id": 194,
+      "id": 196,
       "source": "MOJ",
       "category": "poa_white_land_fee",
       "filename": "MOJ-POA-WhiteLandFee-2025-Q1.csv",
@@ -3106,7 +3138,7 @@
       "notes": null
     },
     {
-      "id": 195,
+      "id": 197,
       "source": "MOJ",
       "category": "poa_white_land_fee",
       "filename": "MOJ-POA-WhiteLandFee-2025-Q2.csv",
@@ -3122,7 +3154,7 @@
       "notes": null
     },
     {
-      "id": 196,
+      "id": 198,
       "source": "MOJ",
       "category": "poa_white_land_fee",
       "filename": "MOJ-POA-WhiteLandFee-2025-Q3.csv",
@@ -3138,7 +3170,7 @@
       "notes": null
     },
     {
-      "id": 197,
+      "id": 199,
       "source": "MOJ",
       "category": "poa_white_land_fee",
       "filename": "MOJ-POA-WhiteLandFee-2025-Q4.csv",
@@ -3154,7 +3186,7 @@
       "notes": null
     },
     {
-      "id": 198,
+      "id": 200,
       "source": "MOJ",
       "category": "physical_reg",
       "filename": "MOJ-Physical-Registration-2025-Q1.csv",
@@ -3170,7 +3202,7 @@
       "notes": null
     },
     {
-      "id": 199,
+      "id": 201,
       "source": "MOJ",
       "category": "physical_reg",
       "filename": "MOJ-Physical-Registration-2025-Q2.csv",
@@ -3186,7 +3218,7 @@
       "notes": null
     },
     {
-      "id": 200,
+      "id": 202,
       "source": "MOJ",
       "category": "physical_reg",
       "filename": "MOJ-Physical-Registration-2025-Q3.csv",
@@ -3202,7 +3234,7 @@
       "notes": null
     },
     {
-      "id": 201,
+      "id": 203,
       "source": "MOJ",
       "category": "physical_reg",
       "filename": "MOJ-Physical-Registration-2025-Q4.csv",
@@ -3218,7 +3250,7 @@
       "notes": null
     },
     {
-      "id": 202,
+      "id": 204,
       "source": "MOJ",
       "category": "property_identity",
       "filename": "MOJ-Property-Identity-2025-Q1.csv",
@@ -3234,7 +3266,7 @@
       "notes": null
     },
     {
-      "id": 203,
+      "id": 205,
       "source": "MOJ",
       "category": "property_identity",
       "filename": "MOJ-Property-Identity-2025-Q3.csv",
@@ -3250,7 +3282,7 @@
       "notes": null
     },
     {
-      "id": 204,
+      "id": 206,
       "source": "MOJ",
       "category": "property_identity",
       "filename": "MOJ-Property-Identity-2025-Q4.csv",
@@ -3266,7 +3298,7 @@
       "notes": null
     },
     {
-      "id": 205,
+      "id": 207,
       "source": "MOJ",
       "category": "index",
       "filename": "MOJ-RE-Index-Cities-2018-2021.csv",
@@ -3282,7 +3314,7 @@
       "notes": "pivot-table export with multi-row headers"
     },
     {
-      "id": 206,
+      "id": 208,
       "source": "MOJ",
       "category": "index",
       "filename": "MOJ-RE-Index-Districts-2018-2021.csv",
@@ -3298,7 +3330,7 @@
       "notes": "pivot-table export with multi-row headers"
     },
     {
-      "id": 207,
+      "id": 209,
       "source": "MOJ",
       "category": "index",
       "filename": "MOJ-RE-Index-Regions-2018-2021.csv",
@@ -3314,7 +3346,7 @@
       "notes": "pivot-table export with multi-row headers"
     },
     {
-      "id": 208,
+      "id": 210,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2024-M01.csv",
@@ -3330,7 +3362,7 @@
       "notes": null
     },
     {
-      "id": 209,
+      "id": 211,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2024-M02.csv",
@@ -3346,7 +3378,7 @@
       "notes": null
     },
     {
-      "id": 210,
+      "id": 212,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2024-M03.csv",
@@ -3362,7 +3394,7 @@
       "notes": null
     },
     {
-      "id": 211,
+      "id": 213,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2024-M04.csv",
@@ -3378,7 +3410,7 @@
       "notes": null
     },
     {
-      "id": 212,
+      "id": 214,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2024-M05.csv",
@@ -3394,7 +3426,7 @@
       "notes": null
     },
     {
-      "id": 213,
+      "id": 215,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2024-M06.csv",
@@ -3410,7 +3442,7 @@
       "notes": null
     },
     {
-      "id": 214,
+      "id": 216,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2024-M07.csv",
@@ -3426,7 +3458,7 @@
       "notes": null
     },
     {
-      "id": 215,
+      "id": 217,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2024-M08.csv",
@@ -3442,7 +3474,7 @@
       "notes": null
     },
     {
-      "id": 216,
+      "id": 218,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2024-M09.csv",
@@ -3458,7 +3490,7 @@
       "notes": null
     },
     {
-      "id": 217,
+      "id": 219,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2024-M10.csv",
@@ -3474,7 +3506,7 @@
       "notes": null
     },
     {
-      "id": 218,
+      "id": 220,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2024-M11.csv",
@@ -3490,7 +3522,7 @@
       "notes": null
     },
     {
-      "id": 219,
+      "id": 221,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2024-M12.csv",
@@ -3506,7 +3538,7 @@
       "notes": null
     },
     {
-      "id": 220,
+      "id": 222,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2025-M01.csv",
@@ -3522,7 +3554,7 @@
       "notes": null
     },
     {
-      "id": 221,
+      "id": 223,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2025-M02.csv",
@@ -3538,7 +3570,7 @@
       "notes": null
     },
     {
-      "id": 222,
+      "id": 224,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2025-M03.csv",
@@ -3554,7 +3586,7 @@
       "notes": null
     },
     {
-      "id": 223,
+      "id": 225,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2025-M04.csv",
@@ -3570,7 +3602,7 @@
       "notes": null
     },
     {
-      "id": 224,
+      "id": 226,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2025-M05.csv",
@@ -3586,7 +3618,7 @@
       "notes": null
     },
     {
-      "id": 225,
+      "id": 227,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2025-M06.csv",
@@ -3602,7 +3634,7 @@
       "notes": null
     },
     {
-      "id": 226,
+      "id": 228,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2025-M07.csv",
@@ -3618,7 +3650,7 @@
       "notes": null
     },
     {
-      "id": 227,
+      "id": 229,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2025-M08.csv",
@@ -3634,7 +3666,7 @@
       "notes": null
     },
     {
-      "id": 228,
+      "id": 230,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2025-M09.csv",
@@ -3650,7 +3682,7 @@
       "notes": null
     },
     {
-      "id": 229,
+      "id": 231,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2025-M10.csv",
@@ -3666,7 +3698,7 @@
       "notes": null
     },
     {
-      "id": 230,
+      "id": 232,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2025-M11.csv",
@@ -3682,7 +3714,7 @@
       "notes": null
     },
     {
-      "id": 231,
+      "id": 233,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2025-M12.csv",
@@ -3698,7 +3730,7 @@
       "notes": null
     },
     {
-      "id": 232,
+      "id": 234,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2025-Q1.csv",
@@ -3714,7 +3746,7 @@
       "notes": null
     },
     {
-      "id": 233,
+      "id": 235,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2025-Q2.csv",
@@ -3730,7 +3762,7 @@
       "notes": null
     },
     {
-      "id": 234,
+      "id": 236,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2025-Q3.csv",
@@ -3746,7 +3778,7 @@
       "notes": null
     },
     {
-      "id": 235,
+      "id": 237,
       "source": "MOJ",
       "category": "register_no_deed",
       "filename": "MOJ-Register-No-Deed-2025-Q1.csv",
@@ -3762,7 +3794,7 @@
       "notes": null
     },
     {
-      "id": 236,
+      "id": 238,
       "source": "MOJ",
       "category": "register_no_deed",
       "filename": "MOJ-Register-No-Deed-2025-Q2.csv",
@@ -3778,7 +3810,7 @@
       "notes": null
     },
     {
-      "id": 237,
+      "id": 239,
       "source": "MOJ",
       "category": "register_no_deed",
       "filename": "MOJ-Register-No-Deed-2025-Q3.csv",
@@ -3794,7 +3826,7 @@
       "notes": null
     },
     {
-      "id": 238,
+      "id": 240,
       "source": "MOJ",
       "category": "register_no_deed",
       "filename": "MOJ-Register-No-Deed-2025-Q4.csv",
@@ -3810,7 +3842,7 @@
       "notes": null
     },
     {
-      "id": 239,
+      "id": 241,
       "source": "MOJ",
       "category": "register_old_deed",
       "filename": "MOJ-Register-Old-Deed-2025-Q1.csv",
@@ -3826,7 +3858,7 @@
       "notes": null
     },
     {
-      "id": 240,
+      "id": 242,
       "source": "MOJ",
       "category": "register_old_deed",
       "filename": "MOJ-Register-Old-Deed-2025-Q2.csv",
@@ -3842,7 +3874,7 @@
       "notes": null
     },
     {
-      "id": 241,
+      "id": 243,
       "source": "MOJ",
       "category": "register_old_deed",
       "filename": "MOJ-Register-Old-Deed-2025-Q3.csv",
@@ -3858,7 +3890,7 @@
       "notes": null
     },
     {
-      "id": 242,
+      "id": 244,
       "source": "MOJ",
       "category": "register_old_deed",
       "filename": "MOJ-Register-Old-Deed-2025-Q4.csv",
@@ -3874,7 +3906,7 @@
       "notes": null
     },
     {
-      "id": 243,
+      "id": 245,
       "source": "MOJ",
       "category": "release_seizure",
       "filename": "MOJ-Release-Seizure-2025-Q1.csv",
@@ -3890,7 +3922,7 @@
       "notes": null
     },
     {
-      "id": 244,
+      "id": 246,
       "source": "MOJ",
       "category": "release_seizure",
       "filename": "MOJ-Release-Seizure-2025-Q2.csv",
@@ -3906,7 +3938,7 @@
       "notes": null
     },
     {
-      "id": 245,
+      "id": 247,
       "source": "MOJ",
       "category": "release_seizure",
       "filename": "MOJ-Release-Seizure-2025-Q3.csv",
@@ -3922,7 +3954,7 @@
       "notes": null
     },
     {
-      "id": 246,
+      "id": 248,
       "source": "MOJ",
       "category": "release_seizure",
       "filename": "MOJ-Release-Seizure-2025-Q4.csv",
@@ -3938,7 +3970,7 @@
       "notes": null
     },
     {
-      "id": 247,
+      "id": 249,
       "source": "MOJ",
       "category": "sales",
       "filename": "MOJ-Sales-2020-Q1.csv",
@@ -3954,7 +3986,7 @@
       "notes": null
     },
     {
-      "id": 248,
+      "id": 250,
       "source": "MOJ",
       "category": "sales",
       "filename": "MOJ-Sales-2020-Q2.csv",
@@ -3970,7 +4002,7 @@
       "notes": null
     },
     {
-      "id": 249,
+      "id": 251,
       "source": "MOJ",
       "category": "sales",
       "filename": "MOJ-Sales-2020-Q3.csv",
@@ -3986,7 +4018,7 @@
       "notes": null
     },
     {
-      "id": 250,
+      "id": 252,
       "source": "MOJ",
       "category": "sales",
       "filename": "MOJ-Sales-2020-Q4.csv",
@@ -4002,7 +4034,7 @@
       "notes": null
     },
     {
-      "id": 251,
+      "id": 253,
       "source": "MOJ",
       "category": "sales",
       "filename": "MOJ-Sales-2021-Q1.csv",
@@ -4018,7 +4050,7 @@
       "notes": null
     },
     {
-      "id": 252,
+      "id": 254,
       "source": "MOJ",
       "category": "sales",
       "filename": "MOJ-Sales-2021-Q2.csv",
@@ -4034,7 +4066,7 @@
       "notes": null
     },
     {
-      "id": 253,
+      "id": 255,
       "source": "MOJ",
       "category": "sales",
       "filename": "MOJ-Sales-2021-Q3.csv",
@@ -4050,7 +4082,7 @@
       "notes": null
     },
     {
-      "id": 254,
+      "id": 256,
       "source": "MOJ",
       "category": "sales",
       "filename": "MOJ-Sales-2021-Q4.csv",
@@ -4066,7 +4098,7 @@
       "notes": null
     },
     {
-      "id": 255,
+      "id": 257,
       "source": "MOJ",
       "category": "sales",
       "filename": "MOJ-Sales-2022-Q1.csv",
@@ -4082,7 +4114,7 @@
       "notes": null
     },
     {
-      "id": 256,
+      "id": 258,
       "source": "MOJ",
       "category": "sales",
       "filename": "MOJ-Sales-2022-Q2.csv",
@@ -4098,7 +4130,7 @@
       "notes": null
     },
     {
-      "id": 257,
+      "id": 259,
       "source": "MOJ",
       "category": "sales",
       "filename": "MOJ-Sales-2022-Q3.csv",
@@ -4114,7 +4146,7 @@
       "notes": null
     },
     {
-      "id": 258,
+      "id": 260,
       "source": "MOJ",
       "category": "sales",
       "filename": "MOJ-Sales-2022-Q4.csv",
@@ -4130,7 +4162,7 @@
       "notes": null
     },
     {
-      "id": 259,
+      "id": 261,
       "source": "MOJ",
       "category": "sales",
       "filename": "MOJ-Sales-2023-Q1.csv",
@@ -4146,7 +4178,7 @@
       "notes": null
     },
     {
-      "id": 260,
+      "id": 262,
       "source": "MOJ",
       "category": "sales",
       "filename": "MOJ-Sales-2023-Q2.csv",
@@ -4162,7 +4194,7 @@
       "notes": null
     },
     {
-      "id": 261,
+      "id": 263,
       "source": "MOJ",
       "category": "sales",
       "filename": "MOJ-Sales-2023-Q3.csv",
@@ -4178,7 +4210,7 @@
       "notes": null
     },
     {
-      "id": 262,
+      "id": 264,
       "source": "MOJ",
       "category": "sales",
       "filename": "MOJ-Sales-2023-Q4.csv",
@@ -4194,7 +4226,7 @@
       "notes": null
     },
     {
-      "id": 263,
+      "id": 265,
       "source": "MOJ",
       "category": "sales",
       "filename": "MOJ-Sales-2024-Q1.csv",
@@ -4210,7 +4242,7 @@
       "notes": null
     },
     {
-      "id": 264,
+      "id": 266,
       "source": "MOJ",
       "category": "sales",
       "filename": "MOJ-Sales-2024-Q2.csv",
@@ -4226,7 +4258,7 @@
       "notes": null
     },
     {
-      "id": 265,
+      "id": 267,
       "source": "MOJ",
       "category": "sales",
       "filename": "MOJ-Sales-2024-Q3.csv",
@@ -4242,7 +4274,7 @@
       "notes": null
     },
     {
-      "id": 266,
+      "id": 268,
       "source": "MOJ",
       "category": "sales",
       "filename": "MOJ-Sales-2024-Q4.csv",
@@ -4258,7 +4290,7 @@
       "notes": null
     },
     {
-      "id": 267,
+      "id": 269,
       "source": "MOJ",
       "category": "sales",
       "filename": "MOJ-Sales-2025-Q1.csv",
@@ -4274,7 +4306,7 @@
       "notes": null
     },
     {
-      "id": 268,
+      "id": 270,
       "source": "MOJ",
       "category": "sales",
       "filename": "MOJ-Sales-2025-Q2.csv",
@@ -4290,7 +4322,7 @@
       "notes": null
     },
     {
-      "id": 269,
+      "id": 271,
       "source": "MOJ",
       "category": "sales",
       "filename": "MOJ-Sales-2025-Q3.csv",
@@ -4306,7 +4338,7 @@
       "notes": null
     },
     {
-      "id": 270,
+      "id": 272,
       "source": "MOJ",
       "category": "sales",
       "filename": "MOJ-Sales-2025-Q4.csv",
@@ -4322,7 +4354,7 @@
       "notes": null
     },
     {
-      "id": 271,
+      "id": 273,
       "source": "MOJ",
       "category": "seizure",
       "filename": "MOJ-Seizure-2025-Q1.csv",
@@ -4338,7 +4370,7 @@
       "notes": null
     },
     {
-      "id": 272,
+      "id": 274,
       "source": "MOJ",
       "category": "seizure",
       "filename": "MOJ-Seizure-2025-Q2.csv",
@@ -4354,7 +4386,7 @@
       "notes": null
     },
     {
-      "id": 273,
+      "id": 275,
       "source": "MOJ",
       "category": "seizure",
       "filename": "MOJ-Seizure-2025-Q3-Part1.csv",
@@ -4370,7 +4402,7 @@
       "notes": null
     },
     {
-      "id": 274,
+      "id": 276,
       "source": "MOJ",
       "category": "seizure",
       "filename": "MOJ-Seizure-2025-Q3-Part2.csv",
@@ -4386,7 +4418,7 @@
       "notes": null
     },
     {
-      "id": 275,
+      "id": 277,
       "source": "MOJ",
       "category": "seizure",
       "filename": "MOJ-Seizure-2025-Q3.csv",
@@ -4402,7 +4434,7 @@
       "notes": null
     },
     {
-      "id": 276,
+      "id": 278,
       "source": "MOJ",
       "category": "seizure",
       "filename": "MOJ-Seizure-2025-Q4-Part1.csv",
@@ -4418,7 +4450,7 @@
       "notes": null
     },
     {
-      "id": 277,
+      "id": 279,
       "source": "MOJ",
       "category": "seizure",
       "filename": "MOJ-Seizure-2025-Q4-Part2.csv",
@@ -4434,7 +4466,7 @@
       "notes": null
     },
     {
-      "id": 278,
+      "id": 280,
       "source": "MOJ",
       "category": "transfer_ownership",
       "filename": "MOJ-Transfer-Ownership-2025-Q1.csv",
@@ -4450,7 +4482,7 @@
       "notes": null
     },
     {
-      "id": 279,
+      "id": 281,
       "source": "MOJ",
       "category": "transfer_ownership",
       "filename": "MOJ-Transfer-Ownership-2025-Q2.csv",
@@ -4466,7 +4498,7 @@
       "notes": null
     },
     {
-      "id": 280,
+      "id": 282,
       "source": "MOJ",
       "category": "transfer_ownership",
       "filename": "MOJ-Transfer-Ownership-2025-Q3.csv",
@@ -4482,7 +4514,7 @@
       "notes": null
     },
     {
-      "id": 281,
+      "id": 283,
       "source": "MOJ",
       "category": "transfer_ownership",
       "filename": "MOJ-Transfer-Ownership-2025-Q4.csv",
@@ -4498,7 +4530,7 @@
       "notes": null
     },
     {
-      "id": 282,
+      "id": 284,
       "source": "MOJ",
       "category": "transfer_will_no_ownership",
       "filename": "MOJ-Transfer-Will-No-Ownership-2025-Q3.csv",
@@ -4514,7 +4546,7 @@
       "notes": null
     },
     {
-      "id": 283,
+      "id": 285,
       "source": "MOJ",
       "category": "transfer_will_no_ownership",
       "filename": "MOJ-Transfer-Will-No-Ownership-2025-Q4.csv",
@@ -4530,7 +4562,7 @@
       "notes": null
     },
     {
-      "id": 284,
+      "id": 286,
       "source": "MOJ",
       "category": "transfer",
       "filename": "MOJ-Transfers-2025-Q1.csv",
@@ -4546,7 +4578,7 @@
       "notes": null
     },
     {
-      "id": 285,
+      "id": 287,
       "source": "MOJ",
       "category": "transfer",
       "filename": "MOJ-Transfers-2025-Q2.csv",
@@ -4562,12 +4594,12 @@
       "notes": null
     },
     {
-      "id": 286,
+      "id": 288,
       "source": "MOJ",
       "category": "transfer",
       "filename": "MOJ-Transfers-2025-Q3.csv",
       "path": "moj/real-estate/MOJ-Transfers-2025-Q3.csv",
-      "file_size": 27817897,
+      "file_size": 26884014,
       "row_count": 233469,
       "col_count": 6,
       "encoding": "utf-8-sig",
@@ -4578,7 +4610,7 @@
       "notes": null
     },
     {
-      "id": 287,
+      "id": 289,
       "source": "MOJ",
       "category": "transfer",
       "filename": "MOJ-Transfers-2025-Q4.csv",
@@ -4594,7 +4626,7 @@
       "notes": null
     },
     {
-      "id": 288,
+      "id": 290,
       "source": "MOJ",
       "category": "update_deed",
       "filename": "MOJ-Update-Deed-2025-Q1.csv",
@@ -4610,7 +4642,7 @@
       "notes": null
     },
     {
-      "id": 289,
+      "id": 291,
       "source": "MOJ",
       "category": "update_deed",
       "filename": "MOJ-Update-Deed-2025-Q2.csv",
@@ -4626,7 +4658,7 @@
       "notes": null
     },
     {
-      "id": 290,
+      "id": 292,
       "source": "MOJ",
       "category": "update_deed",
       "filename": "MOJ-Update-Deed-2025-Q3.csv",
@@ -4642,7 +4674,7 @@
       "notes": null
     },
     {
-      "id": 291,
+      "id": 293,
       "source": "MOJ",
       "category": "update_deed",
       "filename": "MOJ-Update-Deed-2025-Q4.csv",
@@ -4658,7 +4690,7 @@
       "notes": null
     },
     {
-      "id": 292,
+      "id": 294,
       "source": "MOJ",
       "category": "update_old_deed",
       "filename": "MOJ-Update-Old-Deed-2025-Q1.csv",
@@ -4674,7 +4706,7 @@
       "notes": null
     },
     {
-      "id": 293,
+      "id": 295,
       "source": "MOJ",
       "category": "update_old_deed",
       "filename": "MOJ-Update-Old-Deed-2025-Q2.csv",
@@ -4690,7 +4722,7 @@
       "notes": null
     },
     {
-      "id": 294,
+      "id": 296,
       "source": "MOJ",
       "category": "update_old_deed",
       "filename": "MOJ-Update-Old-Deed-2025-Q3.csv",
@@ -4706,7 +4738,7 @@
       "notes": null
     },
     {
-      "id": 295,
+      "id": 297,
       "source": "MOJ",
       "category": "update_old_deed",
       "filename": "MOJ-Update-Old-Deed-2025-Q4.csv",
@@ -4722,12 +4754,12 @@
       "notes": null
     },
     {
-      "id": 296,
+      "id": 298,
       "source": "GASTAT",
       "category": "repi",
       "filename": "REPI-2023-Q4.csv",
       "path": "gastat/REPI-2023-Q4.csv",
-      "file_size": 2375,
+      "file_size": 3479,
       "row_count": 25,
       "col_count": 13,
       "encoding": "utf-8-sig",
@@ -4738,7 +4770,7 @@
       "notes": null
     },
     {
-      "id": 297,
+      "id": 299,
       "source": "GASTAT",
       "category": "repi",
       "filename": "REPI-2024-Q1.csv",
@@ -4754,7 +4786,7 @@
       "notes": null
     },
     {
-      "id": 298,
+      "id": 300,
       "source": "GASTAT",
       "category": "repi",
       "filename": "REPI-2024-Q2.csv",
@@ -4770,7 +4802,7 @@
       "notes": null
     },
     {
-      "id": 299,
+      "id": 301,
       "source": "GASTAT",
       "category": "repi",
       "filename": "REPI-2024-Q3.csv",
@@ -4786,7 +4818,7 @@
       "notes": null
     },
     {
-      "id": 300,
+      "id": 302,
       "source": "GASTAT",
       "category": "repi",
       "filename": "REPI-2024-Q4.csv",
@@ -4802,7 +4834,7 @@
       "notes": null
     },
     {
-      "id": 301,
+      "id": 303,
       "source": "GASTAT",
       "category": "repi",
       "filename": "REPI-2025-Q1.csv",
@@ -4818,7 +4850,7 @@
       "notes": null
     },
     {
-      "id": 302,
+      "id": 304,
       "source": "GASTAT",
       "category": "repi",
       "filename": "REPI-2025-Q2.csv",
@@ -4834,7 +4866,7 @@
       "notes": null
     },
     {
-      "id": 303,
+      "id": 305,
       "source": "GASTAT",
       "category": "repi",
       "filename": "REPI-2025-Q3.csv",
@@ -4850,7 +4882,7 @@
       "notes": null
     },
     {
-      "id": 304,
+      "id": 306,
       "source": "REGA",
       "category": "gender_stats",
       "filename": "Registered-Real-Estate-by-Gender-2024.csv",
@@ -4866,7 +4898,7 @@
       "notes": null
     },
     {
-      "id": 305,
+      "id": 307,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-for-Cities-in-Riyadh-region.csv",
@@ -4882,7 +4914,7 @@
       "notes": null
     },
     {
-      "id": 306,
+      "id": 308,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-for-cities-Asir-region.csv",
@@ -4898,7 +4930,7 @@
       "notes": null
     },
     {
-      "id": 307,
+      "id": 309,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-for-cities-in-Al-Baha-region.csv",
@@ -4914,7 +4946,7 @@
       "notes": null
     },
     {
-      "id": 308,
+      "id": 310,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-for-cities-in-Al-jawf-region.csv",
@@ -4930,7 +4962,7 @@
       "notes": null
     },
     {
-      "id": 309,
+      "id": 311,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-for-cities-in-Eastern-Province.csv",
@@ -4946,7 +4978,7 @@
       "notes": null
     },
     {
-      "id": 310,
+      "id": 312,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-for-cities-in-Hail-region.csv",
@@ -4962,7 +4994,7 @@
       "notes": null
     },
     {
-      "id": 311,
+      "id": 313,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-for-cities-in-Jazan-region.csv",
@@ -4978,7 +5010,7 @@
       "notes": null
     },
     {
-      "id": 312,
+      "id": 314,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-for-cities-in-Madinah-region.csv",
@@ -4994,12 +5026,12 @@
       "notes": null
     },
     {
-      "id": 313,
+      "id": 315,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-for-cities-in-Makkah-region.csv",
       "path": "rega/Rental-indicators-for-cities-in-Makkah-region.csv",
-      "file_size": 161826,
+      "file_size": 162472,
       "row_count": 2066,
       "col_count": 7,
       "encoding": "utf-8-sig",
@@ -5010,7 +5042,7 @@
       "notes": null
     },
     {
-      "id": 314,
+      "id": 316,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-for-cities-in-N-B-region.csv",
@@ -5026,7 +5058,7 @@
       "notes": null
     },
     {
-      "id": 315,
+      "id": 317,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-for-cities-in-Najran-region.csv",
@@ -5042,7 +5074,7 @@
       "notes": null
     },
     {
-      "id": 316,
+      "id": 318,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-for-cities-in-Qassim-region.csv",
@@ -5058,7 +5090,7 @@
       "notes": null
     },
     {
-      "id": 317,
+      "id": 319,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-for-cities-in-Tabuk-region.csv",
@@ -5074,7 +5106,7 @@
       "notes": null
     },
     {
-      "id": 318,
+      "id": 320,
       "source": "SAMA",
       "category": "money_banking",
       "filename": "SAMA-Table-12e.csv",
@@ -5090,7 +5122,7 @@
       "notes": null
     },
     {
-      "id": 319,
+      "id": 321,
       "source": "SAMA",
       "category": "money_banking",
       "filename": "SAMA-Table-12f.csv",
@@ -5106,7 +5138,7 @@
       "notes": null
     },
     {
-      "id": 320,
+      "id": 322,
       "source": "SAMA",
       "category": "finance_companies",
       "filename": "SAMA-Table-2_1.csv",
@@ -5122,7 +5154,7 @@
       "notes": null
     },
     {
-      "id": 321,
+      "id": 323,
       "source": "SAMA",
       "category": "finance_companies",
       "filename": "SAMA-Table-2_3.csv",
@@ -5138,7 +5170,7 @@
       "notes": null
     },
     {
-      "id": 322,
+      "id": 324,
       "source": "SAMA",
       "category": "finance_companies",
       "filename": "SAMA-Table-2_4.csv",
@@ -5154,7 +5186,7 @@
       "notes": null
     },
     {
-      "id": 323,
+      "id": 325,
       "source": "SAMA",
       "category": "finance_companies",
       "filename": "SAMA-Table-2_7.csv",
@@ -5170,7 +5202,7 @@
       "notes": null
     },
     {
-      "id": 324,
+      "id": 326,
       "source": "SAMA",
       "category": "gov_credit_institutions",
       "filename": "SAMA-Table-4_2.csv",
@@ -5186,7 +5218,7 @@
       "notes": null
     },
     {
-      "id": 325,
+      "id": 327,
       "source": "SAMA",
       "category": "gov_credit_institutions",
       "filename": "SAMA-Table-4_3.csv",
@@ -5202,7 +5234,7 @@
       "notes": null
     },
     {
-      "id": 326,
+      "id": 328,
       "source": "SAMA",
       "category": "price_indices",
       "filename": "SAMA-Table-8_1.csv",
@@ -5218,7 +5250,7 @@
       "notes": null
     },
     {
-      "id": 327,
+      "id": 329,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-EP-1st-Q-2025.csv",
@@ -5234,7 +5266,7 @@
       "notes": null
     },
     {
-      "id": 328,
+      "id": 330,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-EP-2nd-Q-2025.csv",
@@ -5250,12 +5282,12 @@
       "notes": null
     },
     {
-      "id": 329,
+      "id": 331,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-EP-3rd-Q-2025.csv",
       "path": "rega/Sales-transaction-indicators-in-EP-3rd-Q-2025.csv",
-      "file_size": 88440,
+      "file_size": 72784,
       "row_count": 599,
       "col_count": 14,
       "encoding": "utf-8-sig",
@@ -5266,7 +5298,7 @@
       "notes": null
     },
     {
-      "id": 330,
+      "id": 332,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Hail-1st-Q-2025.csv",
@@ -5282,7 +5314,7 @@
       "notes": null
     },
     {
-      "id": 331,
+      "id": 333,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Hail-2nd-Q-2025.csv",
@@ -5298,12 +5330,12 @@
       "notes": null
     },
     {
-      "id": 332,
+      "id": 334,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Hail-3rd-Q-2025.csv",
       "path": "rega/Sales-transaction-indicators-in-Hail-3rd-Q-2025.csv",
-      "file_size": 12119,
+      "file_size": 12258,
       "row_count": 103,
       "col_count": 14,
       "encoding": "utf-8-sig",
@@ -5314,12 +5346,12 @@
       "notes": null
     },
     {
-      "id": 333,
+      "id": 335,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Madinah-1stQ-2024.csv",
       "path": "rega/Sales-transaction-indicators-in-Madinah-1stQ-2024.csv",
-      "file_size": 34424,
+      "file_size": 34839,
       "row_count": 201,
       "col_count": 14,
       "encoding": "utf-8-sig",
@@ -5330,7 +5362,7 @@
       "notes": null
     },
     {
-      "id": 334,
+      "id": 336,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Madinah-3rdQ-2024.csv",
@@ -5346,7 +5378,7 @@
       "notes": null
     },
     {
-      "id": 335,
+      "id": 337,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Madinah-4th-Q-2024.csv",
@@ -5362,12 +5394,12 @@
       "notes": null
     },
     {
-      "id": 336,
+      "id": 338,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Madinah-Q2-2024.csv",
       "path": "rega/Sales-transaction-indicators-in-Madinah-Q2-2024.csv",
-      "file_size": 33486,
+      "file_size": 33862,
       "row_count": 194,
       "col_count": 14,
       "encoding": "utf-8-sig",
@@ -5378,7 +5410,7 @@
       "notes": null
     },
     {
-      "id": 337,
+      "id": 339,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Makkah-1st-Q-2024.csv",
@@ -5394,7 +5426,7 @@
       "notes": null
     },
     {
-      "id": 338,
+      "id": 340,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Makkah-1st-Q-2025.csv",
@@ -5410,7 +5442,7 @@
       "notes": null
     },
     {
-      "id": 339,
+      "id": 341,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Makkah-2nd-Q-2024.csv",
@@ -5426,7 +5458,7 @@
       "notes": null
     },
     {
-      "id": 340,
+      "id": 342,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Makkah-2nd-Q-2025.csv",
@@ -5442,12 +5474,12 @@
       "notes": null
     },
     {
-      "id": 341,
+      "id": 343,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Makkah-3rd-Q-2024.csv",
       "path": "rega/Sales-transaction-indicators-in-Makkah-3rd-Q-2024.csv",
-      "file_size": 64364,
+      "file_size": 65722,
       "row_count": 434,
       "col_count": 14,
       "encoding": "utf-8-sig",
@@ -5458,7 +5490,7 @@
       "notes": null
     },
     {
-      "id": 342,
+      "id": 344,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Makkah-3rd-Q-2025.csv",
@@ -5474,7 +5506,7 @@
       "notes": null
     },
     {
-      "id": 343,
+      "id": 345,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Makkah-4th-Q-2024.csv",
@@ -5490,7 +5522,7 @@
       "notes": null
     },
     {
-      "id": 344,
+      "id": 346,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Riyadh-1st-Q-2024.csv",
@@ -5506,7 +5538,7 @@
       "notes": null
     },
     {
-      "id": 345,
+      "id": 347,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Riyadh-2nd-Q-2024.csv",
@@ -5522,12 +5554,12 @@
       "notes": null
     },
     {
-      "id": 346,
+      "id": 348,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Riyadh-2nd-Q-2025.csv",
       "path": "rega/Sales-transaction-indicators-in-Riyadh-2nd-Q-2025.csv",
-      "file_size": 313998,
+      "file_size": 319405,
       "row_count": 2492,
       "col_count": 14,
       "encoding": "utf-8-sig",
@@ -5538,12 +5570,12 @@
       "notes": null
     },
     {
-      "id": 347,
+      "id": 349,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Riyadh-3rd-Q-2025.csv",
       "path": "rega/Sales-transaction-indicators-in-Riyadh-3rd-Q-2025.csv",
-      "file_size": 112611,
+      "file_size": 114785,
       "row_count": 890,
       "col_count": 14,
       "encoding": "utf-8-sig",
@@ -5554,7 +5586,7 @@
       "notes": null
     },
     {
-      "id": 348,
+      "id": 350,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Riyadh-3rdQ-2024.csv",
@@ -5570,7 +5602,7 @@
       "notes": null
     },
     {
-      "id": 349,
+      "id": 351,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Riyadh-4th-Q-2024.csv",
@@ -5586,12 +5618,12 @@
       "notes": null
     },
     {
-      "id": 350,
+      "id": 352,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Riyadh-Q1-2025.csv",
       "path": "rega/Sales-transaction-indicators-in-Riyadh-Q1-2025.csv",
-      "file_size": 364478,
+      "file_size": 372201,
       "row_count": 2903,
       "col_count": 14,
       "encoding": "utf-8-sig",
@@ -5602,12 +5634,12 @@
       "notes": null
     },
     {
-      "id": 351,
+      "id": 353,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-albaha-1st-Q-2025.csv",
       "path": "rega/Sales-transaction-indicators-in-albaha-1st-Q-2025.csv",
-      "file_size": 6777,
+      "file_size": 6847,
       "row_count": 61,
       "col_count": 14,
       "encoding": "utf-8-sig",
@@ -5618,7 +5650,7 @@
       "notes": null
     },
     {
-      "id": 352,
+      "id": 354,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-albaha-2nd-Q-2025.csv",
@@ -5634,12 +5666,12 @@
       "notes": null
     },
     {
-      "id": 353,
+      "id": 355,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-albaha-3rd-Q-2025.csv",
       "path": "rega/Sales-transaction-indicators-in-albaha-3rd-Q-2025.csv",
-      "file_size": 2609,
+      "file_size": 2643,
       "row_count": 21,
       "col_count": 14,
       "encoding": "utf-8-sig",
@@ -5650,7 +5682,7 @@
       "notes": null
     },
     {
-      "id": 354,
+      "id": 356,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-the-EP-2nd-Q-2024.csv",
@@ -5666,7 +5698,7 @@
       "notes": null
     },
     {
-      "id": 355,
+      "id": 357,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-the-EP-3rd-Q-2024.csv",
@@ -5682,7 +5714,7 @@
       "notes": null
     },
     {
-      "id": 356,
+      "id": 358,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-the-EP-4th-Q-2024.csv",
@@ -5698,7 +5730,7 @@
       "notes": null
     },
     {
-      "id": 357,
+      "id": 359,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-the-EP-Q-2024.csv",
@@ -5714,7 +5746,7 @@
       "notes": null
     },
     {
-      "id": 358,
+      "id": 360,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "known_permit_resources.csv.gz",
@@ -5730,7 +5762,7 @@
       "notes": null
     },
     {
-      "id": 359,
+      "id": 361,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "permits_aggregate.csv.gz",
@@ -5746,7 +5778,7 @@
       "notes": null
     },
     {
-      "id": 360,
+      "id": 362,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "permits_historical.csv.gz",
@@ -5762,7 +5794,7 @@
       "notes": null
     },
     {
-      "id": 361,
+      "id": 363,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "permits_raw.csv.gz",
@@ -5778,7 +5810,7 @@
       "notes": null
     },
     {
-      "id": 362,
+      "id": 364,
       "source": "REGA",
       "category": "consolidated",
       "filename": "quarter-report-SI.csv",
@@ -5794,7 +5826,7 @@
       "notes": null
     },
     {
-      "id": 363,
+      "id": 365,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "rega_annual_metrics.csv.gz",
@@ -5810,7 +5842,7 @@
       "notes": null
     },
     {
-      "id": 364,
+      "id": 366,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "rega_bulletin_timeseries.csv",
@@ -5826,7 +5858,7 @@
       "notes": null
     },
     {
-      "id": 365,
+      "id": 367,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "subdivisions_aggregate.csv.gz",
