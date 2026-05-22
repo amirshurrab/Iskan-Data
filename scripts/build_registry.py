@@ -108,11 +108,14 @@ CLASSIFICATION_RULES = [
     (r"KAPSARC-Construction-Cost-Index\.csv", "KAPSARC", "construction_cost_index"),
     (r"KAPSARC-Building-Permits\.csv", "KAPSARC", "building_permits"),
     # SAMA — Saudi Central Bank (money, banking, finance)
-    (r"SAMA-Table-12[ef]\.csv", "SAMA", "money_banking"),
+    (r"SAMA-Table-12[def]\.csv", "SAMA", "money_banking"),
     (r"SAMA-Table-2_[1347]\.csv", "SAMA", "finance_companies"),
     (r"SAMA-Table-4_[23]\.csv", "SAMA", "gov_credit_institutions"),
     (r"SAMA-Table-8_1\.csv", "SAMA", "price_indices"),
     (r"SAMA-Table-.*\.csv", "SAMA", "other"),  # fallback
+    # CMA — Capital Market Authority (investment funds, REITs, AUM)
+    (r"Table7-NumberOfPublicFunds-.*\.csv", "CMA", "public_funds_count"),
+    (r"Table20-PublicFundsAUM-.*\.csv", "CMA", "public_funds_aum"),
 ]
 
 # ── Arabic → canonical English mapping ───────────────────────────────

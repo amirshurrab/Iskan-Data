@@ -12,6 +12,61 @@ Format: date-based versions. Each entry lists new data added, corrections, and d
 
 ---
 
+## 2026-05-23 — REGA Q1-Q4 2025 quarterlies + CMA funds tier + SAMA Table 12d
+
+### Data
+
+- **REGA — 99 new quarterly indicator files** under a new
+  `rega/quarterlies/` subdirectory:
+  - `rega/quarterlies/rental/` — 52 rental-indicator files covering
+    all 13 regions × 4 quarters of 2025. District-level (الحي)
+    granularity with average rent + average rent per sqm.
+  - `rega/quarterlies/sales/` — 78 sales-transaction-indicator files
+    (31 existing files relocated from `rega/` root, plus 47 new
+    covering 2024–Q1 2026). Adds Q4 2025 quarterly results for all
+    regions and the first Q1 2026 reads.
+  - Sourced via the Saudi Open Data Portal API; full enumeration of
+    REGA's 148 published datasets identified 99 not previously in
+    this release.
+  - 4 portal stubs (zero-row files for EP Q3 2025, EP Q4 2025,
+    Madinah Q2 2024, "the EP Q 2024") were excluded — the public
+    repo already carries populated versions of three of those
+    datasets and clobbering them would have dropped 965 rows.
+
+- **CMA — new `cma/portal/` directory** (first appearance of Capital
+  Market Authority data in this release):
+  - `Table7-NumberOfPublicFunds-byType-2007-2024.csv` — annual count
+    of public funds by type. The REITs column traces the sector's
+    introduction: 0 (2007–2015) → 1 (2016) → 20 (2024).
+  - `Table20-PublicFundsAUM-byType-2013H1-2021Q2.csv` — AUM by fund
+    type, semi-annual then quarterly. CMA stopped publishing this
+    series to its open-data portal in Q3 2021; later AUM data
+    requires Tadawul direct.
+
+- **SAMA — `sama/SAMA-Table-12d.csv`** (Bank Credit Classified by
+  Economic Activity, monthly 2018→2025). Promoted to the top-level
+  `sama/` tier alongside the existing 12e and 12f tables. Bilingual
+  AR/EN, 18 economic sectors with an explicit "Real Estate
+  Activities" column.
+
+### Infrastructure
+
+- `scripts/build_registry.py`: expanded SAMA-Table-12[ef] match to
+  12[def] for 12d; added two CMA classification rules
+  (`public_funds_count` and `public_funds_aum`).
+
+- Registry rebuilt: 605 files indexed (was 503; +102 = 99 REGA +
+  2 CMA + 1 SAMA Table 12d).
+
+### Notes
+
+- Existing public files at `rega/` root that match the
+  `Rental-indicators-for-cities-*` pattern (13 cumulative
+  city-level rental files) were left in place; only the quarterly
+  sales series was relocated under `rega/quarterlies/`.
+
+---
+
 ## 2026-05-22 — Saudi Building Permits Dataset (first release)
 
 ### Data
