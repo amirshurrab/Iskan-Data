@@ -12,6 +12,54 @@ Format: date-based versions. Each entry lists new data added, corrections, and d
 
 ---
 
+## 2026-05-22 — Saudi Building Permits Dataset (first release)
+
+### Data
+- **New `data/permits/` directory** — first release of the consolidated
+  Saudi building permits dataset. Supply-side counterpart to the
+  existing transaction data in `rega/`.
+- **`data/permits/csv/`** — 6 gzip-compressed CSVs (17 MB compressed,
+  ~192 MB plain):
+  - `permits_raw.csv.gz` — 191,063 per-permit records (1971–2026)
+    from 14 amana publishers + KAPSARC
+  - `permits_aggregate.csv.gz` — 16,591 quarterly/annual rollups
+    (2014–2025)
+  - `permits_historical.csv.gz` — 14,276 rows of KAPSARC's 33-year
+    cross-region series (1987–2019, 14 regions × 8 building types × 6
+    indicators)
+  - `subdivisions_aggregate.csv.gz` — 215 subdivision plot creations
+    (land-development pipeline indicator)
+  - `known_permit_resources.csv.gz` — 113 source resources audited
+    (provenance + parser detection state)
+  - `rega_annual_metrics.csv.gz` — 24 hand-verified headline metrics
+    from REGA Annual Reports (2018–2024): Wafi off-plan licenses,
+    practitioner counts, platform adoption, rental contract figures
+- **`data/permits/pdfs/`** — 7 REGA Annual Report PDFs (2018–2024, 49 MB
+  total) cached as sources for `rega_annual_metrics`.
+
+### Sources
+- Saudi Open Data Portal — 14 amana publishers (Riyadh, Eastern
+  Province, Madinah, Makkah, Qassim, Asir, Tabuk, Hail, Northern
+  Borders, Jazan, Najran, Al Bahah, Al Jouf, Sakaka) + KAPSARC.
+- KAPSARC 1987–2019 historical series.
+- alriyadh.gov.sa Riyadh municipality 2024 weekly permit summaries.
+- REGA Annual Reports 2018–2024 (`rega.gov.sa`).
+
+### Documentation
+- New `data/permits/README.md` with full schema, sources, use cases,
+  and limitations across all six tables.
+- New `docs/release-notes-v2026-05-22.md`.
+
+### Known limitations
+- 48,605 `permits_raw` rows have NULL `issued_date` (month-bucket
+  aggregates from upstream).
+- Riyadh has a 2020–2023 coverage gap on the Saudi Open Data portal.
+- 2 rows show `year=2064` (Hijri/Gregorian transcription errors).
+- `permits_aggregate` and `permits_raw` can double-count if joined
+  naively — pick one per (region, period) query.
+
+---
+
 ## 2026-04-30 — Patch: corrected January 2026 bulletin timeseries
 
 ### Corrections
