@@ -364,7 +364,13 @@ def discover_csvs() -> list[Path]:
             if rel in EXCLUDED_FILES:
                 continue
             csvs.append(path)
-    csvs.sort(key=lambda p: p.name)
+    # Sort by full relative path (POSIX-style) so order is deterministic
+    # across platforms even when basenames collide (Phase B multi-sheet
+    # dirs introduced 6× repeats of names like `سلسلة_التغير_الربعي.csv`,
+    # `مدينة جدة.csv`, `Report.csv`, `METADATA.csv`). Sorting by basename
+    # alone leaks OS-dependent os.walk tie-break order into the AUTO-
+    # INCREMENT IDs in the registry, causing every CI rebuild to drift.
+    csvs.sort(key=lambda p: p.relative_to(BASE_DIR).as_posix())
     return csvs
 
 
