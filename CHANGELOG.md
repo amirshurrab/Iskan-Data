@@ -12,6 +12,68 @@ Format: date-based versions. Each entry lists new data added, corrections, and d
 
 ---
 
+## 2026-08-19 — Correct two mislabelled MOJ file sets
+
+No new data. Two names in `moj/` asserted things the bytes underneath them
+did not support; both are now fixed at the source rather than annotated.
+
+### Corrections
+
+- **Removed `moj/real-estate/MOJ-Ownership-Men-2025-Q{1,2,3}.csv`.** They were
+  not men's data. Each is byte-identical to the women's file for the same
+  quarter — same SHA-1, same header (`عدد الملاك النساء`, `نسبة تملك النساء`),
+  same rows:
+
+  | file | blob | identical to |
+  |---|---|---|
+  | `MOJ-Ownership-Men-2025-Q1.csv` | `53ac00e20a…` | `MOJ-Ownership-Rate-Women-2025-Q1.csv` |
+  | `MOJ-Ownership-Men-2025-Q2.csv` | `8a47733c8d…` | `MOJ-Ownership-Rate-Women-2025-Q2.csv` |
+  | `MOJ-Ownership-Men-2025-Q3.csv` | `8ee22fba34…` | `MOJ-Ownership-Rate-Women-2025-Q3.csv` |
+
+  No data is lost: real men's figures are in
+  `MOJ-Ownership-Rate-Men-2025-Q{1,2,3,4}.csv`, which are distinct files with
+  the male columns (`عدد الملاك الرجال`, `نسبة تملك الرجال`). For a given city
+  and quarter the two rates sum to 100% — Al-Baha city, 2025 Q1: 42 men
+  (85.71%) against 7 women (14.29%).
+
+- **Renamed `moj/sales/MOJ-Sales-2025-Q2.csv` →
+  `moj/sales/MOJ-Sales-2024-Q2-Partial-Snapshot.csv`.** Every row's
+  `تاريخ الصفقة ميلادي` falls in 2024/04–2024/06, and 47,211 of its 47,518
+  `الرقم المرجعي للصفقة` values (99.4%) also appear in
+  `MOJ-Sales-2024-Q2.csv`. It is a second, smaller snapshot of a quarter this
+  repo already covers in full. 2025 Q2 sales are therefore **not** in this
+  release; `MOJ-Sales-2024-Q2.csv` remains authoritative for 2024 Q2.
+
+### Tooling
+
+- `scripts/build_registry.py` — new `sales_partial_snapshot` classification
+  rule, placed ahead of the plain sales rule because `classify_file` uses
+  `re.match` and the plain pattern's trailing `\.csv` would otherwise leave a
+  suffixed name unclassified. The `MOJ-Ownership-Men-*` rule is kept as a
+  defensive classifier in case MOJ later publishes a genuinely male file
+  under that name.
+
+### Documentation
+
+- `docs/MOJ-DATA.md` — sales inventory row corrected (the file holds 47,518
+  rows / 6.2 MB, not the 42,518 / 5.4 MB recorded) and moved under 2024 Q2
+  with a footnote; the "Ownership Men" category row and its schema table,
+  which listed female columns under a male heading, replaced by parallel
+  men's and women's entries.
+- `docs/ASSET_TYPE_AUDIT.md`, `docs/PROPERTY_IDENTITY_AUDIT.md` — references
+  to the removed files repointed at the `Ownership-Rate-*` sets.
+- `docs/SURVEY_REPORT.md` is left as written: it is a dated March-2026 survey
+  artifact, not a live index.
+
+### Registry
+
+- `data/registry_{files,fields,enums,samples,field_aliases}.csv`,
+  `data/registry.json`, `data/schema.json` regenerated: 605 → 602 files.
+  Most of the diff is `id` renumbering after the three removals.
+  `scripts/validate_release.py` passes with 0 errors, 0 warnings.
+
+---
+
 ## 2026-05-23 — REGA Q1-Q4 2025 quarterlies + CMA funds tier + SAMA Table 12d
 
 ### Data

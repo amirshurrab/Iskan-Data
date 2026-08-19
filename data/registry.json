@@ -3380,54 +3380,6 @@
     {
       "id": 212,
       "source": "MOJ",
-      "category": "ownership_men",
-      "filename": "MOJ-Ownership-Men-2025-Q1.csv",
-      "path": "moj/real-estate/MOJ-Ownership-Men-2025-Q1.csv",
-      "file_size": 10579,
-      "row_count": 136,
-      "col_count": 6,
-      "encoding": "utf-8-sig",
-      "has_bom": 1,
-      "date_range_start": "2025.0",
-      "date_range_end": "2025.0",
-      "region_coverage": "[\"منطقة الباحة\", \"منطقة الجوف\", \"منطقة الحدود الشمالية\", \"منطقة الرياض\", \"منطقة الشرقية\", \"منطقة القصيم\", \"منطقة المدينة المنوره\", \"منطقة تبوك\", \"منطقة جازان\", \"منطقة حائل\", \"منطقة عسير\", \"منطقة مكة المكرمه\", \"منطقة نجران\"]",
-      "notes": null
-    },
-    {
-      "id": 213,
-      "source": "MOJ",
-      "category": "ownership_men",
-      "filename": "MOJ-Ownership-Men-2025-Q2.csv",
-      "path": "moj/real-estate/MOJ-Ownership-Men-2025-Q2.csv",
-      "file_size": 11233,
-      "row_count": 141,
-      "col_count": 6,
-      "encoding": "utf-8-sig",
-      "has_bom": 1,
-      "date_range_start": "2025.0",
-      "date_range_end": "2025.0",
-      "region_coverage": "[\"منطقة الباحة\", \"منطقة الجوف\", \"منطقة الحدود الشمالية\", \"منطقة الرياض\", \"منطقة الشرقية\", \"منطقة القصيم\", \"منطقة المدينة المنوره\", \"منطقة تبوك\", \"منطقة جازان\", \"منطقة حائل\", \"منطقة عسير\", \"منطقة مكة المكرمه\", \"منطقة نجران\"]",
-      "notes": null
-    },
-    {
-      "id": 214,
-      "source": "MOJ",
-      "category": "ownership_men",
-      "filename": "MOJ-Ownership-Men-2025-Q3.csv",
-      "path": "moj/real-estate/MOJ-Ownership-Men-2025-Q3.csv",
-      "file_size": 11089,
-      "row_count": 139,
-      "col_count": 6,
-      "encoding": "utf-8-sig",
-      "has_bom": 1,
-      "date_range_start": "2025.0",
-      "date_range_end": "2025.0",
-      "region_coverage": "[\"منطقة الباحة\", \"منطقة الجوف\", \"منطقة الحدود الشمالية\", \"منطقة الرياض\", \"منطقة الشرقية\", \"منطقة القصيم\", \"منطقة المدينة المنوره\", \"منطقة تبوك\", \"منطقة جازان\", \"منطقة حائل\", \"منطقة عسير\", \"منطقة مكة المكرمه\", \"منطقة نجران\"]",
-      "notes": null
-    },
-    {
-      "id": 215,
-      "source": "MOJ",
       "category": "ownership_rate_men",
       "filename": "MOJ-Ownership-Rate-Men-2025-Q1.csv",
       "path": "moj/real-estate/MOJ-Ownership-Rate-Men-2025-Q1.csv",
@@ -3442,7 +3394,7 @@
       "notes": null
     },
     {
-      "id": 216,
+      "id": 213,
       "source": "MOJ",
       "category": "ownership_rate_men",
       "filename": "MOJ-Ownership-Rate-Men-2025-Q2.csv",
@@ -3458,7 +3410,7 @@
       "notes": null
     },
     {
-      "id": 217,
+      "id": 214,
       "source": "MOJ",
       "category": "ownership_rate_men",
       "filename": "MOJ-Ownership-Rate-Men-2025-Q3.csv",
@@ -3474,7 +3426,7 @@
       "notes": null
     },
     {
-      "id": 218,
+      "id": 215,
       "source": "MOJ",
       "category": "ownership_rate_men",
       "filename": "MOJ-Ownership-Rate-Men-2025-Q4.csv",
@@ -3490,7 +3442,7 @@
       "notes": null
     },
     {
-      "id": 219,
+      "id": 216,
       "source": "MOJ",
       "category": "ownership_rate_women",
       "filename": "MOJ-Ownership-Rate-Women-2025-Q1.csv",
@@ -3506,7 +3458,7 @@
       "notes": null
     },
     {
-      "id": 220,
+      "id": 217,
       "source": "MOJ",
       "category": "ownership_rate_women",
       "filename": "MOJ-Ownership-Rate-Women-2025-Q2.csv",
@@ -3522,7 +3474,7 @@
       "notes": null
     },
     {
-      "id": 221,
+      "id": 218,
       "source": "MOJ",
       "category": "ownership_rate_women",
       "filename": "MOJ-Ownership-Rate-Women-2025-Q3.csv",
@@ -3538,7 +3490,7 @@
       "notes": null
     },
     {
-      "id": 222,
+      "id": 219,
       "source": "MOJ",
       "category": "ownership_rate_women",
       "filename": "MOJ-Ownership-Rate-Women-2025-Q4.csv",
@@ -3554,7 +3506,7 @@
       "notes": null
     },
     {
-      "id": 223,
+      "id": 220,
       "source": "MOJ",
       "category": "poa_ejar",
       "filename": "MOJ-POA-Ejar-2025-Q1.csv",
@@ -3570,7 +3522,7 @@
       "notes": null
     },
     {
-      "id": 224,
+      "id": 221,
       "source": "MOJ",
       "category": "poa_ejar",
       "filename": "MOJ-POA-Ejar-2025-Q2.csv",
@@ -3586,7 +3538,7 @@
       "notes": null
     },
     {
-      "id": 225,
+      "id": 222,
       "source": "MOJ",
       "category": "poa_ejar",
       "filename": "MOJ-POA-Ejar-2025-Q3.csv",
@@ -3602,7 +3554,7 @@
       "notes": null
     },
     {
-      "id": 226,
+      "id": 223,
       "source": "MOJ",
       "category": "poa_ejar",
       "filename": "MOJ-POA-Ejar-2025-Q4.csv",
@@ -3618,7 +3570,7 @@
       "notes": null
     },
     {
-      "id": 227,
+      "id": 224,
       "source": "MOJ",
       "category": "poa_fund",
       "filename": "MOJ-POA-RE-Fund-2025-Q1.csv",
@@ -3634,7 +3586,7 @@
       "notes": null
     },
     {
-      "id": 228,
+      "id": 225,
       "source": "MOJ",
       "category": "poa_fund",
       "filename": "MOJ-POA-RE-Fund-2025-Q2.csv",
@@ -3650,7 +3602,7 @@
       "notes": null
     },
     {
-      "id": 229,
+      "id": 226,
       "source": "MOJ",
       "category": "poa_fund",
       "filename": "MOJ-POA-RE-Fund-2025-Q3.csv",
@@ -3666,7 +3618,7 @@
       "notes": null
     },
     {
-      "id": 230,
+      "id": 227,
       "source": "MOJ",
       "category": "poa_fund",
       "filename": "MOJ-POA-RE-Fund-2025-Q4.csv",
@@ -3682,7 +3634,7 @@
       "notes": null
     },
     {
-      "id": 231,
+      "id": 228,
       "source": "MOJ",
       "category": "poa",
       "filename": "MOJ-POA-RealEstate-2025-Q1.csv.gz",
@@ -3698,7 +3650,7 @@
       "notes": null
     },
     {
-      "id": 232,
+      "id": 229,
       "source": "MOJ",
       "category": "poa",
       "filename": "MOJ-POA-RealEstate-2025-Q2.csv.gz",
@@ -3714,7 +3666,7 @@
       "notes": null
     },
     {
-      "id": 233,
+      "id": 230,
       "source": "MOJ",
       "category": "poa",
       "filename": "MOJ-POA-RealEstate-2025-Q3.csv.gz",
@@ -3730,7 +3682,7 @@
       "notes": null
     },
     {
-      "id": 234,
+      "id": 231,
       "source": "MOJ",
       "category": "poa",
       "filename": "MOJ-POA-RealEstate-2025-Q4-Part1.csv.gz",
@@ -3746,7 +3698,7 @@
       "notes": null
     },
     {
-      "id": 235,
+      "id": 232,
       "source": "MOJ",
       "category": "poa",
       "filename": "MOJ-POA-RealEstate-2025-Q4-Part2.csv.gz",
@@ -3762,7 +3714,7 @@
       "notes": null
     },
     {
-      "id": 236,
+      "id": 233,
       "source": "MOJ",
       "category": "poa_white_land_fee",
       "filename": "MOJ-POA-WhiteLandFee-2025-Q1.csv",
@@ -3778,7 +3730,7 @@
       "notes": null
     },
     {
-      "id": 237,
+      "id": 234,
       "source": "MOJ",
       "category": "poa_white_land_fee",
       "filename": "MOJ-POA-WhiteLandFee-2025-Q2.csv",
@@ -3794,7 +3746,7 @@
       "notes": null
     },
     {
-      "id": 238,
+      "id": 235,
       "source": "MOJ",
       "category": "poa_white_land_fee",
       "filename": "MOJ-POA-WhiteLandFee-2025-Q3.csv",
@@ -3810,7 +3762,7 @@
       "notes": null
     },
     {
-      "id": 239,
+      "id": 236,
       "source": "MOJ",
       "category": "poa_white_land_fee",
       "filename": "MOJ-POA-WhiteLandFee-2025-Q4.csv",
@@ -3826,7 +3778,7 @@
       "notes": null
     },
     {
-      "id": 240,
+      "id": 237,
       "source": "MOJ",
       "category": "physical_reg",
       "filename": "MOJ-Physical-Registration-2025-Q1.csv.gz",
@@ -3842,7 +3794,7 @@
       "notes": null
     },
     {
-      "id": 241,
+      "id": 238,
       "source": "MOJ",
       "category": "physical_reg",
       "filename": "MOJ-Physical-Registration-2025-Q2.csv.gz",
@@ -3858,7 +3810,7 @@
       "notes": null
     },
     {
-      "id": 242,
+      "id": 239,
       "source": "MOJ",
       "category": "physical_reg",
       "filename": "MOJ-Physical-Registration-2025-Q3.csv.gz",
@@ -3874,7 +3826,7 @@
       "notes": null
     },
     {
-      "id": 243,
+      "id": 240,
       "source": "MOJ",
       "category": "physical_reg",
       "filename": "MOJ-Physical-Registration-2025-Q4.csv.gz",
@@ -3890,7 +3842,7 @@
       "notes": null
     },
     {
-      "id": 244,
+      "id": 241,
       "source": "MOJ",
       "category": "property_identity",
       "filename": "MOJ-Property-Identity-2025-Q1.csv",
@@ -3906,7 +3858,7 @@
       "notes": null
     },
     {
-      "id": 245,
+      "id": 242,
       "source": "MOJ",
       "category": "property_identity",
       "filename": "MOJ-Property-Identity-2025-Q3.csv",
@@ -3922,7 +3874,7 @@
       "notes": null
     },
     {
-      "id": 246,
+      "id": 243,
       "source": "MOJ",
       "category": "property_identity",
       "filename": "MOJ-Property-Identity-2025-Q4.csv",
@@ -3938,7 +3890,7 @@
       "notes": null
     },
     {
-      "id": 247,
+      "id": 244,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2024-M01.csv",
@@ -3954,7 +3906,7 @@
       "notes": null
     },
     {
-      "id": 248,
+      "id": 245,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2024-M02.csv",
@@ -3970,7 +3922,7 @@
       "notes": null
     },
     {
-      "id": 249,
+      "id": 246,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2024-M03.csv",
@@ -3986,7 +3938,7 @@
       "notes": null
     },
     {
-      "id": 250,
+      "id": 247,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2024-M04.csv",
@@ -4002,7 +3954,7 @@
       "notes": null
     },
     {
-      "id": 251,
+      "id": 248,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2024-M05.csv",
@@ -4018,7 +3970,7 @@
       "notes": null
     },
     {
-      "id": 252,
+      "id": 249,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2024-M06.csv",
@@ -4034,7 +3986,7 @@
       "notes": null
     },
     {
-      "id": 253,
+      "id": 250,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2024-M07.csv",
@@ -4050,7 +4002,7 @@
       "notes": null
     },
     {
-      "id": 254,
+      "id": 251,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2024-M08.csv",
@@ -4066,7 +4018,7 @@
       "notes": null
     },
     {
-      "id": 255,
+      "id": 252,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2024-M09.csv",
@@ -4082,7 +4034,7 @@
       "notes": null
     },
     {
-      "id": 256,
+      "id": 253,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2024-M10.csv",
@@ -4098,7 +4050,7 @@
       "notes": null
     },
     {
-      "id": 257,
+      "id": 254,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2024-M11.csv",
@@ -4114,7 +4066,7 @@
       "notes": null
     },
     {
-      "id": 258,
+      "id": 255,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2024-M12.csv",
@@ -4130,7 +4082,7 @@
       "notes": null
     },
     {
-      "id": 259,
+      "id": 256,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2025-M01.csv",
@@ -4146,7 +4098,7 @@
       "notes": null
     },
     {
-      "id": 260,
+      "id": 257,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2025-M02.csv",
@@ -4162,7 +4114,7 @@
       "notes": null
     },
     {
-      "id": 261,
+      "id": 258,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2025-M03.csv",
@@ -4178,7 +4130,7 @@
       "notes": null
     },
     {
-      "id": 262,
+      "id": 259,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2025-M04.csv",
@@ -4194,7 +4146,7 @@
       "notes": null
     },
     {
-      "id": 263,
+      "id": 260,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2025-M05.csv",
@@ -4210,7 +4162,7 @@
       "notes": null
     },
     {
-      "id": 264,
+      "id": 261,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2025-M06.csv",
@@ -4226,7 +4178,7 @@
       "notes": null
     },
     {
-      "id": 265,
+      "id": 262,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2025-M07.csv",
@@ -4242,7 +4194,7 @@
       "notes": null
     },
     {
-      "id": 266,
+      "id": 263,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2025-M08.csv",
@@ -4258,7 +4210,7 @@
       "notes": null
     },
     {
-      "id": 267,
+      "id": 264,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2025-M09.csv",
@@ -4274,7 +4226,7 @@
       "notes": null
     },
     {
-      "id": 268,
+      "id": 265,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2025-M10.csv",
@@ -4290,7 +4242,7 @@
       "notes": null
     },
     {
-      "id": 269,
+      "id": 266,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2025-M11.csv",
@@ -4306,7 +4258,7 @@
       "notes": null
     },
     {
-      "id": 270,
+      "id": 267,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2025-M12.csv",
@@ -4322,7 +4274,7 @@
       "notes": null
     },
     {
-      "id": 271,
+      "id": 268,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2025-Q1.csv",
@@ -4338,7 +4290,7 @@
       "notes": null
     },
     {
-      "id": 272,
+      "id": 269,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2025-Q2.csv.gz",
@@ -4354,7 +4306,7 @@
       "notes": null
     },
     {
-      "id": 273,
+      "id": 270,
       "source": "MOJ",
       "category": "operations",
       "filename": "MOJ-RE-Operations-2025-Q3.csv",
@@ -4370,7 +4322,7 @@
       "notes": null
     },
     {
-      "id": 274,
+      "id": 271,
       "source": "MOJ",
       "category": "register_no_deed",
       "filename": "MOJ-Register-No-Deed-2025-Q1.csv",
@@ -4386,7 +4338,7 @@
       "notes": null
     },
     {
-      "id": 275,
+      "id": 272,
       "source": "MOJ",
       "category": "register_no_deed",
       "filename": "MOJ-Register-No-Deed-2025-Q2.csv",
@@ -4402,7 +4354,7 @@
       "notes": null
     },
     {
-      "id": 276,
+      "id": 273,
       "source": "MOJ",
       "category": "register_no_deed",
       "filename": "MOJ-Register-No-Deed-2025-Q3.csv",
@@ -4418,7 +4370,7 @@
       "notes": null
     },
     {
-      "id": 277,
+      "id": 274,
       "source": "MOJ",
       "category": "register_no_deed",
       "filename": "MOJ-Register-No-Deed-2025-Q4.csv",
@@ -4434,7 +4386,7 @@
       "notes": null
     },
     {
-      "id": 278,
+      "id": 275,
       "source": "MOJ",
       "category": "register_old_deed",
       "filename": "MOJ-Register-Old-Deed-2025-Q1.csv",
@@ -4450,7 +4402,7 @@
       "notes": null
     },
     {
-      "id": 279,
+      "id": 276,
       "source": "MOJ",
       "category": "register_old_deed",
       "filename": "MOJ-Register-Old-Deed-2025-Q2.csv",
@@ -4466,7 +4418,7 @@
       "notes": null
     },
     {
-      "id": 280,
+      "id": 277,
       "source": "MOJ",
       "category": "register_old_deed",
       "filename": "MOJ-Register-Old-Deed-2025-Q3.csv",
@@ -4482,7 +4434,7 @@
       "notes": null
     },
     {
-      "id": 281,
+      "id": 278,
       "source": "MOJ",
       "category": "register_old_deed",
       "filename": "MOJ-Register-Old-Deed-2025-Q4.csv",
@@ -4498,7 +4450,7 @@
       "notes": null
     },
     {
-      "id": 282,
+      "id": 279,
       "source": "MOJ",
       "category": "release_seizure",
       "filename": "MOJ-Release-Seizure-2025-Q1.csv.gz",
@@ -4514,7 +4466,7 @@
       "notes": null
     },
     {
-      "id": 283,
+      "id": 280,
       "source": "MOJ",
       "category": "release_seizure",
       "filename": "MOJ-Release-Seizure-2025-Q2.csv.gz",
@@ -4530,7 +4482,7 @@
       "notes": null
     },
     {
-      "id": 284,
+      "id": 281,
       "source": "MOJ",
       "category": "release_seizure",
       "filename": "MOJ-Release-Seizure-2025-Q3.csv.gz",
@@ -4546,7 +4498,7 @@
       "notes": null
     },
     {
-      "id": 285,
+      "id": 282,
       "source": "MOJ",
       "category": "release_seizure",
       "filename": "MOJ-Release-Seizure-2025-Q4.csv.gz",
@@ -4562,7 +4514,7 @@
       "notes": null
     },
     {
-      "id": 286,
+      "id": 283,
       "source": "MOJ",
       "category": "seizure",
       "filename": "MOJ-Seizure-2025-Q1.csv.gz",
@@ -4578,7 +4530,7 @@
       "notes": null
     },
     {
-      "id": 287,
+      "id": 284,
       "source": "MOJ",
       "category": "seizure",
       "filename": "MOJ-Seizure-2025-Q2.csv.gz",
@@ -4594,7 +4546,7 @@
       "notes": null
     },
     {
-      "id": 288,
+      "id": 285,
       "source": "MOJ",
       "category": "seizure",
       "filename": "MOJ-Seizure-2025-Q3-Part1.csv.gz",
@@ -4610,7 +4562,7 @@
       "notes": null
     },
     {
-      "id": 289,
+      "id": 286,
       "source": "MOJ",
       "category": "seizure",
       "filename": "MOJ-Seizure-2025-Q3-Part2.csv.gz",
@@ -4626,7 +4578,7 @@
       "notes": null
     },
     {
-      "id": 290,
+      "id": 287,
       "source": "MOJ",
       "category": "seizure",
       "filename": "MOJ-Seizure-2025-Q3.csv.gz",
@@ -4642,7 +4594,7 @@
       "notes": null
     },
     {
-      "id": 291,
+      "id": 288,
       "source": "MOJ",
       "category": "seizure",
       "filename": "MOJ-Seizure-2025-Q4-Part1.csv.gz",
@@ -4658,7 +4610,7 @@
       "notes": null
     },
     {
-      "id": 292,
+      "id": 289,
       "source": "MOJ",
       "category": "seizure",
       "filename": "MOJ-Seizure-2025-Q4-Part2.csv.gz",
@@ -4674,7 +4626,7 @@
       "notes": null
     },
     {
-      "id": 293,
+      "id": 290,
       "source": "MOJ",
       "category": "transfer_ownership",
       "filename": "MOJ-Transfer-Ownership-2025-Q1.csv",
@@ -4690,7 +4642,7 @@
       "notes": null
     },
     {
-      "id": 294,
+      "id": 291,
       "source": "MOJ",
       "category": "transfer_ownership",
       "filename": "MOJ-Transfer-Ownership-2025-Q2.csv",
@@ -4706,7 +4658,7 @@
       "notes": null
     },
     {
-      "id": 295,
+      "id": 292,
       "source": "MOJ",
       "category": "transfer_ownership",
       "filename": "MOJ-Transfer-Ownership-2025-Q3.csv",
@@ -4722,7 +4674,7 @@
       "notes": null
     },
     {
-      "id": 296,
+      "id": 293,
       "source": "MOJ",
       "category": "transfer_ownership",
       "filename": "MOJ-Transfer-Ownership-2025-Q4.csv",
@@ -4738,7 +4690,7 @@
       "notes": null
     },
     {
-      "id": 297,
+      "id": 294,
       "source": "MOJ",
       "category": "transfer_will_no_ownership",
       "filename": "MOJ-Transfer-Will-No-Ownership-2025-Q3.csv",
@@ -4754,7 +4706,7 @@
       "notes": null
     },
     {
-      "id": 298,
+      "id": 295,
       "source": "MOJ",
       "category": "transfer_will_no_ownership",
       "filename": "MOJ-Transfer-Will-No-Ownership-2025-Q4.csv",
@@ -4770,7 +4722,7 @@
       "notes": null
     },
     {
-      "id": 299,
+      "id": 296,
       "source": "MOJ",
       "category": "transfer",
       "filename": "MOJ-Transfers-2025-Q1.csv.gz",
@@ -4786,7 +4738,7 @@
       "notes": null
     },
     {
-      "id": 300,
+      "id": 297,
       "source": "MOJ",
       "category": "transfer",
       "filename": "MOJ-Transfers-2025-Q2.csv.gz",
@@ -4802,7 +4754,7 @@
       "notes": null
     },
     {
-      "id": 301,
+      "id": 298,
       "source": "MOJ",
       "category": "transfer",
       "filename": "MOJ-Transfers-2025-Q3.csv.gz",
@@ -4818,7 +4770,7 @@
       "notes": null
     },
     {
-      "id": 302,
+      "id": 299,
       "source": "MOJ",
       "category": "transfer",
       "filename": "MOJ-Transfers-2025-Q4.csv.gz",
@@ -4834,7 +4786,7 @@
       "notes": null
     },
     {
-      "id": 303,
+      "id": 300,
       "source": "MOJ",
       "category": "update_deed",
       "filename": "MOJ-Update-Deed-2025-Q1.csv",
@@ -4850,7 +4802,7 @@
       "notes": null
     },
     {
-      "id": 304,
+      "id": 301,
       "source": "MOJ",
       "category": "update_deed",
       "filename": "MOJ-Update-Deed-2025-Q2.csv",
@@ -4866,7 +4818,7 @@
       "notes": null
     },
     {
-      "id": 305,
+      "id": 302,
       "source": "MOJ",
       "category": "update_deed",
       "filename": "MOJ-Update-Deed-2025-Q3.csv",
@@ -4882,7 +4834,7 @@
       "notes": null
     },
     {
-      "id": 306,
+      "id": 303,
       "source": "MOJ",
       "category": "update_deed",
       "filename": "MOJ-Update-Deed-2025-Q4.csv",
@@ -4898,7 +4850,7 @@
       "notes": null
     },
     {
-      "id": 307,
+      "id": 304,
       "source": "MOJ",
       "category": "update_old_deed",
       "filename": "MOJ-Update-Old-Deed-2025-Q1.csv",
@@ -4914,7 +4866,7 @@
       "notes": null
     },
     {
-      "id": 308,
+      "id": 305,
       "source": "MOJ",
       "category": "update_old_deed",
       "filename": "MOJ-Update-Old-Deed-2025-Q2.csv",
@@ -4930,7 +4882,7 @@
       "notes": null
     },
     {
-      "id": 309,
+      "id": 306,
       "source": "MOJ",
       "category": "update_old_deed",
       "filename": "MOJ-Update-Old-Deed-2025-Q3.csv",
@@ -4946,7 +4898,7 @@
       "notes": null
     },
     {
-      "id": 310,
+      "id": 307,
       "source": "MOJ",
       "category": "update_old_deed",
       "filename": "MOJ-Update-Old-Deed-2025-Q4.csv",
@@ -4962,7 +4914,7 @@
       "notes": null
     },
     {
-      "id": 311,
+      "id": 308,
       "source": "MOJ",
       "category": "index",
       "filename": "MOJ-RE-Index-Cities-2018-2021.csv",
@@ -4978,7 +4930,7 @@
       "notes": "pivot-table export with multi-row headers"
     },
     {
-      "id": 312,
+      "id": 309,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "الدمام.csv",
@@ -4994,7 +4946,7 @@
       "notes": null
     },
     {
-      "id": 313,
+      "id": 310,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "الرياض.csv",
@@ -5010,7 +4962,7 @@
       "notes": null
     },
     {
-      "id": 314,
+      "id": 311,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "المدينة المنورة.csv",
@@ -5026,7 +4978,7 @@
       "notes": null
     },
     {
-      "id": 315,
+      "id": 312,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "جدة.csv",
@@ -5042,7 +4994,7 @@
       "notes": null
     },
     {
-      "id": 316,
+      "id": 313,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "مكة المكرمة.csv",
@@ -5058,7 +5010,7 @@
       "notes": null
     },
     {
-      "id": 317,
+      "id": 314,
       "source": "MOJ",
       "category": "index",
       "filename": "MOJ-RE-Index-Districts-2018-2021.csv",
@@ -5074,7 +5026,7 @@
       "notes": "pivot-table export with multi-row headers"
     },
     {
-      "id": 318,
+      "id": 315,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "المدينة المنورة.csv",
@@ -5090,7 +5042,7 @@
       "notes": null
     },
     {
-      "id": 319,
+      "id": 316,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "مدينة الدمام.csv",
@@ -5106,7 +5058,7 @@
       "notes": null
     },
     {
-      "id": 320,
+      "id": 317,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "مدينة الرياض.csv",
@@ -5122,7 +5074,7 @@
       "notes": null
     },
     {
-      "id": 321,
+      "id": 318,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "مدينة جدة.csv",
@@ -5138,7 +5090,7 @@
       "notes": null
     },
     {
-      "id": 322,
+      "id": 319,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "مدينة مكة المكرمة.csv",
@@ -5154,7 +5106,7 @@
       "notes": null
     },
     {
-      "id": 323,
+      "id": 320,
       "source": "MOJ",
       "category": "index",
       "filename": "MOJ-RE-Index-Regions-2018-2021.csv",
@@ -5170,7 +5122,7 @@
       "notes": "pivot-table export with multi-row headers"
     },
     {
-      "id": 324,
+      "id": 321,
       "source": "MOJ",
       "category": "sales",
       "filename": "MOJ-Sales-2020-Q1.csv",
@@ -5186,7 +5138,7 @@
       "notes": null
     },
     {
-      "id": 325,
+      "id": 322,
       "source": "MOJ",
       "category": "sales",
       "filename": "MOJ-Sales-2020-Q2.csv",
@@ -5202,7 +5154,7 @@
       "notes": null
     },
     {
-      "id": 326,
+      "id": 323,
       "source": "MOJ",
       "category": "sales",
       "filename": "MOJ-Sales-2020-Q3.csv",
@@ -5218,7 +5170,7 @@
       "notes": null
     },
     {
-      "id": 327,
+      "id": 324,
       "source": "MOJ",
       "category": "sales",
       "filename": "MOJ-Sales-2020-Q4.csv.gz",
@@ -5234,7 +5186,7 @@
       "notes": null
     },
     {
-      "id": 328,
+      "id": 325,
       "source": "MOJ",
       "category": "sales",
       "filename": "MOJ-Sales-2021-Q1.csv.gz",
@@ -5250,7 +5202,7 @@
       "notes": null
     },
     {
-      "id": 329,
+      "id": 326,
       "source": "MOJ",
       "category": "sales",
       "filename": "MOJ-Sales-2021-Q2.csv",
@@ -5266,7 +5218,7 @@
       "notes": null
     },
     {
-      "id": 330,
+      "id": 327,
       "source": "MOJ",
       "category": "sales",
       "filename": "MOJ-Sales-2021-Q3.csv",
@@ -5282,7 +5234,7 @@
       "notes": null
     },
     {
-      "id": 331,
+      "id": 328,
       "source": "MOJ",
       "category": "sales",
       "filename": "MOJ-Sales-2021-Q4.csv",
@@ -5298,7 +5250,7 @@
       "notes": null
     },
     {
-      "id": 332,
+      "id": 329,
       "source": "MOJ",
       "category": "sales",
       "filename": "MOJ-Sales-2022-Q1.csv",
@@ -5314,7 +5266,7 @@
       "notes": null
     },
     {
-      "id": 333,
+      "id": 330,
       "source": "MOJ",
       "category": "sales",
       "filename": "MOJ-Sales-2022-Q2.csv",
@@ -5330,7 +5282,7 @@
       "notes": null
     },
     {
-      "id": 334,
+      "id": 331,
       "source": "MOJ",
       "category": "sales",
       "filename": "MOJ-Sales-2022-Q3.csv",
@@ -5346,7 +5298,7 @@
       "notes": null
     },
     {
-      "id": 335,
+      "id": 332,
       "source": "MOJ",
       "category": "sales",
       "filename": "MOJ-Sales-2022-Q4.csv",
@@ -5362,7 +5314,7 @@
       "notes": null
     },
     {
-      "id": 336,
+      "id": 333,
       "source": "MOJ",
       "category": "sales",
       "filename": "MOJ-Sales-2023-Q1.csv",
@@ -5378,7 +5330,7 @@
       "notes": null
     },
     {
-      "id": 337,
+      "id": 334,
       "source": "MOJ",
       "category": "sales",
       "filename": "MOJ-Sales-2023-Q2.csv",
@@ -5394,7 +5346,7 @@
       "notes": null
     },
     {
-      "id": 338,
+      "id": 335,
       "source": "MOJ",
       "category": "sales",
       "filename": "MOJ-Sales-2023-Q3.csv",
@@ -5410,7 +5362,7 @@
       "notes": null
     },
     {
-      "id": 339,
+      "id": 336,
       "source": "MOJ",
       "category": "sales",
       "filename": "MOJ-Sales-2023-Q4.csv",
@@ -5426,7 +5378,7 @@
       "notes": null
     },
     {
-      "id": 340,
+      "id": 337,
       "source": "MOJ",
       "category": "sales",
       "filename": "MOJ-Sales-2024-Q1.csv",
@@ -5442,7 +5394,23 @@
       "notes": null
     },
     {
-      "id": 341,
+      "id": 338,
+      "source": "MOJ",
+      "category": "sales_partial_snapshot",
+      "filename": "MOJ-Sales-2024-Q2-Partial-Snapshot.csv",
+      "path": "moj/sales/MOJ-Sales-2024-Q2-Partial-Snapshot.csv",
+      "file_size": 6239510,
+      "row_count": 47518,
+      "col_count": 10,
+      "encoding": "utf-8-sig",
+      "has_bom": 1,
+      "date_range_start": "2024/04/01",
+      "date_range_end": "2024/06/30",
+      "region_coverage": "[\"منطقة الباحة\", \"منطقة الجوف\", \"منطقة الحدود الشمالية\", \"منطقة الرياض\", \"منطقة الشرقية\", \"منطقة القصيم\", \"منطقة المدينة المنوره\", \"منطقة تبوك\", \"منطقة جازان\", \"منطقة حائل\", \"منطقة عسير\", \"منطقة مكة المكرمه\", \"منطقة نجران\"]",
+      "notes": null
+    },
+    {
+      "id": 339,
       "source": "MOJ",
       "category": "sales",
       "filename": "MOJ-Sales-2024-Q2.csv",
@@ -5458,7 +5426,7 @@
       "notes": null
     },
     {
-      "id": 342,
+      "id": 340,
       "source": "MOJ",
       "category": "sales",
       "filename": "MOJ-Sales-2024-Q3.csv",
@@ -5474,7 +5442,7 @@
       "notes": null
     },
     {
-      "id": 343,
+      "id": 341,
       "source": "MOJ",
       "category": "sales",
       "filename": "MOJ-Sales-2024-Q4.csv",
@@ -5490,7 +5458,7 @@
       "notes": null
     },
     {
-      "id": 344,
+      "id": 342,
       "source": "MOJ",
       "category": "sales",
       "filename": "MOJ-Sales-2025-Q1.csv",
@@ -5506,23 +5474,7 @@
       "notes": null
     },
     {
-      "id": 345,
-      "source": "MOJ",
-      "category": "sales",
-      "filename": "MOJ-Sales-2025-Q2.csv",
-      "path": "moj/sales/MOJ-Sales-2025-Q2.csv",
-      "file_size": 6239510,
-      "row_count": 47518,
-      "col_count": 10,
-      "encoding": "utf-8-sig",
-      "has_bom": 1,
-      "date_range_start": "2024/04/01",
-      "date_range_end": "2024/06/30",
-      "region_coverage": "[\"منطقة الباحة\", \"منطقة الجوف\", \"منطقة الحدود الشمالية\", \"منطقة الرياض\", \"منطقة الشرقية\", \"منطقة القصيم\", \"منطقة المدينة المنوره\", \"منطقة تبوك\", \"منطقة جازان\", \"منطقة حائل\", \"منطقة عسير\", \"منطقة مكة المكرمه\", \"منطقة نجران\"]",
-      "notes": null
-    },
-    {
-      "id": 346,
+      "id": 343,
       "source": "MOJ",
       "category": "sales",
       "filename": "MOJ-Sales-2025-Q3.csv",
@@ -5538,7 +5490,7 @@
       "notes": null
     },
     {
-      "id": 347,
+      "id": 344,
       "source": "MOJ",
       "category": "sales",
       "filename": "MOJ-Sales-2025-Q4.csv",
@@ -5554,7 +5506,7 @@
       "notes": null
     },
     {
-      "id": 348,
+      "id": 345,
       "source": "REGA",
       "category": "gender_stats",
       "filename": "Registered-Real-Estate-by-Gender-2024.csv",
@@ -5570,7 +5522,7 @@
       "notes": null
     },
     {
-      "id": 349,
+      "id": 346,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-for-Cities-in-Riyadh-region.csv",
@@ -5586,7 +5538,7 @@
       "notes": null
     },
     {
-      "id": 350,
+      "id": 347,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-for-cities-Asir-region.csv",
@@ -5602,7 +5554,7 @@
       "notes": null
     },
     {
-      "id": 351,
+      "id": 348,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-for-cities-in-Al-Baha-region.csv",
@@ -5618,7 +5570,7 @@
       "notes": null
     },
     {
-      "id": 352,
+      "id": 349,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-for-cities-in-Al-jawf-region.csv",
@@ -5634,7 +5586,7 @@
       "notes": null
     },
     {
-      "id": 353,
+      "id": 350,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-for-cities-in-Eastern-Province.csv",
@@ -5650,7 +5602,7 @@
       "notes": null
     },
     {
-      "id": 354,
+      "id": 351,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-for-cities-in-Hail-region.csv",
@@ -5666,7 +5618,7 @@
       "notes": null
     },
     {
-      "id": 355,
+      "id": 352,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-for-cities-in-Jazan-region.csv",
@@ -5682,7 +5634,7 @@
       "notes": null
     },
     {
-      "id": 356,
+      "id": 353,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-for-cities-in-Madinah-region.csv",
@@ -5698,7 +5650,7 @@
       "notes": null
     },
     {
-      "id": 357,
+      "id": 354,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-for-cities-in-Makkah-region.csv",
@@ -5714,7 +5666,7 @@
       "notes": null
     },
     {
-      "id": 358,
+      "id": 355,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-for-cities-in-N-B-region.csv",
@@ -5730,7 +5682,7 @@
       "notes": null
     },
     {
-      "id": 359,
+      "id": 356,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-for-cities-in-Najran-region.csv",
@@ -5746,7 +5698,7 @@
       "notes": null
     },
     {
-      "id": 360,
+      "id": 357,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-for-cities-in-Qassim-region.csv",
@@ -5762,7 +5714,7 @@
       "notes": null
     },
     {
-      "id": 361,
+      "id": 358,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-for-cities-in-Tabuk-region.csv",
@@ -5778,7 +5730,7 @@
       "notes": null
     },
     {
-      "id": 362,
+      "id": 359,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "rega_bulletin_timeseries.csv",
@@ -5794,7 +5746,7 @@
       "notes": null
     },
     {
-      "id": 363,
+      "id": 360,
       "source": "REGA",
       "category": "consolidated",
       "filename": "quarter-report-SI.csv",
@@ -5810,7 +5762,7 @@
       "notes": null
     },
     {
-      "id": 364,
+      "id": 361,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-in-AlBaha-region-1st-Q-2025.csv",
@@ -5826,7 +5778,7 @@
       "notes": null
     },
     {
-      "id": 365,
+      "id": 362,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-in-AlBaha-region-2nd-Q-2025.csv",
@@ -5842,7 +5794,7 @@
       "notes": null
     },
     {
-      "id": 366,
+      "id": 363,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-in-AlBaha-region-3rd-Q-2025.csv",
@@ -5858,7 +5810,7 @@
       "notes": null
     },
     {
-      "id": 367,
+      "id": 364,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-in-AlBaha-region-4th-Q-2025.csv",
@@ -5874,7 +5826,7 @@
       "notes": null
     },
     {
-      "id": 368,
+      "id": 365,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-in-AlJawf-region-1st-Q-2025.csv",
@@ -5890,7 +5842,7 @@
       "notes": null
     },
     {
-      "id": 369,
+      "id": 366,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-in-AlJawf-region-2nd-Q-2025.csv",
@@ -5906,7 +5858,7 @@
       "notes": null
     },
     {
-      "id": 370,
+      "id": 367,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-in-AlJawf-region-3rd-Q-2025.csv",
@@ -5922,7 +5874,7 @@
       "notes": null
     },
     {
-      "id": 371,
+      "id": 368,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-in-AlJawf-region-4th-Q-2025.csv",
@@ -5938,7 +5890,7 @@
       "notes": null
     },
     {
-      "id": 372,
+      "id": 369,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-in-AlQassim-region-1st-Q-2025.csv",
@@ -5954,7 +5906,7 @@
       "notes": null
     },
     {
-      "id": 373,
+      "id": 370,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-in-AlQassim-region-2nd-Q-2025.csv",
@@ -5970,7 +5922,7 @@
       "notes": null
     },
     {
-      "id": 374,
+      "id": 371,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-in-AlQassim-region-3rd-Q-2025.csv",
@@ -5986,7 +5938,7 @@
       "notes": null
     },
     {
-      "id": 375,
+      "id": 372,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-in-AlQassim-region-4th-Q-2025.csv",
@@ -6002,7 +5954,7 @@
       "notes": null
     },
     {
-      "id": 376,
+      "id": 373,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-in-Aseer-region-1st-Q-2025.csv",
@@ -6018,7 +5970,7 @@
       "notes": null
     },
     {
-      "id": 377,
+      "id": 374,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-in-Aseer-region-2nd-Q-2025.csv",
@@ -6034,7 +5986,7 @@
       "notes": null
     },
     {
-      "id": 378,
+      "id": 375,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-in-Aseer-region-3rd-Q-2025.csv",
@@ -6050,7 +6002,7 @@
       "notes": null
     },
     {
-      "id": 379,
+      "id": 376,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-in-Aseer-region-4th-Q-2025.csv",
@@ -6066,7 +6018,7 @@
       "notes": null
     },
     {
-      "id": 380,
+      "id": 377,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-in-EP-1st-Q-2025.csv",
@@ -6082,7 +6034,7 @@
       "notes": null
     },
     {
-      "id": 381,
+      "id": 378,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-in-EP-2nd-Q-2025.csv",
@@ -6098,7 +6050,7 @@
       "notes": null
     },
     {
-      "id": 382,
+      "id": 379,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-in-EP-3rd-Q-2025.csv",
@@ -6114,7 +6066,7 @@
       "notes": null
     },
     {
-      "id": 383,
+      "id": 380,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-in-EP-4th-Q-2025.csv",
@@ -6130,7 +6082,7 @@
       "notes": null
     },
     {
-      "id": 384,
+      "id": 381,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-in-Hail-region-1st-Q-2025.csv",
@@ -6146,7 +6098,7 @@
       "notes": null
     },
     {
-      "id": 385,
+      "id": 382,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-in-Hail-region-2nd-Q-2025.csv",
@@ -6162,7 +6114,7 @@
       "notes": null
     },
     {
-      "id": 386,
+      "id": 383,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-in-Hail-region-3rd-Q-2025.csv",
@@ -6178,7 +6130,7 @@
       "notes": null
     },
     {
-      "id": 387,
+      "id": 384,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-in-Hail-region-4th-Q-2025.csv",
@@ -6194,7 +6146,7 @@
       "notes": null
     },
     {
-      "id": 388,
+      "id": 385,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-in-Jazan-region-1st-Q-2025.csv",
@@ -6210,7 +6162,7 @@
       "notes": null
     },
     {
-      "id": 389,
+      "id": 386,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-in-Jazan-region-2nd-Q-2025.csv",
@@ -6226,7 +6178,7 @@
       "notes": null
     },
     {
-      "id": 390,
+      "id": 387,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-in-Jazan-region-3rd-Q-2025.csv",
@@ -6242,7 +6194,7 @@
       "notes": null
     },
     {
-      "id": 391,
+      "id": 388,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-in-Jazan-region-4th-Q-2025.csv",
@@ -6258,7 +6210,7 @@
       "notes": null
     },
     {
-      "id": 392,
+      "id": 389,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-in-Madinah-region-1st-Q-2025.csv",
@@ -6274,7 +6226,7 @@
       "notes": null
     },
     {
-      "id": 393,
+      "id": 390,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-in-Madinah-region-2nd-Q-2025.csv",
@@ -6290,7 +6242,7 @@
       "notes": null
     },
     {
-      "id": 394,
+      "id": 391,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-in-Madinah-region-3rd-Q-2025.csv",
@@ -6306,7 +6258,7 @@
       "notes": null
     },
     {
-      "id": 395,
+      "id": 392,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-in-Madinah-region-4th-Q-2025.csv",
@@ -6322,7 +6274,7 @@
       "notes": null
     },
     {
-      "id": 396,
+      "id": 393,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-in-Makkah-region-1st-Q-2025.csv",
@@ -6338,7 +6290,7 @@
       "notes": null
     },
     {
-      "id": 397,
+      "id": 394,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-in-Makkah-region-2nd-Q-2025.csv",
@@ -6354,7 +6306,7 @@
       "notes": null
     },
     {
-      "id": 398,
+      "id": 395,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-in-Makkah-region-3rd-Q-2025.csv",
@@ -6370,7 +6322,7 @@
       "notes": null
     },
     {
-      "id": 399,
+      "id": 396,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-in-Makkah-region-4th-Q-2025.csv",
@@ -6386,7 +6338,7 @@
       "notes": null
     },
     {
-      "id": 400,
+      "id": 397,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-in-NB-region-1stQ-2025.csv",
@@ -6402,7 +6354,7 @@
       "notes": null
     },
     {
-      "id": 401,
+      "id": 398,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-in-NB-region-2nd-Q-2025.csv",
@@ -6418,7 +6370,7 @@
       "notes": null
     },
     {
-      "id": 402,
+      "id": 399,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-in-NB-region-3rd-Q-2025.csv",
@@ -6434,7 +6386,7 @@
       "notes": null
     },
     {
-      "id": 403,
+      "id": 400,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-in-NB-region-4th-Q-2025.csv",
@@ -6450,7 +6402,7 @@
       "notes": null
     },
     {
-      "id": 404,
+      "id": 401,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-in-Najran-region-1st-Q-2025.csv",
@@ -6466,7 +6418,7 @@
       "notes": null
     },
     {
-      "id": 405,
+      "id": 402,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-in-Najran-region-2nd-Q-2025.csv",
@@ -6482,7 +6434,7 @@
       "notes": null
     },
     {
-      "id": 406,
+      "id": 403,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-in-Najran-region-3rd-Q-2025.csv",
@@ -6498,7 +6450,7 @@
       "notes": null
     },
     {
-      "id": 407,
+      "id": 404,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-in-Najran-region-4th-Q-2025E.csv",
@@ -6514,7 +6466,7 @@
       "notes": null
     },
     {
-      "id": 408,
+      "id": 405,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-in-Riyadh-region-1st-Q-2025.csv",
@@ -6530,7 +6482,7 @@
       "notes": null
     },
     {
-      "id": 409,
+      "id": 406,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-in-Riyadh-region-2nd-Q-2025.csv",
@@ -6546,7 +6498,7 @@
       "notes": null
     },
     {
-      "id": 410,
+      "id": 407,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-in-Riyadh-region-3rd-Q-2025.csv",
@@ -6562,7 +6514,7 @@
       "notes": null
     },
     {
-      "id": 411,
+      "id": 408,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-in-Riyadh-region-4th-Q-2025.csv",
@@ -6578,7 +6530,7 @@
       "notes": null
     },
     {
-      "id": 412,
+      "id": 409,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-in-Tabuk-region-1st-Q-2025.csv",
@@ -6594,7 +6546,7 @@
       "notes": null
     },
     {
-      "id": 413,
+      "id": 410,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-in-Tabuk-region-2nd-Q-2025.csv",
@@ -6610,7 +6562,7 @@
       "notes": null
     },
     {
-      "id": 414,
+      "id": 411,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-in-Tabuk-region-3rd-Q-2025.csv",
@@ -6626,7 +6578,7 @@
       "notes": null
     },
     {
-      "id": 415,
+      "id": 412,
       "source": "REGA",
       "category": "rental_indicators",
       "filename": "Rental-indicators-in-Tabuk-region-4th-Q-2025.csv",
@@ -6642,7 +6594,7 @@
       "notes": null
     },
     {
-      "id": 416,
+      "id": 413,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-AlBaha-Q1-2026.csv",
@@ -6658,7 +6610,7 @@
       "notes": null
     },
     {
-      "id": 417,
+      "id": 414,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-AlJawf-1st-Q-2025.csv",
@@ -6674,7 +6626,7 @@
       "notes": null
     },
     {
-      "id": 418,
+      "id": 415,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-AlJawf-2nd-Q-2025.csv",
@@ -6690,7 +6642,7 @@
       "notes": null
     },
     {
-      "id": 419,
+      "id": 416,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-AlJawf-3rd-Q-2025.csv",
@@ -6706,7 +6658,7 @@
       "notes": null
     },
     {
-      "id": 420,
+      "id": 417,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-AlJawf-4th-Q-2025.csv",
@@ -6722,7 +6674,7 @@
       "notes": null
     },
     {
-      "id": 421,
+      "id": 418,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-AlJouf-Q1-2026.csv",
@@ -6738,7 +6690,7 @@
       "notes": null
     },
     {
-      "id": 422,
+      "id": 419,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-AlQassim-1stQ-2025.csv",
@@ -6754,7 +6706,7 @@
       "notes": null
     },
     {
-      "id": 423,
+      "id": 420,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-AlQassim-2ndQ-2025.csv",
@@ -6770,7 +6722,7 @@
       "notes": null
     },
     {
-      "id": 424,
+      "id": 421,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-AlQassim-3rdQ-2025.csv",
@@ -6786,7 +6738,7 @@
       "notes": null
     },
     {
-      "id": 425,
+      "id": 422,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-AlQassim-4thQ-2025.csv",
@@ -6802,7 +6754,7 @@
       "notes": null
     },
     {
-      "id": 426,
+      "id": 423,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Aseer-1st-Q-2025.csv",
@@ -6818,7 +6770,7 @@
       "notes": null
     },
     {
-      "id": 427,
+      "id": 424,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Aseer-2nd-Q-2025.csv",
@@ -6834,7 +6786,7 @@
       "notes": null
     },
     {
-      "id": 428,
+      "id": 425,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Aseer-3rd-Q-2025.csv",
@@ -6850,7 +6802,7 @@
       "notes": null
     },
     {
-      "id": 429,
+      "id": 426,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Aseer-4th-Q-2025.csv",
@@ -6866,7 +6818,7 @@
       "notes": null
     },
     {
-      "id": 430,
+      "id": 427,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Aseer-Q1-2026.csv",
@@ -6882,7 +6834,7 @@
       "notes": null
     },
     {
-      "id": 431,
+      "id": 428,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-EP-1st-Q-2025.csv",
@@ -6898,7 +6850,7 @@
       "notes": null
     },
     {
-      "id": 432,
+      "id": 429,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-EP-2nd-Q-2025.csv",
@@ -6914,7 +6866,7 @@
       "notes": null
     },
     {
-      "id": 433,
+      "id": 430,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-EP-3rd-Q-2025.csv",
@@ -6930,7 +6882,7 @@
       "notes": null
     },
     {
-      "id": 434,
+      "id": 431,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-EP-Q1-2026.csv",
@@ -6946,7 +6898,7 @@
       "notes": null
     },
     {
-      "id": 435,
+      "id": 432,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Hail-1st-Q-2025.csv",
@@ -6962,7 +6914,7 @@
       "notes": null
     },
     {
-      "id": 436,
+      "id": 433,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Hail-2nd-Q-2025.csv",
@@ -6978,7 +6930,7 @@
       "notes": null
     },
     {
-      "id": 437,
+      "id": 434,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Hail-3rd-Q-2025.csv",
@@ -6994,7 +6946,7 @@
       "notes": null
     },
     {
-      "id": 438,
+      "id": 435,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Hail-4th-Q-2025.csv",
@@ -7010,7 +6962,7 @@
       "notes": null
     },
     {
-      "id": 439,
+      "id": 436,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Hail-Q1-2026.csv",
@@ -7026,7 +6978,7 @@
       "notes": null
     },
     {
-      "id": 440,
+      "id": 437,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Jazan-3rd-Q-2025.csv",
@@ -7042,7 +6994,7 @@
       "notes": null
     },
     {
-      "id": 441,
+      "id": 438,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Jazan-4th-Q-2025.csv",
@@ -7058,7 +7010,7 @@
       "notes": null
     },
     {
-      "id": 442,
+      "id": 439,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Jazan-Q1-2026.csv",
@@ -7074,7 +7026,7 @@
       "notes": null
     },
     {
-      "id": 443,
+      "id": 440,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Madinah-1st-Q-2025.csv",
@@ -7090,7 +7042,7 @@
       "notes": null
     },
     {
-      "id": 444,
+      "id": 441,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Madinah-1stQ-2024.csv",
@@ -7106,7 +7058,7 @@
       "notes": null
     },
     {
-      "id": 445,
+      "id": 442,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Madinah-2nd-Q-2025.csv",
@@ -7122,7 +7074,7 @@
       "notes": null
     },
     {
-      "id": 446,
+      "id": 443,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Madinah-3rd-Q-2025.csv",
@@ -7138,7 +7090,7 @@
       "notes": null
     },
     {
-      "id": 447,
+      "id": 444,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Madinah-3rdQ-2024.csv",
@@ -7154,7 +7106,7 @@
       "notes": null
     },
     {
-      "id": 448,
+      "id": 445,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Madinah-4th-Q-2024.csv",
@@ -7170,7 +7122,7 @@
       "notes": null
     },
     {
-      "id": 449,
+      "id": 446,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Madinah-4th-Q-2025.csv",
@@ -7186,7 +7138,7 @@
       "notes": null
     },
     {
-      "id": 450,
+      "id": 447,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Madinah-Q1-2026.csv",
@@ -7202,7 +7154,7 @@
       "notes": null
     },
     {
-      "id": 451,
+      "id": 448,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Madinah-Q2-2024.csv",
@@ -7218,7 +7170,7 @@
       "notes": null
     },
     {
-      "id": 452,
+      "id": 449,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Makkah-1st-Q-2024.csv",
@@ -7234,7 +7186,7 @@
       "notes": null
     },
     {
-      "id": 453,
+      "id": 450,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Makkah-1st-Q-2025.csv",
@@ -7250,7 +7202,7 @@
       "notes": null
     },
     {
-      "id": 454,
+      "id": 451,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Makkah-2nd-Q-2024.csv",
@@ -7266,7 +7218,7 @@
       "notes": null
     },
     {
-      "id": 455,
+      "id": 452,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Makkah-2nd-Q-2025.csv",
@@ -7282,7 +7234,7 @@
       "notes": null
     },
     {
-      "id": 456,
+      "id": 453,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Makkah-3rd-Q-2024.csv",
@@ -7298,7 +7250,7 @@
       "notes": null
     },
     {
-      "id": 457,
+      "id": 454,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Makkah-3rd-Q-2025.csv",
@@ -7314,7 +7266,7 @@
       "notes": null
     },
     {
-      "id": 458,
+      "id": 455,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Makkah-4th-Q-2024.csv",
@@ -7330,7 +7282,7 @@
       "notes": null
     },
     {
-      "id": 459,
+      "id": 456,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Makkah-4th-Q-2025.csv",
@@ -7346,7 +7298,7 @@
       "notes": null
     },
     {
-      "id": 460,
+      "id": 457,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Makkah-Q1-2026.csv",
@@ -7362,7 +7314,7 @@
       "notes": null
     },
     {
-      "id": 461,
+      "id": 458,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-NB-1st-Q-2025.csv",
@@ -7378,7 +7330,7 @@
       "notes": null
     },
     {
-      "id": 462,
+      "id": 459,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-NB-2nd-Q-2025.csv",
@@ -7394,7 +7346,7 @@
       "notes": null
     },
     {
-      "id": 463,
+      "id": 460,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-NB-3rd-Q-2025.csv",
@@ -7410,7 +7362,7 @@
       "notes": null
     },
     {
-      "id": 464,
+      "id": 461,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-NB-4th-Q-2025.csv",
@@ -7426,7 +7378,7 @@
       "notes": null
     },
     {
-      "id": 465,
+      "id": 462,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-NB-region-Q1-2026.csv",
@@ -7442,7 +7394,7 @@
       "notes": null
     },
     {
-      "id": 466,
+      "id": 463,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Najran-1st-Q-2025.csv",
@@ -7458,7 +7410,7 @@
       "notes": null
     },
     {
-      "id": 467,
+      "id": 464,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Najran-2nd-Q-2025.csv",
@@ -7474,7 +7426,7 @@
       "notes": null
     },
     {
-      "id": 468,
+      "id": 465,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Najran-3rd-Q-2025.csv",
@@ -7490,7 +7442,7 @@
       "notes": null
     },
     {
-      "id": 469,
+      "id": 466,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Najran-4th-Q-2025.csv",
@@ -7506,7 +7458,7 @@
       "notes": null
     },
     {
-      "id": 470,
+      "id": 467,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Najran-Q1-2026.csv",
@@ -7522,7 +7474,7 @@
       "notes": null
     },
     {
-      "id": 471,
+      "id": 468,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Qassim-Q1-2026.csv",
@@ -7538,7 +7490,7 @@
       "notes": null
     },
     {
-      "id": 472,
+      "id": 469,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Riyadh-1st-Q-2024.csv",
@@ -7554,7 +7506,7 @@
       "notes": null
     },
     {
-      "id": 473,
+      "id": 470,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Riyadh-2nd-Q-2024.csv",
@@ -7570,7 +7522,7 @@
       "notes": null
     },
     {
-      "id": 474,
+      "id": 471,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Riyadh-2nd-Q-2025.csv",
@@ -7586,7 +7538,7 @@
       "notes": null
     },
     {
-      "id": 475,
+      "id": 472,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Riyadh-3rd-Q-2025.csv",
@@ -7602,7 +7554,7 @@
       "notes": null
     },
     {
-      "id": 476,
+      "id": 473,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Riyadh-3rdQ-2024.csv",
@@ -7618,7 +7570,7 @@
       "notes": null
     },
     {
-      "id": 477,
+      "id": 474,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Riyadh-4th-Q-2024.csv",
@@ -7634,7 +7586,7 @@
       "notes": null
     },
     {
-      "id": 478,
+      "id": 475,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Riyadh-4th-Q-2025.csv",
@@ -7650,7 +7602,7 @@
       "notes": null
     },
     {
-      "id": 479,
+      "id": 476,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Riyadh-Q1-2025.csv",
@@ -7666,7 +7618,7 @@
       "notes": null
     },
     {
-      "id": 480,
+      "id": 477,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Riyadh-Q1-2026.csv",
@@ -7682,7 +7634,7 @@
       "notes": null
     },
     {
-      "id": 481,
+      "id": 478,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Tabuk-1st-Q-2025.csv",
@@ -7698,7 +7650,7 @@
       "notes": null
     },
     {
-      "id": 482,
+      "id": 479,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Tabuk-2nd-Q-2025.csv",
@@ -7714,7 +7666,7 @@
       "notes": null
     },
     {
-      "id": 483,
+      "id": 480,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Tabuk-3rd-Q-2025.csv",
@@ -7730,7 +7682,7 @@
       "notes": null
     },
     {
-      "id": 484,
+      "id": 481,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Tabuk-4th-Q-2025.csv",
@@ -7746,7 +7698,7 @@
       "notes": null
     },
     {
-      "id": 485,
+      "id": 482,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-Tabuk-Q1-2026.csv",
@@ -7762,7 +7714,7 @@
       "notes": null
     },
     {
-      "id": 486,
+      "id": 483,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-albaha-1st-Q-2025.csv",
@@ -7778,7 +7730,7 @@
       "notes": null
     },
     {
-      "id": 487,
+      "id": 484,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-albaha-2nd-Q-2025.csv",
@@ -7794,7 +7746,7 @@
       "notes": null
     },
     {
-      "id": 488,
+      "id": 485,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-albaha-3rd-Q-2025.csv",
@@ -7810,7 +7762,7 @@
       "notes": null
     },
     {
-      "id": 489,
+      "id": 486,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-albaha-4th-Q-2025.csv",
@@ -7826,7 +7778,7 @@
       "notes": null
     },
     {
-      "id": 490,
+      "id": 487,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-the-EP-2nd-Q-2024.csv",
@@ -7842,7 +7794,7 @@
       "notes": null
     },
     {
-      "id": 491,
+      "id": 488,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-the-EP-3rd-Q-2024.csv",
@@ -7858,7 +7810,7 @@
       "notes": null
     },
     {
-      "id": 492,
+      "id": 489,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-the-EP-4th-Q-2024.csv",
@@ -7874,7 +7826,7 @@
       "notes": null
     },
     {
-      "id": 493,
+      "id": 490,
       "source": "REGA",
       "category": "sales_indicators",
       "filename": "Sales-transaction-indicators-in-the-EP-Q-2024.csv",
@@ -7890,7 +7842,7 @@
       "notes": null
     },
     {
-      "id": 494,
+      "id": 491,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "(sec1).csv",
@@ -7906,7 +7858,7 @@
       "notes": null
     },
     {
-      "id": 495,
+      "id": 492,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "1.csv",
@@ -7922,7 +7874,7 @@
       "notes": null
     },
     {
-      "id": 496,
+      "id": 493,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "10a.csv",
@@ -7938,7 +7890,7 @@
       "notes": null
     },
     {
-      "id": 497,
+      "id": 494,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "10b.csv",
@@ -7954,7 +7906,7 @@
       "notes": null
     },
     {
-      "id": 498,
+      "id": 495,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "11.csv",
@@ -7970,7 +7922,7 @@
       "notes": null
     },
     {
-      "id": 499,
+      "id": 496,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "12a.csv",
@@ -7986,7 +7938,7 @@
       "notes": null
     },
     {
-      "id": 500,
+      "id": 497,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "12b.csv",
@@ -8002,7 +7954,7 @@
       "notes": null
     },
     {
-      "id": 501,
+      "id": 498,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "12c.csv",
@@ -8018,7 +7970,7 @@
       "notes": null
     },
     {
-      "id": 502,
+      "id": 499,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "12d.csv",
@@ -8034,7 +7986,7 @@
       "notes": null
     },
     {
-      "id": 503,
+      "id": 500,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "12e.csv",
@@ -8050,7 +8002,7 @@
       "notes": null
     },
     {
-      "id": 504,
+      "id": 501,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "12f.csv",
@@ -8066,7 +8018,7 @@
       "notes": null
     },
     {
-      "id": 505,
+      "id": 502,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "13a.csv",
@@ -8082,7 +8034,7 @@
       "notes": null
     },
     {
-      "id": 506,
+      "id": 503,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "13b.csv",
@@ -8098,7 +8050,7 @@
       "notes": null
     },
     {
-      "id": 507,
+      "id": 504,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "14.csv",
@@ -8114,7 +8066,7 @@
       "notes": null
     },
     {
-      "id": 508,
+      "id": 505,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "15a.csv",
@@ -8130,7 +8082,7 @@
       "notes": null
     },
     {
-      "id": 509,
+      "id": 506,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "15b.csv",
@@ -8146,7 +8098,7 @@
       "notes": null
     },
     {
-      "id": 510,
+      "id": 507,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "16.csv",
@@ -8162,7 +8114,7 @@
       "notes": null
     },
     {
-      "id": 511,
+      "id": 508,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "17.csv",
@@ -8178,7 +8130,7 @@
       "notes": null
     },
     {
-      "id": 512,
+      "id": 509,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "18.csv",
@@ -8194,7 +8146,7 @@
       "notes": null
     },
     {
-      "id": 513,
+      "id": 510,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "19.csv",
@@ -8210,7 +8162,7 @@
       "notes": null
     },
     {
-      "id": 514,
+      "id": 511,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "2-1.csv",
@@ -8226,7 +8178,7 @@
       "notes": null
     },
     {
-      "id": 515,
+      "id": 512,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "2-2.csv",
@@ -8242,7 +8194,7 @@
       "notes": null
     },
     {
-      "id": 516,
+      "id": 513,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "2-3.csv",
@@ -8258,7 +8210,7 @@
       "notes": null
     },
     {
-      "id": 517,
+      "id": 514,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "2-4.csv",
@@ -8274,7 +8226,7 @@
       "notes": null
     },
     {
-      "id": 518,
+      "id": 515,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "2-5.csv",
@@ -8290,7 +8242,7 @@
       "notes": null
     },
     {
-      "id": 519,
+      "id": 516,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "2-6.csv",
@@ -8306,7 +8258,7 @@
       "notes": null
     },
     {
-      "id": 520,
+      "id": 517,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "2-7.csv",
@@ -8322,7 +8274,7 @@
       "notes": null
     },
     {
-      "id": 521,
+      "id": 518,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "2.csv",
@@ -8338,7 +8290,7 @@
       "notes": null
     },
     {
-      "id": 522,
+      "id": 519,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "20.csv",
@@ -8354,7 +8306,7 @@
       "notes": null
     },
     {
-      "id": 523,
+      "id": 520,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "21.csv",
@@ -8370,7 +8322,7 @@
       "notes": null
     },
     {
-      "id": 524,
+      "id": 521,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "22.csv",
@@ -8386,7 +8338,7 @@
       "notes": null
     },
     {
-      "id": 525,
+      "id": 522,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "23.csv",
@@ -8402,7 +8354,7 @@
       "notes": null
     },
     {
-      "id": 526,
+      "id": 523,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "24.csv",
@@ -8418,7 +8370,7 @@
       "notes": null
     },
     {
-      "id": 527,
+      "id": 524,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "25.csv",
@@ -8434,7 +8386,7 @@
       "notes": null
     },
     {
-      "id": 528,
+      "id": 525,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "26a.csv",
@@ -8450,7 +8402,7 @@
       "notes": null
     },
     {
-      "id": 529,
+      "id": 526,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "26b.csv",
@@ -8466,7 +8418,7 @@
       "notes": null
     },
     {
-      "id": 530,
+      "id": 527,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "26c.csv",
@@ -8482,7 +8434,7 @@
       "notes": null
     },
     {
-      "id": 531,
+      "id": 528,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "27a.csv",
@@ -8498,7 +8450,7 @@
       "notes": null
     },
     {
-      "id": 532,
+      "id": 529,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "27b.csv",
@@ -8514,7 +8466,7 @@
       "notes": null
     },
     {
-      "id": 533,
+      "id": 530,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "27c.csv",
@@ -8530,7 +8482,7 @@
       "notes": null
     },
     {
-      "id": 534,
+      "id": 531,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "28D.csv",
@@ -8546,7 +8498,7 @@
       "notes": null
     },
     {
-      "id": 535,
+      "id": 532,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "28a.csv",
@@ -8562,7 +8514,7 @@
       "notes": null
     },
     {
-      "id": 536,
+      "id": 533,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "28b.csv",
@@ -8578,7 +8530,7 @@
       "notes": null
     },
     {
-      "id": 537,
+      "id": 534,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "28c.csv",
@@ -8594,7 +8546,7 @@
       "notes": null
     },
     {
-      "id": 538,
+      "id": 535,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "29a.csv",
@@ -8610,7 +8562,7 @@
       "notes": null
     },
     {
-      "id": 539,
+      "id": 536,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "29b.csv",
@@ -8626,7 +8578,7 @@
       "notes": null
     },
     {
-      "id": 540,
+      "id": 537,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "29c.csv",
@@ -8642,7 +8594,7 @@
       "notes": null
     },
     {
-      "id": 541,
+      "id": 538,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "3-1.csv",
@@ -8658,7 +8610,7 @@
       "notes": null
     },
     {
-      "id": 542,
+      "id": 539,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "3-2.csv",
@@ -8674,7 +8626,7 @@
       "notes": null
     },
     {
-      "id": 543,
+      "id": 540,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "3-3.csv",
@@ -8690,7 +8642,7 @@
       "notes": null
     },
     {
-      "id": 544,
+      "id": 541,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "3-4.csv",
@@ -8706,7 +8658,7 @@
       "notes": null
     },
     {
-      "id": 545,
+      "id": 542,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "3-5.csv",
@@ -8722,7 +8674,7 @@
       "notes": null
     },
     {
-      "id": 546,
+      "id": 543,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "3.csv",
@@ -8738,7 +8690,7 @@
       "notes": null
     },
     {
-      "id": 547,
+      "id": 544,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "30a.csv",
@@ -8754,7 +8706,7 @@
       "notes": null
     },
     {
-      "id": 548,
+      "id": 545,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "30b.csv",
@@ -8770,7 +8722,7 @@
       "notes": null
     },
     {
-      "id": 549,
+      "id": 546,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "30c.csv",
@@ -8786,7 +8738,7 @@
       "notes": null
     },
     {
-      "id": 550,
+      "id": 547,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "30d.csv",
@@ -8802,7 +8754,7 @@
       "notes": null
     },
     {
-      "id": 551,
+      "id": 548,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "30e.csv",
@@ -8818,7 +8770,7 @@
       "notes": null
     },
     {
-      "id": 552,
+      "id": 549,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "30f.csv",
@@ -8834,7 +8786,7 @@
       "notes": null
     },
     {
-      "id": 553,
+      "id": 550,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "4-1a.csv",
@@ -8850,7 +8802,7 @@
       "notes": null
     },
     {
-      "id": 554,
+      "id": 551,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "4-1b.csv",
@@ -8866,7 +8818,7 @@
       "notes": null
     },
     {
-      "id": 555,
+      "id": 552,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "4-2.csv",
@@ -8882,7 +8834,7 @@
       "notes": null
     },
     {
-      "id": 556,
+      "id": 553,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "4-3.csv",
@@ -8898,7 +8850,7 @@
       "notes": null
     },
     {
-      "id": 557,
+      "id": 554,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "4a.csv",
@@ -8914,7 +8866,7 @@
       "notes": null
     },
     {
-      "id": 558,
+      "id": 555,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "4b.csv",
@@ -8930,7 +8882,7 @@
       "notes": null
     },
     {
-      "id": 559,
+      "id": 556,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "4c.csv",
@@ -8946,7 +8898,7 @@
       "notes": null
     },
     {
-      "id": 560,
+      "id": 557,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "5-1.csv",
@@ -8962,7 +8914,7 @@
       "notes": null
     },
     {
-      "id": 561,
+      "id": 558,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "5-2a.csv",
@@ -8978,7 +8930,7 @@
       "notes": null
     },
     {
-      "id": 562,
+      "id": 559,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "5-2b.csv",
@@ -8994,7 +8946,7 @@
       "notes": null
     },
     {
-      "id": 563,
+      "id": 560,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "5-3a.csv",
@@ -9010,7 +8962,7 @@
       "notes": null
     },
     {
-      "id": 564,
+      "id": 561,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "5-3b.csv",
@@ -9026,7 +8978,7 @@
       "notes": null
     },
     {
-      "id": 565,
+      "id": 562,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "5-4a.csv",
@@ -9042,7 +8994,7 @@
       "notes": null
     },
     {
-      "id": 566,
+      "id": 563,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "5-4b.csv",
@@ -9058,7 +9010,7 @@
       "notes": null
     },
     {
-      "id": 567,
+      "id": 564,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "5-5.csv",
@@ -9074,7 +9026,7 @@
       "notes": null
     },
     {
-      "id": 568,
+      "id": 565,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "5-6.csv",
@@ -9090,7 +9042,7 @@
       "notes": null
     },
     {
-      "id": 569,
+      "id": 566,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "5.csv",
@@ -9106,7 +9058,7 @@
       "notes": null
     },
     {
-      "id": 570,
+      "id": 567,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "6-1.csv",
@@ -9122,7 +9074,7 @@
       "notes": null
     },
     {
-      "id": 571,
+      "id": 568,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "6-2.csv",
@@ -9138,7 +9090,7 @@
       "notes": null
     },
     {
-      "id": 572,
+      "id": 569,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "6-3.csv",
@@ -9154,7 +9106,7 @@
       "notes": null
     },
     {
-      "id": 573,
+      "id": 570,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "6a.csv",
@@ -9170,7 +9122,7 @@
       "notes": null
     },
     {
-      "id": 574,
+      "id": 571,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "6b.csv",
@@ -9186,7 +9138,7 @@
       "notes": null
     },
     {
-      "id": 575,
+      "id": 572,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "6c.csv",
@@ -9202,7 +9154,7 @@
       "notes": null
     },
     {
-      "id": 576,
+      "id": 573,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "7-1.csv",
@@ -9218,7 +9170,7 @@
       "notes": null
     },
     {
-      "id": 577,
+      "id": 574,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "7-2.csv",
@@ -9234,7 +9186,7 @@
       "notes": null
     },
     {
-      "id": 578,
+      "id": 575,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "7-3.csv",
@@ -9250,7 +9202,7 @@
       "notes": null
     },
     {
-      "id": 579,
+      "id": 576,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "7-4.csv",
@@ -9266,7 +9218,7 @@
       "notes": null
     },
     {
-      "id": 580,
+      "id": 577,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "7a.csv",
@@ -9282,7 +9234,7 @@
       "notes": null
     },
     {
-      "id": 581,
+      "id": 578,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "7b.csv",
@@ -9298,7 +9250,7 @@
       "notes": null
     },
     {
-      "id": 582,
+      "id": 579,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "8-1.csv",
@@ -9314,7 +9266,7 @@
       "notes": null
     },
     {
-      "id": 583,
+      "id": 580,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "8-2.csv",
@@ -9330,7 +9282,7 @@
       "notes": null
     },
     {
-      "id": 584,
+      "id": 581,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "8a.csv",
@@ -9346,7 +9298,7 @@
       "notes": null
     },
     {
-      "id": 585,
+      "id": 582,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "8b.csv",
@@ -9362,7 +9314,7 @@
       "notes": null
     },
     {
-      "id": 586,
+      "id": 583,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "9.csv",
@@ -9378,7 +9330,7 @@
       "notes": null
     },
     {
-      "id": 587,
+      "id": 584,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "FAME Persistence2.csv",
@@ -9394,7 +9346,7 @@
       "notes": null
     },
     {
-      "id": 588,
+      "id": 585,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "Sec 2.csv",
@@ -9410,7 +9362,7 @@
       "notes": null
     },
     {
-      "id": 589,
+      "id": 586,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "Sec 3.csv",
@@ -9426,7 +9378,7 @@
       "notes": null
     },
     {
-      "id": 590,
+      "id": 587,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "Sec 4.csv",
@@ -9442,7 +9394,7 @@
       "notes": null
     },
     {
-      "id": 591,
+      "id": 588,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "Sec 5.csv",
@@ -9458,7 +9410,7 @@
       "notes": null
     },
     {
-      "id": 592,
+      "id": 589,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "Sec 6.csv",
@@ -9474,7 +9426,7 @@
       "notes": null
     },
     {
-      "id": 593,
+      "id": 590,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "Sec 7.csv",
@@ -9490,7 +9442,7 @@
       "notes": null
     },
     {
-      "id": 594,
+      "id": 591,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "Sec 8.csv",
@@ -9506,7 +9458,7 @@
       "notes": null
     },
     {
-      "id": 595,
+      "id": 592,
       "source": "UNKNOWN",
       "category": "unknown",
       "filename": "main.csv",
@@ -9522,7 +9474,7 @@
       "notes": null
     },
     {
-      "id": 596,
+      "id": 593,
       "source": "SAMA",
       "category": "money_banking",
       "filename": "SAMA-Table-12d.csv",
@@ -9538,7 +9490,7 @@
       "notes": null
     },
     {
-      "id": 597,
+      "id": 594,
       "source": "SAMA",
       "category": "money_banking",
       "filename": "SAMA-Table-12e.csv",
@@ -9554,7 +9506,7 @@
       "notes": null
     },
     {
-      "id": 598,
+      "id": 595,
       "source": "SAMA",
       "category": "money_banking",
       "filename": "SAMA-Table-12f.csv",
@@ -9570,7 +9522,7 @@
       "notes": null
     },
     {
-      "id": 599,
+      "id": 596,
       "source": "SAMA",
       "category": "finance_companies",
       "filename": "SAMA-Table-2_1.csv",
@@ -9586,7 +9538,7 @@
       "notes": null
     },
     {
-      "id": 600,
+      "id": 597,
       "source": "SAMA",
       "category": "finance_companies",
       "filename": "SAMA-Table-2_3.csv",
@@ -9602,7 +9554,7 @@
       "notes": null
     },
     {
-      "id": 601,
+      "id": 598,
       "source": "SAMA",
       "category": "finance_companies",
       "filename": "SAMA-Table-2_4.csv",
@@ -9618,7 +9570,7 @@
       "notes": null
     },
     {
-      "id": 602,
+      "id": 599,
       "source": "SAMA",
       "category": "finance_companies",
       "filename": "SAMA-Table-2_7.csv",
@@ -9634,7 +9586,7 @@
       "notes": null
     },
     {
-      "id": 603,
+      "id": 600,
       "source": "SAMA",
       "category": "gov_credit_institutions",
       "filename": "SAMA-Table-4_2.csv",
@@ -9650,7 +9602,7 @@
       "notes": null
     },
     {
-      "id": 604,
+      "id": 601,
       "source": "SAMA",
       "category": "gov_credit_institutions",
       "filename": "SAMA-Table-4_3.csv",
@@ -9666,7 +9618,7 @@
       "notes": null
     },
     {
-      "id": 605,
+      "id": 602,
       "source": "SAMA",
       "category": "price_indices",
       "filename": "SAMA-Table-8_1.csv",
@@ -9711,7 +9663,7 @@
       "canonical_name": "city",
       "name_ar": "المدينة",
       "source": "MOJ",
-      "file_count": 282
+      "file_count": 279
     },
     {
       "canonical_name": "city",
@@ -9825,13 +9777,13 @@
       "canonical_name": "female_owner_count",
       "name_ar": "عدد الملاك النساء",
       "source": "MOJ",
-      "file_count": 7
+      "file_count": 4
     },
     {
       "canonical_name": "female_ownership_rate",
       "name_ar": "نسبة تملك النساء",
       "source": "MOJ",
-      "file_count": 7
+      "file_count": 4
     },
     {
       "canonical_name": "gender",
@@ -9927,7 +9879,7 @@
       "canonical_name": "quarter",
       "name_ar": "ربع السنة",
       "source": "MOJ",
-      "file_count": 11
+      "file_count": 8
     },
     {
       "canonical_name": "quarter_id",
@@ -9963,7 +9915,7 @@
       "canonical_name": "region",
       "name_ar": "المنطقة",
       "source": "MOJ",
-      "file_count": 282
+      "file_count": 279
     },
     {
       "canonical_name": "region",
@@ -10064,13 +10016,13 @@
     {
       "canonical_name": "year",
       "name_ar": "السنة",
-      "source": "MOJ",
-      "file_count": 11
+      "source": "GASTAT",
+      "file_count": 8
     },
     {
       "canonical_name": "year",
       "name_ar": "السنة",
-      "source": "GASTAT",
+      "source": "MOJ",
       "file_count": 8
     },
     {

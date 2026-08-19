@@ -3,7 +3,7 @@ area,المساحة,MOJ,24
 area_m2,المساحة M2,REGA,31
 average,المتوسط,REGA,11
 avg_price_per_m2,متوسط سعر المتر,REGA,65
-city,المدينة,MOJ,282
+city,المدينة,MOJ,279
 city,المدينة,REGA,141
 city,city_ar,REGA,3
 city,المدينة,UNKNOWN,3
@@ -22,8 +22,8 @@ deed_count,deed_counts,REGA,1
 district,الحي,REGA,83
 district,district_ar,REGA,1
 district,الحي,MOJ,1
-female_owner_count,عدد الملاك النساء,MOJ,7
-female_ownership_rate,نسبة تملك النساء,MOJ,7
+female_owner_count,عدد الملاك النساء,MOJ,4
+female_ownership_rate,نسبة تملك النساء,MOJ,4
 gender,Gender,REGA,1
 main_document_type,نوع السند الرئيسي,MOJ,16
 max_price_per_m2,الحد الأعلى لسعر المتر,REGA,31
@@ -39,13 +39,13 @@ property_count,عدد العقارات,MOJ,24
 property_type,نوع العقار,REGA,94
 property_type,نوع العقار,MOJ,3
 quarter,الربع,REGA,141
-quarter,ربع السنة,MOJ,11
+quarter,ربع السنة,MOJ,8
 quarter_id,quarterid,REGA,1
 quarter_name_ar,quarternamear,REGA,1
 quarter_number,quarternumber,REGA,1
 reference_number,الرقم المرجعي,MOJ,113
 reference_number,الرقم المرجعي,UNKNOWN,1
-region,المنطقة,MOJ,282
+region,المنطقة,MOJ,279
 region,المنطقة,REGA,141
 region,region_ar,REGA,3
 region,region_ar,UNKNOWN,3
@@ -62,7 +62,7 @@ transaction_ref,الرقم المرجعي للصفقة,MOJ,23
 transaction_value,قيمة الصفقات,REGA,15
 weighted_avg_price_per_m2,Meter_Price_W_Avg_IQR,REGA,1
 year,السنة,REGA,141
-year,السنة,MOJ,11
 year,السنة,GASTAT,8
+year,السنة,MOJ,8
 year,yearnumber,REGA,1
 year,السنة,UNKNOWN,1
