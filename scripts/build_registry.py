@@ -36,7 +36,11 @@ RAW_SAMPLE_COUNT = 10
 
 CLASSIFICATION_RULES = [
     # (regex_pattern, source, category)
-    # MOJ Sales
+    # MOJ Sales — the -Partial-Snapshot rule must precede the plain one:
+    # classify_file uses re.match, so the plain pattern's trailing `\.csv`
+    # would otherwise refuse to match a suffixed name and the file would
+    # fall through unclassified.
+    (r"MOJ-Sales-\d{4}-Q\d-Partial-Snapshot\.csv", "MOJ", "sales_partial_snapshot"),
     (r"MOJ-Sales-\d{4}-Q\d\.csv", "MOJ", "sales"),
     # MOJ Index (pivot tables)
     (r"MOJ-RE-Index-.*\.csv", "MOJ", "index"),
@@ -84,6 +88,10 @@ CLASSIFICATION_RULES = [
     (r"MOJ-Grant-.*\.csv", "MOJ", "grant"),
     (r"MOJ-Ownership-Rate-Men-.*\.csv", "MOJ", "ownership_rate_men"),
     (r"MOJ-Ownership-Rate-Women-.*\.csv", "MOJ", "ownership_rate_women"),
+    # No MOJ-Ownership-Men-* file currently ships: the three that did were
+    # byte-identical copies of the women's Rate files and were removed. The
+    # rule stays so a genuinely male file classifies correctly if MOJ
+    # publishes one. Men's ownership lives in MOJ-Ownership-Rate-Men-*.
     (r"MOJ-Ownership-Men-.*\.csv", "MOJ", "ownership_men"),
     (r"MOJ-Ownership-.*\.csv", "MOJ", "ownership"),
     (r"MOJ-Monthly-Operations-.*\.csv", "MOJ", "monthly_operations"),

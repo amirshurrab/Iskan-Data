@@ -136,11 +136,13 @@ This includes: Property-Identity, Physical-Registration, Seizure, Release-Seizur
 ```
 This is the only schema with عدد العمليات (count of operations) — an aggregate file, not row-per-transaction.
 
-**Ownership-Men files — completely different:**
+**Ownership-Rate files — completely different:**
 ```
+المنطقة | المدينة | السنة | ربع السنة | عدد الملاك الرجال | نسبة تملك الرجال
 المنطقة | المدينة | السنة | ربع السنة | عدد الملاك النساء | نسبة تملك النساء
 ```
-Aggregate gender ownership statistics, no identifiers.
+Aggregate gender ownership statistics, no identifiers. The first shape is
+`MOJ-Ownership-Rate-Men-*`, the second `MOJ-Ownership-Rate-Women-*`.
 
 **POA files — slightly different ref column name:**
 ```

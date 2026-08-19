@@ -230,7 +230,8 @@ Individual transaction-level records for various real estate operations processe
 | **POA RE Fund** | وكالات صندوق التنمية العقارية | 2 (Q1+Q3 2025) | 7,061 | RE Development Fund power of attorney |
 | **Ownership** | نسب ومعدلات التملك العقاري | 3 (Q1-Q3 2025) | 5,210 | Ownership rate statistics |
 | **Old Deed Updates** | تعديل صك قديم | 3 (Q1-Q3 2025) | 1,315 | Old title deed modifications |
-| **Ownership Men** | التملك العقاري للأفراد الرجال | 3 (Q1-Q3 2025) | 417 | Male ownership rates by city (special schema) |
+| **Ownership Rate — Men** | نسب تملك الرجال | 4 (Q1-Q4 2025) | 617 | Male owner counts and ownership share by city (special schema) |
+| **Ownership Rate — Women** | نسب تملك النساء | 4 (Q1-Q4 2025) | 557 | Female owner counts and ownership share by city (same schema, female columns) |
 | **Merge Deed** | دمج صكوك | 3 (Q1-Q3 2025) | 38 | Title deed merging |
 
 #### Special Schemas
@@ -257,15 +258,18 @@ Individual transaction-level records for various real estate operations processe
 | Decision Date (Hijri) | تاريخ القرارهجري | date |
 | Reference Number | الرقم المرجعي | numeric |
 
-**Ownership Men (Aggregate):**
-| Column | Arabic | Type |
-|--------|--------|------|
-| Region | المنطقة | text |
-| City | المدينة | text |
-| Year | السنة | numeric |
-| Quarter | ربع السنة | text |
-| Female Owner Count | عدد الملاك النساء | numeric |
-| Female Ownership Rate | نسبة تملك النساء | percent |
+**Ownership Rate (Aggregate):** two parallel sets, `MOJ-Ownership-Rate-Men-*`
+and `MOJ-Ownership-Rate-Women-*`. Identical shape; only the last two columns
+differ, and for a given city and quarter the two rates sum to 100%.
+
+| Column | Arabic (men) | Arabic (women) | Type |
+|--------|--------------|----------------|------|
+| Region | المنطقة | المنطقة | text |
+| City | المدينة | المدينة | text |
+| Year | السنة | السنة | numeric |
+| Quarter | ربع السنة | ربع السنة | text |
+| Owner Count | عدد الملاك الرجال | عدد الملاك النساء | numeric |
+| Ownership Rate | نسبة تملك الرجال | نسبة تملك النساء | percent |
 
 ---
 
@@ -293,15 +297,22 @@ Individual transaction-level records for various real estate operations processe
 | MOJ-Sales-2023-Q4.csv | 52,342 | 6.5 MB |
 | MOJ-Sales-2024-Q1.csv | 59,099 | 7.4 MB |
 | MOJ-Sales-2024-Q2.csv | 48,272 | 6.0 MB |
+| MOJ-Sales-2024-Q2-Partial-Snapshot.csv † | 47,518 | 6.2 MB |
 | MOJ-Sales-2024-Q3.csv | 69,021 | 8.6 MB |
 | MOJ-Sales-2024-Q4.csv | 72,939 | 9.1 MB |
 | MOJ-Sales-2025-Q1.csv | 65,729 | 8.2 MB |
-| MOJ-Sales-2025-Q2.csv | 42,518 | 5.4 MB |
 | MOJ-Sales-2025-Q3.csv | 48,820 | 6.2 MB |
 | MOJ-Sales-2025-Q4.csv | 44,490 | 5.7 MB |
 | MOJ-RE-Index-Regions-2018-2021.csv | 660 | 102 KB |
 | MOJ-RE-Index-Districts-2018-2021.csv | 2,128 | 137 KB |
 | MOJ-RE-Index-Cities-2018-2021.csv | 220 | 19 KB |
+
+† Published as `MOJ-Sales-2025-Q2.csv`, but every row carries a
+`تاريخ الصفقة ميلادي` in 2024/04–2024/06, and 47,211 of its 47,518
+`الرقم المرجعي للصفقة` values (99.4%) also appear in `MOJ-Sales-2024-Q2.csv`.
+It is a second, smaller snapshot of 2024 Q2 — not 2025 Q2, which is not in this
+repo. Renamed so the filename stops asserting a quarter it does not contain;
+use `MOJ-Sales-2024-Q2.csv` as the authoritative file for that quarter.
 
 ### MOJ-RealEstate/ (86 files, 367 MB)
 

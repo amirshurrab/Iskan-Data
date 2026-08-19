@@ -199,7 +199,7 @@ The standard `تصنيف العقار` column (سكني/تجاري/زراعي/ص
 
 - `MOJ-RE-Index-Cities-2018-2021.csv` — malformed headers (pivot table format)
 - `MOJ-RE-Index-Districts-2018-2021.csv` — malformed headers (pivot table format)
-- `MOJ-Ownership-Men-2025-Q*.csv` — gender ownership statistics only
+- `MOJ-Ownership-Rate-Men-2025-Q*.csv`, `MOJ-Ownership-Rate-Women-2025-Q*.csv` — gender ownership statistics only
 - `Registered-Real-Estate-by-Gender-2024.csv` — 3 cols: Gender, RENs, Created Date
 
 ---
